@@ -162,4 +162,4 @@ In order to add new event listeners to the shapes see `ko-hover.directive.ts` as
 
 ## Full API Documentation
 
-See `./docs` for full API Documentation.
+See [/docs](https://github.com/giovanni-bertoncelli/ngx-konva/tree/main/docs) for full API Documentation.
