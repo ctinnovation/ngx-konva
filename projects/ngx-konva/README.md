@@ -81,7 +81,7 @@ The first container size different from 0, 0 will be considered the initial 1 sc
 
 ## Events handling
 
-In order to avoid consuming memory setting up unused listener the Node events are handled through directives.
+In order to avoid consuming memory setting up unused listeners, the Node events are handled through directives.
 
 These are the directives you can use:
 
