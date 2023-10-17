@@ -4,6 +4,7 @@ This library provides you simple Angular bindings for [KonvaJS](https://konvajs.
 
 This project is inspired by the more official library [n2-konva](https://github.com/konvajs/ng2-konva) that, as for now, seems not to be maintaned.
 
+- [Installation](#installation)
 - [Konva API implementation status](#konva-api-implementation-status)
 - [Example usage](#example-usage)
 - [Stage autoscale](#stage-autoscale)
@@ -16,6 +17,11 @@ This project is inspired by the more official library [n2-konva](https://github.
 - [How to contribute](#how-to-contribute)
   - [Event listeners](#event-listeners)
 
+## Installation
+
+```bash
+npm install ngx-konva konva
+```
 
 ## Konva API implementation status
 
@@ -60,6 +66,9 @@ Each element respect the hierarchy described here: https://konvajs.org/docs/over
 
 Each item has an @Input `config` you can use dynamically to change the configuration of the Node.
 All properties allowed are handled by `config`, but if you need to change the `id` of a Node use the related `id` @Input.
+
+> **Note:** Each Node is identified by an automatically generated `id` to avoid adding the same node multiple times, use the `id` @Input accordingly.
+
 In order to listen to events refer to [Events handling](#events-handling).
 
 ## Stage autoscale
