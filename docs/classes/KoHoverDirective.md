@@ -46,7 +46,7 @@
 
 #### Defined in
 
-[lib/ko-hover.directive.ts:25](https://github.com/giovanni-bertoncelli/ngx-konva/blob/9d6a688/projects/ngx-konva/src/lib/ko-hover.directive.ts#L25)
+[lib/ko-hover.directive.ts:26](https://github.com/giovanni-bertoncelli/ngx-konva/blob/6698cbb/projects/ngx-konva/src/lib/ko-hover.directive.ts#L26)
 
 ## Properties
 
@@ -56,27 +56,27 @@
 
 #### Defined in
 
-[lib/ko-hover.directive.ts:18](https://github.com/giovanni-bertoncelli/ngx-konva/blob/9d6a688/projects/ngx-konva/src/lib/ko-hover.directive.ts#L18)
+[lib/ko-hover.directive.ts:19](https://github.com/giovanni-bertoncelli/ngx-konva/blob/6698cbb/projects/ngx-konva/src/lib/ko-hover.directive.ts#L19)
 
 ___
 
 ### koHoverEnd
 
-• **koHoverEnd**: `EventEmitter`<`Shape`\>
+• **koHoverEnd**: `EventEmitter`<[`KoShape`](../modules.md#koshape)\>
 
 #### Defined in
 
-[lib/ko-hover.directive.ts:15](https://github.com/giovanni-bertoncelli/ngx-konva/blob/9d6a688/projects/ngx-konva/src/lib/ko-hover.directive.ts#L15)
+[lib/ko-hover.directive.ts:16](https://github.com/giovanni-bertoncelli/ngx-konva/blob/6698cbb/projects/ngx-konva/src/lib/ko-hover.directive.ts#L16)
 
 ___
 
 ### koHoverStart
 
-• **koHoverStart**: `EventEmitter`<`Shape`\>
+• **koHoverStart**: `EventEmitter`<[`KoShape`](../modules.md#koshape)\>
 
 #### Defined in
 
-[lib/ko-hover.directive.ts:12](https://github.com/giovanni-bertoncelli/ngx-konva/blob/9d6a688/projects/ngx-konva/src/lib/ko-hover.directive.ts#L12)
+[lib/ko-hover.directive.ts:13](https://github.com/giovanni-bertoncelli/ngx-konva/blob/6698cbb/projects/ngx-konva/src/lib/ko-hover.directive.ts#L13)
 
 ___
 
@@ -94,7 +94,7 @@ ___
 
 #### Defined in
 
-[lib/ko-hover.directive.ts:22](https://github.com/giovanni-bertoncelli/ngx-konva/blob/9d6a688/projects/ngx-konva/src/lib/ko-hover.directive.ts#L22)
+[lib/ko-hover.directive.ts:23](https://github.com/giovanni-bertoncelli/ngx-konva/blob/6698cbb/projects/ngx-konva/src/lib/ko-hover.directive.ts#L23)
 
 ___
 
@@ -112,17 +112,17 @@ ___
 
 #### Defined in
 
-[lib/ko-hover.directive.ts:23](https://github.com/giovanni-bertoncelli/ngx-konva/blob/9d6a688/projects/ngx-konva/src/lib/ko-hover.directive.ts#L23)
+[lib/ko-hover.directive.ts:24](https://github.com/giovanni-bertoncelli/ngx-konva/blob/6698cbb/projects/ngx-konva/src/lib/ko-hover.directive.ts#L24)
 
 ___
 
 ### shape
 
-• `Private` **shape**: `Shape`
+• `Private` **shape**: [`KoShape`](../modules.md#koshape)
 
 #### Defined in
 
-[lib/ko-hover.directive.ts:20](https://github.com/giovanni-bertoncelli/ngx-konva/blob/9d6a688/projects/ngx-konva/src/lib/ko-hover.directive.ts#L20)
+[lib/ko-hover.directive.ts:21](https://github.com/giovanni-bertoncelli/ngx-konva/blob/6698cbb/projects/ngx-konva/src/lib/ko-hover.directive.ts#L21)
 
 ___
 
@@ -132,7 +132,7 @@ ___
 
 #### Defined in
 
-[lib/ko-hover.directive.ts:17](https://github.com/giovanni-bertoncelli/ngx-konva/blob/9d6a688/projects/ngx-konva/src/lib/ko-hover.directive.ts#L17)
+[lib/ko-hover.directive.ts:18](https://github.com/giovanni-bertoncelli/ngx-konva/blob/6698cbb/projects/ngx-konva/src/lib/ko-hover.directive.ts#L18)
 
 ## Methods
 
@@ -146,7 +146,7 @@ ___
 
 #### Defined in
 
-[lib/ko-hover.directive.ts:50](https://github.com/giovanni-bertoncelli/ngx-konva/blob/9d6a688/projects/ngx-konva/src/lib/ko-hover.directive.ts#L50)
+[lib/ko-hover.directive.ts:51](https://github.com/giovanni-bertoncelli/ngx-konva/blob/6698cbb/projects/ngx-konva/src/lib/ko-hover.directive.ts#L51)
 
 ___
 
@@ -164,7 +164,7 @@ OnDestroy.ngOnDestroy
 
 #### Defined in
 
-[lib/ko-hover.directive.ts:40](https://github.com/giovanni-bertoncelli/ngx-konva/blob/9d6a688/projects/ngx-konva/src/lib/ko-hover.directive.ts#L40)
+[lib/ko-hover.directive.ts:41](https://github.com/giovanni-bertoncelli/ngx-konva/blob/6698cbb/projects/ngx-konva/src/lib/ko-hover.directive.ts#L41)
 
 ___
 
@@ -182,7 +182,7 @@ OnInit.ngOnInit
 
 #### Defined in
 
-[lib/ko-hover.directive.ts:37](https://github.com/giovanni-bertoncelli/ngx-konva/blob/9d6a688/projects/ngx-konva/src/lib/ko-hover.directive.ts#L37)
+[lib/ko-hover.directive.ts:38](https://github.com/giovanni-bertoncelli/ngx-konva/blob/6698cbb/projects/ngx-konva/src/lib/ko-hover.directive.ts#L38)
 
 ___
 
@@ -196,7 +196,7 @@ ___
 
 #### Defined in
 
-[lib/ko-hover.directive.ts:59](https://github.com/giovanni-bertoncelli/ngx-konva/blob/9d6a688/projects/ngx-konva/src/lib/ko-hover.directive.ts#L59)
+[lib/ko-hover.directive.ts:60](https://github.com/giovanni-bertoncelli/ngx-konva/blob/6698cbb/projects/ngx-konva/src/lib/ko-hover.directive.ts#L60)
 
 ___
 
@@ -210,4 +210,4 @@ ___
 
 #### Defined in
 
-[lib/ko-hover.directive.ts:65](https://github.com/giovanni-bertoncelli/ngx-konva/blob/9d6a688/projects/ngx-konva/src/lib/ko-hover.directive.ts#L65)
+[lib/ko-hover.directive.ts:66](https://github.com/giovanni-bertoncelli/ngx-konva/blob/6698cbb/projects/ngx-konva/src/lib/ko-hover.directive.ts#L66)

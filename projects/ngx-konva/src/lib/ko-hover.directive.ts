@@ -1,7 +1,8 @@
 import { Directive, EventEmitter, OnDestroy, OnInit, Optional, Output, Self } from '@angular/core';
 import { Subscription } from 'rxjs';
+import { KoShape } from './common';
 import { KoListenable } from './ko-listenable';
-import { KoNestable, Shape } from './ko-nestable';
+import { KoNestable } from './ko-nestable';
 
 @Directive({
   selector: '[koHover]',
@@ -9,15 +10,15 @@ import { KoNestable, Shape } from './ko-nestable';
 })
 export class KoHoverDirective implements OnInit, OnDestroy {
   @Output()
-  koHoverStart = new EventEmitter<Shape>();
+  koHoverStart = new EventEmitter<KoShape>();
 
   @Output()
-  koHoverEnd = new EventEmitter<Shape>();
+  koHoverEnd = new EventEmitter<KoShape>();
 
   sub = new Subscription();
   hovering = false;
 
-  private shape: Shape;
+  private shape: KoShape;
 
   onMouseEnterListener = this.onMouseEnter.bind(this);
   onMouseOutListener = this.onMouseOut.bind(this);
@@ -30,7 +31,7 @@ export class KoHoverDirective implements OnInit, OnDestroy {
       throw new Error('koHover attachable only to ko-shape');
     }
 
-    this.shape = nestable.getKoItem() as Shape;
+    this.shape = nestable.getKoItem() as KoShape;
     this.addListeners();
   }
 

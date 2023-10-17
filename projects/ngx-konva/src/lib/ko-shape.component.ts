@@ -4,8 +4,9 @@ import { LineConfig } from 'konva/lib/shapes/Line';
 import { RectConfig } from 'konva/lib/shapes/Rect';
 import { RegularPolygonConfig } from 'konva/lib/shapes/RegularPolygon';
 import { TextConfig } from 'konva/lib/shapes/Text';
+import { KoShape, KoShapeSelectors, koShapeTypesMap } from './common';
 import { KoListenable } from './ko-listenable';
-import { KoNestable, Shape, ShapeSelectors, shapeTypesMap } from './ko-nestable';
+import { KoNestable } from './ko-nestable';
 
 @Component({
   selector: 'ko-circle, ko-rect, ko-line, ko-text, ko-regular-polygon',
@@ -20,7 +21,7 @@ import { KoNestable, Shape, ShapeSelectors, shapeTypesMap } from './ko-nestable'
   }]
 })
 export class KoShapeComponent extends KoNestable implements OnInit {
-  shape: Shape;
+  shape: KoShape;
 
   private _config: RectConfig | CircleConfig | LineConfig | TextConfig | RegularPolygonConfig = {};
   @Input()
@@ -34,26 +35,26 @@ export class KoShapeComponent extends KoNestable implements OnInit {
   centerOrigin = false;
 
   @Output()
-  beforeUpdate = new EventEmitter<Shape>();
+  beforeUpdate = new EventEmitter<KoShape>();
 
   @Output()
-  afterUpdate = new EventEmitter<Shape>();
+  afterUpdate = new EventEmitter<KoShape>();
 
-  selector: ShapeSelectors;
+  selector: KoShapeSelectors;
 
   constructor(
     private elementRef: ElementRef<HTMLElement>
   ) {
     super();
-    this.selector = this.elementRef.nativeElement.localName as ShapeSelectors;
-    this.shape = new shapeTypesMap[this.selector](this._config as any)
+    this.selector = this.elementRef.nativeElement.localName as KoShapeSelectors;
+    this.shape = new koShapeTypesMap[this.selector](this._config as any)
   }
 
   override ngOnInit(): void {
     super.ngOnInit();
   }
 
-  override getKoItem(): Shape {
+  override getKoItem(): KoShape {
     return this.shape;
   }
 

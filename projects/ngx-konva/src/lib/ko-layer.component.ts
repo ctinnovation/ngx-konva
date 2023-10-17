@@ -1,7 +1,8 @@
 import { AfterViewInit, Component, ContentChildren, EventEmitter, Input, OnDestroy, OnInit, Output, QueryList } from '@angular/core';
 import { Layer, LayerConfig } from 'konva/lib/Layer';
 import { Subscription } from 'rxjs';
-import { KoNestable, Shape } from './ko-nestable';
+import { KoShape } from './common';
+import { KoNestable } from './ko-nestable';
 
 
 @Component({
@@ -30,7 +31,7 @@ export class KoLayerComponent extends KoNestable implements OnInit, OnDestroy, A
   };
 
   @Output()
-  onNewItem = new EventEmitter<Layer | Shape>();
+  onNewItem = new EventEmitter<Layer | KoShape>();
 
   @Output()
   beforeUpdate = new EventEmitter<Layer>();
