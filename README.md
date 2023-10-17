@@ -18,6 +18,7 @@ Supported Angular version: `16`.
   - [ko-shape](#ko-shape)
 - [How to contribute](#how-to-contribute)
   - [Event listeners](#event-listeners)
+- [Full API Documentation](#full-api-documentation)
 
 ## Installation
 
@@ -158,3 +159,7 @@ Provide the `KoListenable` if you think that the returned `getKoItem` is compati
 ### Event listeners
 
 In order to add new event listeners to the shapes see `ko-hover.directive.ts` as an example of an event listener directive.
+
+## Full API Documentation
+
+See `./docs` for full API Documentation.
