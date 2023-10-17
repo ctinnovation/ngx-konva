@@ -1,0 +1,14 @@
+{
+  "name": "ngx-konva",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^16.2.0",
+    "@angular/core": "^16.2.0",
+    "konva": "^9.2.2"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0",
+    "uuid": "^9.0.1"
+  },
+  "sideEffects": false
+}
