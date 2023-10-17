@@ -1,24 +1,5 @@
-# NgxKonva
+# ngx-konva
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
+This library provides you simple Angular bindings for [KonvaJS](https://konvajs.org/). This is still a work in progress and not an official release of Konva framework. PRs and contributions are more than welcome.
 
-## Code scaffolding
-
-Run `ng generate component component-name --project ngx-konva` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project ngx-konva`.
-> Note: Don't forget to add `--project ngx-konva` or else it will be added to the default project in your `angular.json` file. 
-
-## Build
-
-Run `ng build ngx-konva` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Publishing
-
-After building your library with `ng build ngx-konva`, go to the dist folder `cd dist/ngx-konva` and run `npm publish`.
-
-## Running unit tests
-
-Run `ng test ngx-konva` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+This project is inspired by the more official library [n2-konva](https://github.com/konvajs/ng2-konva) that, as for now, seems not to be maintaned.
