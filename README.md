@@ -48,7 +48,7 @@ npm install ngx-konva konva
 | [`Path`](https://konvajs.org/api/Konva.Path.html#main)                     | ❌      |                      |
 | [`Sprite`](https://konvajs.org/api/Konva.Sprite.html#main)                 | ❌      |                      |
 | [`Star`](https://konvajs.org/api/Konva.Star.html#main)                     | ❌      |                      |
-| [`Tween`](https://konvajs.org/api/Konva.Tween.html#main)                   | ❌      |                      |
+| [`Tween`](https://konvajs.org/api/Konva.Tween.html#main)                   | ❌      | WIP                  |
 
 ## Example usage
 
