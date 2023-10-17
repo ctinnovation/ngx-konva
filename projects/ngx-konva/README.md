@@ -9,6 +9,12 @@ This project is inspired by the more official library [n2-konva](https://github.
 - [Stage autoscale](#stage-autoscale)
 - [Events handling](#events-handling)
   - [KoHoverDirective](#kohoverdirective)
+- [Inner events](#inner-events)
+  - [ko-layer](#ko-layer)
+  - [ko-stage](#ko-stage)
+  - [ko-shape](#ko-shape)
+- [How to contribute](#how-to-contribute)
+  - [Event listeners](#event-listeners)
 
 
 ## Konva API implementation status
@@ -101,3 +107,43 @@ Compatible with `ko-rect`, `ko-line`, `ko-circle`, `ko-regular-polygon`, `ko-tex
 ```
 
 It allows to capture when the user hover on a Node. Each `onHoverStart` and `onHoverEnd` emits the underlying `Shape` of KonvaJS.
+
+## Inner events
+
+### ko-layer
+
+`ko-layers` provides you these output:
+
+- `(onNewItem)`: when a new `Shape` or `Layer` is added to the current layer. Argument: the `Shape | Layer` added.
+- `(beforeUpdate)` `(afterUpdate)`: called before/after the layers gets updated. Argument: `Layer`.
+
+### ko-stage
+
+`ko-layers` provides you these output:
+
+- `(onNewLayer)`: when a new `Layer` is added to the current layer. Argument: the `Layer` added.
+- `(beforeUpdate)` `(afterUpdate)`: called before/after the layers gets updated. Argument: `Layer`.
+
+### ko-shape
+
+`ko-shape` (`ko-line, ko-rect, ko-circle, ko-regular-polygon, ko-text`) provides you these output:
+
+- `(beforeUpdate)` `(afterUpdate)`: called before/after the layers gets updated. Argument: `Layer`.
+
+## How to contribute
+
+Contributing is quite simple: in order to complete coverage of the KonvaJS API we have to add more shapes.
+
+To add more "simple" shapes take a look to the `./projects/ngx-konva/src/lib/ko-shape.component.ts` component:
+
+- Add the new selector
+- Update the `ko-nestable.ts` types
+- Check if the default configuration handling is fine
+
+If you need to handle children inside the new component or create more complex shapes please create a specific component for that. Extend the `KoNestable` class for each component that should be nestable inside a Layer and provide the `getKoItem` to return the underlying shape. By doing that `KoNestable` will take care of adding and destroying the Shape instances your component will use. Again, take a look to `KoShapeComponent` to see an example.
+
+Provide the `KoListenable` if you think that the returned `getKoItem` is compatible with the listeners directives.
+
+### Event listeners
+
+In order to add new event listeners to the shapes see `ko-hover.directive.ts` as an example of an event listener directive.
