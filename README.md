@@ -10,6 +10,7 @@ Supported Angular version: `16`.
 - [Konva API implementation status](#konva-api-implementation-status)
 - [Example usage](#example-usage)
 - [Stage autoscale](#stage-autoscale)
+- [Images](#images)
 - [Events handling](#events-handling)
   - [KoHoverDirective](#kohoverdirective)
   - [KoPointerDirective](#kopointerdirective)
@@ -42,7 +43,7 @@ npm install ngx-konva konva
 | [`Ellipse`](https://konvajs.org/api/Konva.Ellipse.html#main)               | ❌      |                      |
 | [`Group`](https://konvajs.org/api/Konva.Group.html#main)                   | ✅      | `ko-group`           |
 | [`Ring`](https://konvajs.org/api/Konva.Ring.html#main)                     | ❌      |                      |
-| [`Image`](https://konvajs.org/api/Konva.Image.html#main)                   | ❌      |                      |
+| [`Image`](https://konvajs.org/api/Konva.Image.html#main)                   | ✅      | `ko-image`           |
 | [`Label`](https://konvajs.org/api/Konva.Label.html#main)                   | ❌      |                      |
 | [`Path`](https://konvajs.org/api/Konva.Path.html#main)                     | ❌      |                      |
 | [`Sprite`](https://konvajs.org/api/Konva.Sprite.html#main)                 | ❌      |                      |
@@ -64,6 +65,9 @@ Each element respect the hierarchy described here: https://konvajs.org/docs/over
           x: 0,
           y: 0
         }"></ko-circle>
+        <ko-image [config]="{x: 100, y: 100}"
+          src="https://upload.wikimedia.org/wikipedia/it/0/08/Dartfener.jpg">
+        </ko-image>
       </ko-layer>
 </ko-stage>
 ```
@@ -96,6 +100,20 @@ The first container size different from 0, 0 will be considered the initial 1 sc
         </ko-layer>
   </ko-stage-autoscale>
 </div>
+```
+
+## Images
+
+In order to simplify the [Konva Image API](https://konvajs.org/docs/shapes/Image.html) the `[config]` provided for `ko-image` does not include `config.image`. You can use the @input `[src]` to specify the image to load and all the loading work will be done internally for you.
+
+```html
+<ko-stage [config]="{width: 100, height: 100}">
+      <ko-layer>
+        <ko-image [config]="{x: 100, y: 100}"
+          src="https://upload.wikimedia.org/wikipedia/it/0/08/Dartfener.jpg">
+        </ko-image>
+      </ko-layer>
+</ko-stage>
 ```
 
 ## Events handling
@@ -141,20 +159,20 @@ It allows to capture all pointer events. [Full API](https://github.com/giovanni-
 `ko-layers` provides you these output:
 
 - `(onNewItem)`: when a new `Shape` or `Layer` is added to the current layer. Argument: the `Shape | Layer` added.
-- `(beforeUpdate)` `(afterUpdate)`: called before/after the layers gets updated. Argument: `Layer`.
+- `(beforeUpdate)` `(afterUpdate)`: called before/after the layers gets updated. Argument: `Layer`. Useful to use the underlying KonvaJS API on the passed argument.
 
 ### ko-stage
 
 `ko-layers` provides you these output:
 
 - `(onNewLayer)`: when a new `Layer` is added to the current layer. Argument: the `Layer` added.
-- `(beforeUpdate)` `(afterUpdate)`: called before/after the layers gets updated. Argument: `Layer`.
+- `(beforeUpdate)` `(afterUpdate)`: called before/after the layers gets updated. Argument: `Layer`. Useful to use the underlying KonvaJS API on the passed argument.
 
 ### ko-shape
 
-`ko-shape` (`ko-line, ko-rect, ko-circle, ko-regular-polygon, ko-text`) provides you these output:
+`ko-shape` (`ko-line, ko-rect, ko-circle, ko-regular-polygon, ko-text, ko-image, ko-group`) provides you these output:
 
-- `(beforeUpdate)` `(afterUpdate)`: called before/after the layers gets updated. Argument: `Layer`.
+- `(beforeUpdate)` `(afterUpdate)`: called before/after the layers gets updated. Argument: `Layer`. Useful to use the underlying KonvaJS API on the passed argument and modifying directly the Konva Node.
 
 ## How to contribute
 
