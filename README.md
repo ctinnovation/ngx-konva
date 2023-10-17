@@ -39,7 +39,7 @@ npm install ngx-konva konva
 | [`Text`](https://konvajs.org/api/Konva.Text.html#main)                     | ✅      | `ko-text`            |
 | [`TextPath`](https://konvajs.org/api/Konva.TextPath.html#main)             | ❌      |                      |
 | [`Ellipse`](https://konvajs.org/api/Konva.Ellipse.html#main)               | ❌      |                      |
-| [`Group`](https://konvajs.org/api/Konva.Group.html#main)                   | ❌      |                      |
+| [`Group`](https://konvajs.org/api/Konva.Group.html#main)                   | ✅      |                      |
 | [`Ring`](https://konvajs.org/api/Konva.Ring.html#main)                     | ❌      |                      |
 | [`Image`](https://konvajs.org/api/Konva.Image.html#main)                   | ❌      |                      |
 | [`Label`](https://konvajs.org/api/Konva.Label.html#main)                   | ❌      |                      |
