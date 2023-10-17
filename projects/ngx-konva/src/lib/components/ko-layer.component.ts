@@ -1,8 +1,8 @@
 import { AfterViewInit, Component, ContentChildren, EventEmitter, Input, OnDestroy, OnInit, Output, QueryList } from '@angular/core';
 import { Layer, LayerConfig } from 'konva/lib/Layer';
 import { Subscription } from 'rxjs';
-import { KoShape } from './common';
-import { KoNestable } from './ko-nestable';
+import { KoShape } from '../common';
+import { KoNestable } from '../common/ko-nestable';
 
 
 @Component({

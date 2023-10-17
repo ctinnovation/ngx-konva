@@ -2,7 +2,7 @@ import { AfterViewInit, Component, ContentChildren, ElementRef, EventEmitter, In
 import { Layer } from 'konva/lib/Layer';
 import { Stage, StageConfig } from 'konva/lib/Stage';
 import { Subscription } from 'rxjs';
-import { KoNestable } from './ko-nestable';
+import { KoNestable } from '../common/ko-nestable';
 
 export type StageConfigOptionalContainer = Omit<StageConfig, 'container'> & Partial<Pick<StageConfig, 'container'>>;
 

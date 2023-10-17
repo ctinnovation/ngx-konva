@@ -1,7 +1,7 @@
 import { Component, OnDestroy, OnInit } from "@angular/core";
 import { Layer } from "konva/lib/Layer";
 import { v4 } from "uuid";
-import { KoShape } from "./common";
+import { KoShape } from ".";
 
 @Component({ template: '' })
 export class KoNestable implements OnInit, OnDestroy {

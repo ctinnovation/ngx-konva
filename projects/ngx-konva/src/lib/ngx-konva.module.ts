@@ -1,10 +1,10 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { KoHoverDirective } from './ko-hover.directive';
-import { KoLayerComponent } from './ko-layer.component';
-import { KoShapeComponent } from './ko-shape.component';
-import { KoStageAutoScaleComponent } from './ko-stage-autoscale.component';
-import { KoStageComponent } from './ko-stage.component';
+import { KoLayerComponent } from './components/ko-layer.component';
+import { KoShapeComponent } from './components/ko-shape.component';
+import { KoStageAutoScaleComponent } from './components/ko-stage-autoscale.component';
+import { KoStageComponent } from './components/ko-stage.component';
+import { KoHoverDirective } from './directives/ko-hover.directive';
 
 @NgModule({
   declarations: [

@@ -4,9 +4,9 @@ import { LineConfig } from 'konva/lib/shapes/Line';
 import { RectConfig } from 'konva/lib/shapes/Rect';
 import { RegularPolygonConfig } from 'konva/lib/shapes/RegularPolygon';
 import { TextConfig } from 'konva/lib/shapes/Text';
-import { KoShape, KoShapeSelectors, koShapeTypesMap } from './common';
-import { KoListenable } from './ko-listenable';
-import { KoNestable } from './ko-nestable';
+import { KoShape, KoShapeSelectors, koShapeTypesMap } from '../common';
+import { KoListenable } from '../common/ko-listenable';
+import { KoNestable } from '../common/ko-nestable';
 
 @Component({
   selector: 'ko-circle, ko-rect, ko-line, ko-text, ko-regular-polygon',

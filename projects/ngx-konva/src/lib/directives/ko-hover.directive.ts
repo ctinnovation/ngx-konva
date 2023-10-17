@@ -1,8 +1,8 @@
 import { Directive, EventEmitter, OnDestroy, OnInit, Optional, Output, Self } from '@angular/core';
 import { Subscription } from 'rxjs';
-import { KoShape } from './common';
-import { KoListenable } from './ko-listenable';
-import { KoNestable } from './ko-nestable';
+import { KoShape } from '../common';
+import { KoListenable } from '../common/ko-listenable';
+import { KoNestable } from '../common/ko-nestable';
 
 @Directive({
   selector: '[koHover]',
