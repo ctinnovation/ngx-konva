@@ -5,6 +5,7 @@
     "entryFile": "src/public-api.ts"
   },
   "allowedNonPeerDependencies": [
-    "uuid"
+    "uuid",
+    "lodash"
   ]
 }

@@ -19,7 +19,7 @@ export class KoImageComponent extends KoNestable implements OnInit {
 
   private _image: HTMLImageElement = new Image();
 
-  private _src?: string;
+  private _src: string = '';
   @Input()
   set src(s: string) {
     this._src = s;

@@ -8,6 +8,7 @@ import { KoStageAutoScaleComponent } from './components/ko-stage-autoscale.compo
 import { KoStageComponent } from './components/ko-stage.component';
 import { KoHoverDirective } from './directives/ko-hover.directive';
 import { KoPointerDirective } from './directives/ko-pointer.directive';
+import { KoTransitionDirective } from './directives/ko-transition.directive';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { KoPointerDirective } from './directives/ko-pointer.directive';
     KoHoverDirective,
     KoGroupComponent,
     KoPointerDirective,
-    KoImageComponent
+    KoImageComponent,
+    KoTransitionDirective
   ],
   imports: [CommonModule],
   exports: [
@@ -29,7 +31,8 @@ import { KoPointerDirective } from './directives/ko-pointer.directive';
     KoHoverDirective,
     KoGroupComponent,
     KoPointerDirective,
-    KoImageComponent
+    KoImageComponent,
+    KoTransitionDirective
   ],
   providers: [],
 })

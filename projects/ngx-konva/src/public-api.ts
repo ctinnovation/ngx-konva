@@ -11,4 +11,5 @@ export * from './lib/components/ko-stage-autoscale.component';
 export * from './lib/components/ko-stage.component';
 export * from './lib/directives/ko-hover.directive';
 export * from './lib/directives/ko-pointer.directive';
+export * from './lib/directives/ko-transition.directive';
 export * from './lib/ngx-konva.module';
