@@ -1,6 +1,15 @@
 {
   "name": "ngx-konva-workspace",
   "version": "16.0.0",
+  "keywords": [
+    "konva",
+    "angular",
+    "ngx",
+    "canvas",
+    "html",
+    "2d",
+    "graphics"
+  ],
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
