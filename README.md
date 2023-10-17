@@ -154,8 +154,6 @@ To add more "simple" shapes take a look to the `./projects/ngx-konva/src/lib/ko-
 
 If you need to handle children inside the new component or create more complex shapes please create a specific component for that. Extend the `KoNestable` class for each component that should be nestable inside a Layer and provide the `getKoItem` to return the underlying shape. By doing that `KoNestable` will take care of adding and destroying the Shape instances your component will use. Again, take a look to `KoShapeComponent` to see an example.
 
-Provide the `KoListenable` if you think that the returned `getKoItem` is compatible with the listeners directives.
-
 ### Event listeners
 
 In order to add new event listeners to the shapes see `ko-hover.directive.ts` as an example of an event listener directive.

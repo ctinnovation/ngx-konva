@@ -5,7 +5,6 @@ import { RectConfig } from 'konva/lib/shapes/Rect';
 import { RegularPolygonConfig } from 'konva/lib/shapes/RegularPolygon';
 import { TextConfig } from 'konva/lib/shapes/Text';
 import { KoShape, KoShapeSelectors, koShapeTypesMap } from '../common';
-import { KoListenable } from '../common/ko-listenable';
 import { KoNestable } from '../common/ko-nestable';
 
 @Component({
@@ -14,9 +13,6 @@ import { KoNestable } from '../common/ko-nestable';
   styles: [``],
   providers: [{
     provide: KoNestable,
-    useExisting: KoShapeComponent
-  }, {
-    provide: KoListenable,
     useExisting: KoShapeComponent
   }]
 })

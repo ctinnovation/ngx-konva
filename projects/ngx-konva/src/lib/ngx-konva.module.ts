@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
+import { KoGroupComponent } from './components/ko-group.component';
 import { KoLayerComponent } from './components/ko-layer.component';
 import { KoShapeComponent } from './components/ko-shape.component';
 import { KoStageAutoScaleComponent } from './components/ko-stage-autoscale.component';
@@ -12,7 +13,8 @@ import { KoHoverDirective } from './directives/ko-hover.directive';
     KoStageComponent,
     KoLayerComponent,
     KoShapeComponent,
-    KoHoverDirective
+    KoHoverDirective,
+    KoGroupComponent
   ],
   imports: [CommonModule],
   exports: [
@@ -20,7 +22,8 @@ import { KoHoverDirective } from './directives/ko-hover.directive';
     KoStageComponent,
     KoLayerComponent,
     KoShapeComponent,
-    KoHoverDirective
+    KoHoverDirective,
+    KoGroupComponent
   ],
   providers: [],
 })

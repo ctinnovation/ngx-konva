@@ -1,7 +1,6 @@
 import { Directive, EventEmitter, OnDestroy, OnInit, Optional, Output, Self } from '@angular/core';
 import { Subscription } from 'rxjs';
 import { KoShape } from '../common';
-import { KoListenable } from '../common/ko-listenable';
 import { KoNestable } from '../common/ko-nestable';
 
 @Directive({
@@ -24,10 +23,9 @@ export class KoHoverDirective implements OnInit, OnDestroy {
   onMouseOutListener = this.onMouseOut.bind(this);
 
   constructor(
-    @Optional() @Self() component: KoListenable,
     @Optional() @Self() nestable: KoNestable
   ) {
-    if (!component || !nestable) {
+    if (!nestable) {
       throw new Error('koHover attachable only to ko-shape');
     }
 
