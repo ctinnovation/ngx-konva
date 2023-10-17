@@ -15,7 +15,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "docs": "typedoc --plugin typedoc-plugin-markdown --out docs projects/ngx-konva/src/public-api.ts"
   },
   "private": true,
   "dependencies": {
@@ -46,6 +47,8 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
     "ng-packagr": "^16.2.0",
+    "typedoc": "^0.25.2",
+    "typedoc-plugin-markdown": "^3.16.0",
     "typescript": "~5.1.3"
   }
 }
