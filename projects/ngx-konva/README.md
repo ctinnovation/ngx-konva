@@ -4,6 +4,8 @@ This library provides you simple Angular bindings for [KonvaJS](https://konvajs.
 
 This project is inspired by the more official library [n2-konva](https://github.com/konvajs/ng2-konva) that, as for now, seems not to be maintaned.
 
+Supported Angular version: `16`.
+
 - [Installation](#installation)
 - [Konva API implementation status](#konva-api-implementation-status)
 - [Example usage](#example-usage)
