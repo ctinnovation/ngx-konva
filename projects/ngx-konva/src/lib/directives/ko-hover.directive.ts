@@ -1,7 +1,7 @@
 import { Directive, EventEmitter, OnDestroy, OnInit, Optional, Output, Self } from '@angular/core';
 import { Subscription } from 'rxjs';
 import { KoShape } from '../common';
-import { KoNestable } from '../common/ko-nestable';
+import { KoNestable, KoNestableNode } from '../common/ko-nestable';
 
 @Directive({
   selector: '[koHover]',
@@ -9,15 +9,15 @@ import { KoNestable } from '../common/ko-nestable';
 })
 export class KoHoverDirective implements OnInit, OnDestroy {
   @Output()
-  koHoverStart = new EventEmitter<KoShape>();
+  koHoverStart = new EventEmitter<KoNestableNode>();
 
   @Output()
-  koHoverEnd = new EventEmitter<KoShape>();
+  koHoverEnd = new EventEmitter<KoNestableNode>();
 
   sub = new Subscription();
   hovering = false;
 
-  private shape: KoShape;
+  private node: KoNestableNode;
 
   onMouseEnterListener = this.onMouseEnter.bind(this);
   onMouseOutListener = this.onMouseOut.bind(this);
@@ -29,7 +29,7 @@ export class KoHoverDirective implements OnInit, OnDestroy {
       throw new Error('koHover attachable only to ko-shape');
     }
 
-    this.shape = nestable.getKoItem() as KoShape;
+    this.node = nestable.getKoItem() as KoShape;
     this.addListeners();
   }
 
@@ -39,32 +39,32 @@ export class KoHoverDirective implements OnInit, OnDestroy {
   ngOnDestroy(): void {
     this.sub.unsubscribe();
 
-    if (this.shape) {
-      this.shape.off('mouseenter', this.onMouseEnterListener);
-      this.shape.off('mouseout', this.onMouseOutListener);
+    if (this.node) {
+      this.node.off('mouseenter', this.onMouseEnterListener);
+      this.node.off('mouseout', this.onMouseOutListener);
     }
   }
 
 
   addListeners() {
-    if (!this.shape) {
+    if (!this.node) {
       return;
     }
 
-    this.shape.on('mouseenter', this.onMouseEnterListener);
-    this.shape.on('mouseout', this.onMouseOutListener);
+    this.node.on('mouseenter', this.onMouseEnterListener);
+    this.node.on('mouseout', this.onMouseOutListener);
   }
 
   onMouseEnter() {
     this.hovering = true;
     console.log('mouse enter')
-    this.koHoverStart.emit(this.shape!);
+    this.koHoverStart.emit(this.node!);
   }
 
   onMouseOut() {
     if (this.hovering) {
       console.log('mouse leave')
-      this.koHoverEnd.emit(this.shape!);
+      this.koHoverEnd.emit(this.node!);
     }
 
     this.hovering = false;

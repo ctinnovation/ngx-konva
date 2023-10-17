@@ -6,8 +6,10 @@
 
 ### Classes
 
+- [KoGroupComponent](classes/KoGroupComponent.md)
 - [KoHoverDirective](classes/KoHoverDirective.md)
 - [KoLayerComponent](classes/KoLayerComponent.md)
+- [KoPointerDirective](classes/KoPointerDirective.md)
 - [KoShapeComponent](classes/KoShapeComponent.md)
 - [KoStageAutoScaleComponent](classes/KoStageAutoScaleComponent.md)
 - [KoStageComponent](classes/KoStageComponent.md)
@@ -33,7 +35,7 @@
 
 #### Defined in
 
-lib/common.ts:12
+[lib/common/index.ts:12](https://github.com/giovanni-bertoncelli/ngx-konva/blob/f4cac70/projects/ngx-konva/src/lib/common/index.ts#L12)
 
 ___
 
@@ -43,7 +45,7 @@ ___
 
 #### Defined in
 
-lib/common.ts:9
+[lib/common/index.ts:9](https://github.com/giovanni-bertoncelli/ngx-konva/blob/f4cac70/projects/ngx-konva/src/lib/common/index.ts#L9)
 
 ___
 
@@ -53,7 +55,7 @@ ___
 
 #### Defined in
 
-lib/common.ts:10
+[lib/common/index.ts:10](https://github.com/giovanni-bertoncelli/ngx-konva/blob/f4cac70/projects/ngx-konva/src/lib/common/index.ts#L10)
 
 ___
 
@@ -63,7 +65,7 @@ ___
 
 #### Defined in
 
-lib/common.ts:11
+[lib/common/index.ts:11](https://github.com/giovanni-bertoncelli/ngx-konva/blob/f4cac70/projects/ngx-konva/src/lib/common/index.ts#L11)
 
 ___
 
@@ -73,7 +75,7 @@ ___
 
 #### Defined in
 
-[lib/ko-stage.component.ts:7](https://github.com/giovanni-bertoncelli/ngx-konva/blob/6698cbb/projects/ngx-konva/src/lib/ko-stage.component.ts#L7)
+[lib/components/ko-stage.component.ts:7](https://github.com/giovanni-bertoncelli/ngx-konva/blob/f4cac70/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L7)
 
 ## Variables
 
@@ -83,4 +85,4 @@ ___
 
 #### Defined in
 
-lib/common.ts:13
+[lib/common/index.ts:13](https://github.com/giovanni-bertoncelli/ngx-konva/blob/f4cac70/projects/ngx-konva/src/lib/common/index.ts#L13)

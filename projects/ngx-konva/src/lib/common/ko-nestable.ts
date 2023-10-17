@@ -4,11 +4,13 @@ import { Layer } from "konva/lib/Layer";
 import { v4 } from "uuid";
 import { KoShape } from ".";
 
+export type KoNestableNode = Group | Layer | KoShape;
+
 @Component({ template: '' })
 export class KoNestable implements OnInit, OnDestroy {
   id: string = v4();
 
-  getKoItem(): Layer | KoShape | Group {
+  getKoItem(): KoNestableNode {
     throw new Error('Unimplemented!')
   }
 

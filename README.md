@@ -12,6 +12,7 @@ Supported Angular version: `16`.
 - [Stage autoscale](#stage-autoscale)
 - [Events handling](#events-handling)
   - [KoHoverDirective](#kohoverdirective)
+  - [KoPointerDirective](#kopointerdirective)
 - [Inner events](#inner-events)
   - [ko-layer](#ko-layer)
   - [ko-stage](#ko-stage)
@@ -39,7 +40,7 @@ npm install ngx-konva konva
 | [`Text`](https://konvajs.org/api/Konva.Text.html#main)                     | ✅      | `ko-text`            |
 | [`TextPath`](https://konvajs.org/api/Konva.TextPath.html#main)             | ❌      |                      |
 | [`Ellipse`](https://konvajs.org/api/Konva.Ellipse.html#main)               | ❌      |                      |
-| [`Group`](https://konvajs.org/api/Konva.Group.html#main)                   | ✅      |                      |
+| [`Group`](https://konvajs.org/api/Konva.Group.html#main)                   | ✅      | `ko-group`           |
 | [`Ring`](https://konvajs.org/api/Konva.Ring.html#main)                     | ❌      |                      |
 | [`Image`](https://konvajs.org/api/Konva.Image.html#main)                   | ❌      |                      |
 | [`Label`](https://konvajs.org/api/Konva.Label.html#main)                   | ❌      |                      |
@@ -105,8 +106,6 @@ These are the directives you can use:
 
 ### KoHoverDirective
 
-Compatible with `ko-rect`, `ko-line`, `ko-circle`, `ko-regular-polygon`, `ko-text`.
-
 ```html
 <ko-circle koHover (onHoverStart)="handleStart($event)" (onHoverEnd)="handleEnd($event)" [config]="{ 
           radius: 120,
@@ -119,6 +118,21 @@ Compatible with `ko-rect`, `ko-line`, `ko-circle`, `ko-regular-polygon`, `ko-tex
 ```
 
 It allows to capture when the user hover on a Node. Each `onHoverStart` and `onHoverEnd` emits the underlying `Shape` of KonvaJS.
+
+### KoPointerDirective
+
+```html
+<ko-circle koPointer (koPointerDblClick)="onDblClick($event)" [config]="{ 
+          radius: 120,
+          fill: 'blue',
+          stroke: 'black',
+          strokeWidth: 4,
+          x: 0,
+          y: 0
+}"></ko-circle>
+```
+
+It allows to capture all pointer events. [Full API](https://github.com/giovanni-bertoncelli/ngx-konva/blob/main/docs/classes/KoPointerDirective.md).
 
 ## Inner events
 
