@@ -10,6 +10,7 @@ Supported Angular version: `16`.
 - [Konva API implementation status](#konva-api-implementation-status)
 - [Example usage](#example-usage)
 - [Stage autoscale](#stage-autoscale)
+- [Basic shapes](#basic-shapes)
 - [Images](#images)
 - [Labels](#labels)
 - [Tween (transitions)](#tween-transitions)
@@ -32,25 +33,29 @@ npm install ngx-konva konva
 
 ## Konva API implementation status
 
-| API                                                                        | Status | Component                  |
-| -------------------------------------------------------------------------- | ------ | -------------------------- |
-| [`Stage`](https://konvajs.org/api/Konva.Stage.html#main)                   | ✅      | `ko-stage`                 |
-| [`Layer`](https://konvajs.org/api/Konva.Layer.html#main)                   | ✅      | `ko-layer`                 |
-| [`Rect`](https://konvajs.org/api/Konva.Rect.html#main)                     | ✅      | `ko-rect`                  |
-| [`Circle`](https://konvajs.org/api/Konva.Circle.html#main)                 | ✅      | `ko-circle`                |
-| [`Line`](https://konvajs.org/api/Konva.Line.html#main)                     | ✅      | `ko-line`                  |
-| [`RegularPolygon`](https://konvajs.org/api/Konva.RegularPolygon.html#main) | ✅      | `ko-regular-polygon`       |
-| [`Text`](https://konvajs.org/api/Konva.Text.html#main)                     | ✅      | `ko-text`                  |
-| [`TextPath`](https://konvajs.org/api/Konva.TextPath.html#main)             | ❌      |                            |
-| [`Ellipse`](https://konvajs.org/api/Konva.Ellipse.html#main)               | ❌      |                            |
-| [`Group`](https://konvajs.org/api/Konva.Group.html#main)                   | ✅      | `ko-group`                 |
-| [`Ring`](https://konvajs.org/api/Konva.Ring.html#main)                     | ❌      |                            |
-| [`Image`](https://konvajs.org/api/Konva.Image.html#main)                   | ✅      | `ko-image`                 |
-| [`Label`](https://konvajs.org/api/Konva.Label.html#main)                   | ✅      | `ko-label`                 |
-| [`Path`](https://konvajs.org/api/Konva.Path.html#main)                     | ❌      |                            |
-| [`Sprite`](https://konvajs.org/api/Konva.Sprite.html#main)                 | ❌      |                            |
-| [`Star`](https://konvajs.org/api/Konva.Star.html#main)                     | ❌      |                            |
-| [`Tween`](https://konvajs.org/api/Konva.Tween.html#main)                   | ✅      | `koTransition` (directive) |
+| API                                                                        | Status | Component                                                                     |
+| -------------------------------------------------------------------------- | ------ | ----------------------------------------------------------------------------- |
+| [`Stage`](https://konvajs.org/api/Konva.Stage.html#main)                   | ✅      | `ko-stage`                                                                    |
+| [`Layer`](https://konvajs.org/api/Konva.Layer.html#main)                   | ✅      | `ko-layer`                                                                    |
+| [`Rect`](https://konvajs.org/api/Konva.Rect.html#main)                     | ✅      | `ko-rect`                                                                     |
+| [`Circle`](https://konvajs.org/api/Konva.Circle.html#main)                 | ✅      | `ko-circle`                                                                   |
+| [`Line`](https://konvajs.org/api/Konva.Line.html#main)                     | ✅      | `ko-line`                                                                     |
+| [`RegularPolygon`](https://konvajs.org/api/Konva.RegularPolygon.html#main) | ✅      | `ko-regular-polygon`                                                          |
+| [`Text`](https://konvajs.org/api/Konva.Text.html#main)                     | ✅      | `ko-text`                                                                     |
+| [`TextPath`](https://konvajs.org/api/Konva.TextPath.html#main)             | ✅      | `ko-text-path`                                                                |
+| [`Ellipse`](https://konvajs.org/api/Konva.Ellipse.html#main)               | ✅      | `ko-ellipse`                                                                  |
+| [`Wedge`](https://konvajs.org/api/Konva.Wedge.html#main)                   | ✅      | `ko-wedge`                                                                    |
+| [`Group`](https://konvajs.org/api/Konva.Group.html#main)                   | ✅      | `ko-group`                                                                    |
+| [`Ring`](https://konvajs.org/api/Konva.Ring.html#main)                     | ✅      | `ko-ring`                                                                     |
+| [`Image`](https://konvajs.org/api/Konva.Image.html#main)                   | ✅      | `ko-image`                                                                    |
+| [`Label`](https://konvajs.org/api/Konva.Label.html#main)                   | ✅      | `ko-label`                                                                    |
+| [`Path`](https://konvajs.org/api/Konva.Path.html#main)                     | ✅      | `ko-path`                                                                     |
+| [`Sprite`](https://konvajs.org/api/Konva.Sprite.html#main)                 | ❌      |                                                                               |
+| [`Star`](https://konvajs.org/api/Konva.Star.html#main)                     | ✅      | `ko-star`                                                                     |
+| [`Arrow`](https://konvajs.org/api/Konva.Arrow.html#main)                   | ✅      | `ko-arrow`                                                                    |
+| [`Shape`](https://konvajs.org/api/Konva.Shape.html#main)                   | ✅      | `ko-shape` (for [custom shapes](https://konvajs.org/docs/shapes/Custom.html)) |
+| [`Arc`](https://konvajs.org/api/Konva.Arc.html#main)                       | ✅      | `ko-arc`                                                                      |
+| [`Tween`](https://konvajs.org/api/Konva.Tween.html#main)                   | ✅      | `koTransition` (directive)                                                    |
 
 ## Example usage
 
@@ -102,6 +107,32 @@ The first container size different from 0, 0 will be considered the initial 1 sc
         </ko-layer>
   </ko-stage-autoscale>
 </div>
+```
+
+## Basic shapes
+
+Apart for nodes that are described in the next paragraphs, for each of the basic shapes provided by Konva there is a component that can be used. Take a look to the [Konva API implementation status](#konva-api-implementation-status) to see which component you should use. 
+
+Each of these components receives a @Input `config` compatible with the shape configuration and a `centerOrigin` @Input to offset the origin at the center of the figure.
+
+```html
+<ko-ring [config]="{
+  x: 500,
+  y: 500,
+  innerRadius: 40,
+  outerRadius: 70,
+  fill: 'yellow',
+  stroke: 'black',
+  strokeWidth: 4,
+}"></ko-ring>
+<ko-shape [config]="{
+  x: 10,
+  y: 20,
+  fill: '#00D2FF',
+  width: 100,
+  height: 50,
+  sceneFunc: this.sceneFunc
+}"></ko-shape>
 ```
 
 ## Images
@@ -216,7 +247,7 @@ It allows to capture all pointer events. [Full API](https://github.com/giovanni-
 
 ### ko-shape
 
-`ko-shape` (`ko-line, ko-rect, ko-circle, ko-regular-polygon, ko-text, ko-image, ko-group`) provides you these output:
+`ko-shape` (all basic shapes) provides you these output:
 
 - `(beforeUpdate)` `(afterUpdate)`: called before/after the layers gets updated. Argument: `Layer`. Useful to use the underlying KonvaJS API on the passed argument and modifying directly the Konva Node.
 
