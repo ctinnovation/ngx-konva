@@ -7,8 +7,10 @@ import { KoLayerComponent } from './components/ko-layer.component';
 import { KoShapeComponent } from './components/ko-shape.component';
 import { KoStageAutoScaleComponent } from './components/ko-stage-autoscale.component';
 import { KoStageComponent } from './components/ko-stage.component';
+import { KoDragDirective } from './directives/ko-drag.directive';
 import { KoHoverDirective } from './directives/ko-hover.directive';
 import { KoPointerDirective } from './directives/ko-pointer.directive';
+import { KoTransformDirective } from './directives/ko-transform.directive';
 import { KoTransitionDirective } from './directives/ko-transition.directive';
 
 @NgModule({
@@ -22,7 +24,9 @@ import { KoTransitionDirective } from './directives/ko-transition.directive';
     KoPointerDirective,
     KoImageComponent,
     KoTransitionDirective,
-    KoLabelComponent
+    KoLabelComponent,
+    KoDragDirective,
+    KoTransformDirective
   ],
   imports: [CommonModule],
   exports: [
@@ -35,7 +39,9 @@ import { KoTransitionDirective } from './directives/ko-transition.directive';
     KoPointerDirective,
     KoImageComponent,
     KoTransitionDirective,
-    KoLabelComponent
+    KoLabelComponent,
+    KoDragDirective,
+    KoTransformDirective
   ],
   providers: [],
 })

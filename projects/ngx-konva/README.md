@@ -17,6 +17,8 @@ Supported Angular version: `16`.
 - [Events handling](#events-handling)
   - [KoHoverDirective](#kohoverdirective)
   - [KoPointerDirective](#kopointerdirective)
+  - [KoDragDirective](#kodragdirective)
+  - [KoTransformDirective](#kotransformdirective)
 - [Inner events](#inner-events)
   - [ko-layer](#ko-layer)
   - [ko-stage](#ko-stage)
@@ -230,6 +232,38 @@ It allows to capture when the user hover on a Node. Each `onHoverStart` and `onH
 ```
 
 It allows to capture all pointer events. [Full API](https://github.com/giovanni-bertoncelli/ngx-konva/blob/main/docs/classes/KoPointerDirective.md).
+
+### KoDragDirective
+
+```html
+<ko-circle koDrag (koDragMove)="onDragMove($event)" (koDragStart)="onDragStart($event)"
+   (koDragEnd)="onDragEnd($event)" [config]="{ 
+          radius: 120,
+          fill: 'blue',
+          stroke: 'black',
+          strokeWidth: 4,
+          x: 0,
+          y: 0
+}"></ko-circle>
+```
+
+It allows to capture all drag events. [Reference](https://konvajs.org/docs/drag_and_drop/Drag_Events.html#sidebar).
+
+### KoTransformDirective
+
+```html
+<ko-circle koTransform (koTranform)="onTranform($event)" (koTranformStart)="onTranformStart($event)"
+   (koTransformEnd)="onTranformEnd($event)" [config]="{ 
+          radius: 120,
+          fill: 'blue',
+          stroke: 'black',
+          strokeWidth: 4,
+          x: 0,
+          y: 0
+}"></ko-circle>
+```
+
+It allows to capture all transform events. [Reference](https://konvajs.org/docs/select_and_transform/Transform_Events.html#sidebar).
 
 ## Inner events
 

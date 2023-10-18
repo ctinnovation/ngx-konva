@@ -21,7 +21,6 @@
 - [node](KoHoverDirective.md#node)
 - [onMouseEnterListener](KoHoverDirective.md#onmouseenterlistener)
 - [onMouseOutListener](KoHoverDirective.md#onmouseoutlistener)
-- [sub](KoHoverDirective.md#sub)
 
 ### Methods
 
@@ -45,7 +44,7 @@
 
 #### Defined in
 
-[lib/directives/ko-hover.directive.ts:25](https://github.com/giovanni-bertoncelli/ngx-konva/blob/3e23c8a/projects/ngx-konva/src/lib/directives/ko-hover.directive.ts#L25)
+[lib/directives/ko-hover.directive.ts:23](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/directives/ko-hover.directive.ts#L23)
 
 ## Properties
 
@@ -55,7 +54,7 @@
 
 #### Defined in
 
-[lib/directives/ko-hover.directive.ts:18](https://github.com/giovanni-bertoncelli/ngx-konva/blob/3e23c8a/projects/ngx-konva/src/lib/directives/ko-hover.directive.ts#L18)
+[lib/directives/ko-hover.directive.ts:16](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/directives/ko-hover.directive.ts#L16)
 
 ___
 
@@ -65,7 +64,7 @@ ___
 
 #### Defined in
 
-[lib/directives/ko-hover.directive.ts:15](https://github.com/giovanni-bertoncelli/ngx-konva/blob/3e23c8a/projects/ngx-konva/src/lib/directives/ko-hover.directive.ts#L15)
+[lib/directives/ko-hover.directive.ts:14](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/directives/ko-hover.directive.ts#L14)
 
 ___
 
@@ -75,7 +74,7 @@ ___
 
 #### Defined in
 
-[lib/directives/ko-hover.directive.ts:12](https://github.com/giovanni-bertoncelli/ngx-konva/blob/3e23c8a/projects/ngx-konva/src/lib/directives/ko-hover.directive.ts#L12)
+[lib/directives/ko-hover.directive.ts:11](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/directives/ko-hover.directive.ts#L11)
 
 ___
 
@@ -85,7 +84,7 @@ ___
 
 #### Defined in
 
-[lib/directives/ko-hover.directive.ts:20](https://github.com/giovanni-bertoncelli/ngx-konva/blob/3e23c8a/projects/ngx-konva/src/lib/directives/ko-hover.directive.ts#L20)
+[lib/directives/ko-hover.directive.ts:18](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/directives/ko-hover.directive.ts#L18)
 
 ___
 
@@ -103,7 +102,7 @@ ___
 
 #### Defined in
 
-[lib/directives/ko-hover.directive.ts:22](https://github.com/giovanni-bertoncelli/ngx-konva/blob/3e23c8a/projects/ngx-konva/src/lib/directives/ko-hover.directive.ts#L22)
+[lib/directives/ko-hover.directive.ts:20](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/directives/ko-hover.directive.ts#L20)
 
 ___
 
@@ -121,17 +120,7 @@ ___
 
 #### Defined in
 
-[lib/directives/ko-hover.directive.ts:23](https://github.com/giovanni-bertoncelli/ngx-konva/blob/3e23c8a/projects/ngx-konva/src/lib/directives/ko-hover.directive.ts#L23)
-
-___
-
-### sub
-
-• **sub**: `Subscription`
-
-#### Defined in
-
-[lib/directives/ko-hover.directive.ts:17](https://github.com/giovanni-bertoncelli/ngx-konva/blob/3e23c8a/projects/ngx-konva/src/lib/directives/ko-hover.directive.ts#L17)
+[lib/directives/ko-hover.directive.ts:21](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/directives/ko-hover.directive.ts#L21)
 
 ## Methods
 
@@ -145,7 +134,7 @@ ___
 
 #### Defined in
 
-[lib/directives/ko-hover.directive.ts:49](https://github.com/giovanni-bertoncelli/ngx-konva/blob/3e23c8a/projects/ngx-konva/src/lib/directives/ko-hover.directive.ts#L49)
+[lib/directives/ko-hover.directive.ts:43](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/directives/ko-hover.directive.ts#L43)
 
 ___
 
@@ -163,7 +152,7 @@ OnDestroy.ngOnDestroy
 
 #### Defined in
 
-[lib/directives/ko-hover.directive.ts:39](https://github.com/giovanni-bertoncelli/ngx-konva/blob/3e23c8a/projects/ngx-konva/src/lib/directives/ko-hover.directive.ts#L39)
+[lib/directives/ko-hover.directive.ts:37](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/directives/ko-hover.directive.ts#L37)
 
 ___
 
@@ -181,7 +170,7 @@ OnInit.ngOnInit
 
 #### Defined in
 
-[lib/directives/ko-hover.directive.ts:36](https://github.com/giovanni-bertoncelli/ngx-konva/blob/3e23c8a/projects/ngx-konva/src/lib/directives/ko-hover.directive.ts#L36)
+[lib/directives/ko-hover.directive.ts:34](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/directives/ko-hover.directive.ts#L34)
 
 ___
 
@@ -195,7 +184,7 @@ ___
 
 #### Defined in
 
-[lib/directives/ko-hover.directive.ts:58](https://github.com/giovanni-bertoncelli/ngx-konva/blob/3e23c8a/projects/ngx-konva/src/lib/directives/ko-hover.directive.ts#L58)
+[lib/directives/ko-hover.directive.ts:48](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/directives/ko-hover.directive.ts#L48)
 
 ___
 
@@ -209,4 +198,4 @@ ___
 
 #### Defined in
 
-[lib/directives/ko-hover.directive.ts:64](https://github.com/giovanni-bertoncelli/ngx-konva/blob/3e23c8a/projects/ngx-konva/src/lib/directives/ko-hover.directive.ts#L64)
+[lib/directives/ko-hover.directive.ts:53](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/directives/ko-hover.directive.ts#L53)

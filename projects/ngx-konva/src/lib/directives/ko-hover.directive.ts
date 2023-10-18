@@ -1,5 +1,4 @@
 import { Directive, EventEmitter, OnDestroy, OnInit, Optional, Output, Self } from '@angular/core';
-import { Subscription } from 'rxjs';
 import { KoShape } from '../common';
 import { KoNestable, KoNestableNode } from '../common/ko-nestable';
 
@@ -14,7 +13,6 @@ export class KoHoverDirective implements OnInit, OnDestroy {
   @Output()
   koHoverEnd = new EventEmitter<KoNestableNode>();
 
-  sub = new Subscription();
   hovering = false;
 
   private node: KoNestableNode;
@@ -26,7 +24,7 @@ export class KoHoverDirective implements OnInit, OnDestroy {
     @Optional() @Self() nestable: KoNestable
   ) {
     if (!nestable) {
-      throw new Error('koHover attachable only to ko-shape');
+      throw new Error('koHover attachable only to ko-nestable');
     }
 
     this.node = nestable.getKoItem() as KoShape;
@@ -37,33 +35,23 @@ export class KoHoverDirective implements OnInit, OnDestroy {
   }
 
   ngOnDestroy(): void {
-    this.sub.unsubscribe();
-
-    if (this.node) {
-      this.node.off('mouseenter', this.onMouseEnterListener);
-      this.node.off('mouseout', this.onMouseOutListener);
-    }
+    this.node.off('mouseenter', this.onMouseEnterListener);
+    this.node.off('mouseout', this.onMouseOutListener);
   }
 
 
   addListeners() {
-    if (!this.node) {
-      return;
-    }
-
     this.node.on('mouseenter', this.onMouseEnterListener);
     this.node.on('mouseout', this.onMouseOutListener);
   }
 
   onMouseEnter() {
     this.hovering = true;
-    console.log('mouse enter')
     this.koHoverStart.emit(this.node!);
   }
 
   onMouseOut() {
     if (this.hovering) {
-      console.log('mouse leave')
       this.koHoverEnd.emit(this.node!);
     }
 
