@@ -1,6 +1,6 @@
 {
   "name": "ngx-konva-workspace",
-  "version": "16.0.2",
+  "version": "16.0.3",
   "keywords": [
     "konva",
     "angular",
@@ -10,6 +10,7 @@
     "2d",
     "graphics"
   ],
+  "license": "MIT",
   "repository": {
     "url": "https://github.com/giovanni-bertoncelli/ngx-konva"
   },

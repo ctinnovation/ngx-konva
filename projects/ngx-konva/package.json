@@ -1,6 +1,7 @@
 {
   "name": "ngx-konva",
-  "version": "16.0.2",
+  "version": "16.0.3",
+  "license": "MIT",
   "repository": {
     "url": "https://github.com/giovanni-bertoncelli/ngx-konva"
   },
