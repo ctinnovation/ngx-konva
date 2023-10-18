@@ -15,9 +15,11 @@
 
 ### Properties
 
-- [\_currentTransition](KoTransitionDirective.md#_currenttransition)
+- [\_play$](KoTransitionDirective.md#_play$)
+- [\_ready$](KoTransitionDirective.md#_ready$)
+- [\_trigger$](KoTransitionDirective.md#_trigger$)
 - [\_tween](KoTransitionDirective.md#_tween)
-- [layer](KoTransitionDirective.md#layer)
+- [layerComponent](KoTransitionDirective.md#layercomponent)
 - [node](KoTransitionDirective.md#node)
 - [sub](KoTransitionDirective.md#sub)
 
@@ -29,55 +31,74 @@
 
 - [ngOnDestroy](KoTransitionDirective.md#ngondestroy)
 - [ngOnInit](KoTransitionDirective.md#ngoninit)
-- [onLayerAdd](KoTransitionDirective.md#onlayeradd)
-- [tryPlay](KoTransitionDirective.md#tryplay)
+- [play](KoTransitionDirective.md#play)
 
 ## Constructors
 
 ### constructor
 
-• **new KoTransitionDirective**(`nestable`, `layer`)
+• **new KoTransitionDirective**(`nestable`, `layerComponent`)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `nestable` | `KoNestable` |
-| `layer` | [`KoLayerComponent`](KoLayerComponent.md) |
+| `layerComponent` | [`KoLayerComponent`](KoLayerComponent.md) |
 
 #### Defined in
 
-[lib/directives/ko-transition.directive.ts:34](https://github.com/giovanni-bertoncelli/ngx-konva/blob/1d5bad9/projects/ngx-konva/src/lib/directives/ko-transition.directive.ts#L34)
+[lib/directives/ko-transition.directive.ts:41](https://github.com/giovanni-bertoncelli/ngx-konva/blob/66db3c0/projects/ngx-konva/src/lib/directives/ko-transition.directive.ts#L41)
 
 ## Properties
 
-### \_currentTransition
+### \_play$
 
-• **\_currentTransition**: ``null`` \| `Omit`<`TweenConfig`, ``"node"``\> = `null`
+• `Private` **\_play$**: `Observable`<`any`\>
 
 #### Defined in
 
-[lib/directives/ko-transition.directive.ts:14](https://github.com/giovanni-bertoncelli/ngx-konva/blob/1d5bad9/projects/ngx-konva/src/lib/directives/ko-transition.directive.ts#L14)
+[lib/directives/ko-transition.directive.ts:16](https://github.com/giovanni-bertoncelli/ngx-konva/blob/66db3c0/projects/ngx-konva/src/lib/directives/ko-transition.directive.ts#L16)
+
+___
+
+### \_ready$
+
+• `Private` **\_ready$**: `BehaviorSubject`<`boolean`\>
+
+#### Defined in
+
+[lib/directives/ko-transition.directive.ts:14](https://github.com/giovanni-bertoncelli/ngx-konva/blob/66db3c0/projects/ngx-konva/src/lib/directives/ko-transition.directive.ts#L14)
+
+___
+
+### \_trigger$
+
+• `Private` **\_trigger$**: `BehaviorSubject`<`Omit`<`TweenConfig`, ``"node"``\>\>
+
+#### Defined in
+
+[lib/directives/ko-transition.directive.ts:13](https://github.com/giovanni-bertoncelli/ngx-konva/blob/66db3c0/projects/ngx-konva/src/lib/directives/ko-transition.directive.ts#L13)
 
 ___
 
 ### \_tween
 
-• **\_tween**: ``null`` \| `Tween` = `null`
+• `Private` **\_tween**: ``null`` \| `Tween` = `null`
 
 #### Defined in
 
-[lib/directives/ko-transition.directive.ts:13](https://github.com/giovanni-bertoncelli/ngx-konva/blob/1d5bad9/projects/ngx-konva/src/lib/directives/ko-transition.directive.ts#L13)
+[lib/directives/ko-transition.directive.ts:26](https://github.com/giovanni-bertoncelli/ngx-konva/blob/66db3c0/projects/ngx-konva/src/lib/directives/ko-transition.directive.ts#L26)
 
 ___
 
-### layer
+### layerComponent
 
-• `Private` **layer**: [`KoLayerComponent`](KoLayerComponent.md)
+• `Private` **layerComponent**: [`KoLayerComponent`](KoLayerComponent.md)
 
 #### Defined in
 
-[lib/directives/ko-transition.directive.ts:36](https://github.com/giovanni-bertoncelli/ngx-konva/blob/1d5bad9/projects/ngx-konva/src/lib/directives/ko-transition.directive.ts#L36)
+[lib/directives/ko-transition.directive.ts:43](https://github.com/giovanni-bertoncelli/ngx-konva/blob/66db3c0/projects/ngx-konva/src/lib/directives/ko-transition.directive.ts#L43)
 
 ___
 
@@ -87,7 +108,7 @@ ___
 
 #### Defined in
 
-[lib/directives/ko-transition.directive.ts:32](https://github.com/giovanni-bertoncelli/ngx-konva/blob/1d5bad9/projects/ngx-konva/src/lib/directives/ko-transition.directive.ts#L32)
+[lib/directives/ko-transition.directive.ts:39](https://github.com/giovanni-bertoncelli/ngx-konva/blob/66db3c0/projects/ngx-konva/src/lib/directives/ko-transition.directive.ts#L39)
 
 ___
 
@@ -97,7 +118,7 @@ ___
 
 #### Defined in
 
-[lib/directives/ko-transition.directive.ts:30](https://github.com/giovanni-bertoncelli/ngx-konva/blob/1d5bad9/projects/ngx-konva/src/lib/directives/ko-transition.directive.ts#L30)
+[lib/directives/ko-transition.directive.ts:37](https://github.com/giovanni-bertoncelli/ngx-konva/blob/66db3c0/projects/ngx-konva/src/lib/directives/ko-transition.directive.ts#L37)
 
 ## Accessors
 
@@ -117,7 +138,7 @@ ___
 
 #### Defined in
 
-[lib/directives/ko-transition.directive.ts:17](https://github.com/giovanni-bertoncelli/ngx-konva/blob/1d5bad9/projects/ngx-konva/src/lib/directives/ko-transition.directive.ts#L17)
+[lib/directives/ko-transition.directive.ts:29](https://github.com/giovanni-bertoncelli/ngx-konva/blob/66db3c0/projects/ngx-konva/src/lib/directives/ko-transition.directive.ts#L29)
 
 ## Methods
 
@@ -135,7 +156,7 @@ OnDestroy.ngOnDestroy
 
 #### Defined in
 
-[lib/directives/ko-transition.directive.ts:49](https://github.com/giovanni-bertoncelli/ngx-konva/blob/1d5bad9/projects/ngx-konva/src/lib/directives/ko-transition.directive.ts#L49)
+[lib/directives/ko-transition.directive.ts:70](https://github.com/giovanni-bertoncelli/ngx-konva/blob/66db3c0/projects/ngx-konva/src/lib/directives/ko-transition.directive.ts#L70)
 
 ___
 
@@ -153,19 +174,13 @@ OnInit.ngOnInit
 
 #### Defined in
 
-[lib/directives/ko-transition.directive.ts:46](https://github.com/giovanni-bertoncelli/ngx-konva/blob/1d5bad9/projects/ngx-konva/src/lib/directives/ko-transition.directive.ts#L46)
+[lib/directives/ko-transition.directive.ts:67](https://github.com/giovanni-bertoncelli/ngx-konva/blob/66db3c0/projects/ngx-konva/src/lib/directives/ko-transition.directive.ts#L67)
 
 ___
 
-### onLayerAdd
+### play
 
-▸ `Private` **onLayerAdd**(`item`): `void`
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `item` | `KoNestable` |
+▸ `Private` **play**(): `void`
 
 #### Returns
 
@@ -173,18 +188,4 @@ ___
 
 #### Defined in
 
-[lib/directives/ko-transition.directive.ts:57](https://github.com/giovanni-bertoncelli/ngx-konva/blob/1d5bad9/projects/ngx-konva/src/lib/directives/ko-transition.directive.ts#L57)
-
-___
-
-### tryPlay
-
-▸ `Private` **tryPlay**(): `void`
-
-#### Returns
-
-`void`
-
-#### Defined in
-
-[lib/directives/ko-transition.directive.ts:66](https://github.com/giovanni-bertoncelli/ngx-konva/blob/1d5bad9/projects/ngx-konva/src/lib/directives/ko-transition.directive.ts#L66)
+[lib/directives/ko-transition.directive.ts:78](https://github.com/giovanni-bertoncelli/ngx-konva/blob/66db3c0/projects/ngx-konva/src/lib/directives/ko-transition.directive.ts#L78)

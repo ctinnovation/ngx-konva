@@ -57,7 +57,7 @@ export class KoPointerDirective implements OnInit, OnDestroy {
     @Optional() @Self() nestable: KoNestable
   ) {
     if (!nestable) {
-      throw new Error('koHover attachable only to ko-shape');
+      throw new Error('koPointer attachable only to ko-shape');
     }
 
     this.node = nestable.getKoItem();
