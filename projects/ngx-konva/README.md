@@ -11,6 +11,7 @@ Supported Angular version: `16`.
 - [Example usage](#example-usage)
 - [Stage autoscale](#stage-autoscale)
 - [Images](#images)
+- [Tween (transitions)](#tween-transitions)
 - [Events handling](#events-handling)
   - [KoHoverDirective](#kohoverdirective)
   - [KoPointerDirective](#kopointerdirective)
@@ -114,6 +115,17 @@ In order to simplify the [Konva Image API](https://konvajs.org/docs/shapes/Image
         </ko-image>
       </ko-layer>
 </ko-stage>
+```
+
+## Tween (transitions)
+
+> 🔥 Still an experimental feature
+
+In order to use [Tween](https://konvajs.org/api/Konva.Tween.html#main) and transition between states in a component you can use the `KoTransitionDirective`. Consider that the passed `[config]` is considered the initial state of the component. Each modification on `[koTransition]` @Input will cancel (if not already finished) the previous transition and bring the component to the next state with the configuration passed.
+
+```html
+<ko-image [koTransition]="{opacity: 1, duration: 5}" [config]="{x: 100, y: 100, zIndex: 0, opacity:0}" 
+  src="https://upload.wikimedia.org/wikipedia/it/0/08/Dartfener.jpg"></ko-image>
 ```
 
 ## Events handling
