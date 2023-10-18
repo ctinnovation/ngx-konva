@@ -39,7 +39,7 @@
 
 #### Defined in
 
-[lib/components/ko-image.component.ts:6](https://github.com/giovanni-bertoncelli/ngx-konva/blob/bb48827/projects/ngx-konva/src/lib/components/ko-image.component.ts#L6)
+[lib/components/ko-image.component.ts:6](https://github.com/giovanni-bertoncelli/ngx-konva/blob/3e23c8a/projects/ngx-konva/src/lib/components/ko-image.component.ts#L6)
 
 ___
 
@@ -49,17 +49,17 @@ ___
 
 #### Defined in
 
-[lib/common/index.ts:12](https://github.com/giovanni-bertoncelli/ngx-konva/blob/bb48827/projects/ngx-konva/src/lib/common/index.ts#L12)
+[lib/common/index.ts:21](https://github.com/giovanni-bertoncelli/ngx-konva/blob/3e23c8a/projects/ngx-konva/src/lib/common/index.ts#L21)
 
 ___
 
 ### KoShapeNames
 
-Ƭ **KoShapeNames**: ``"circle"`` \| ``"rect"`` \| ``"line"`` \| ``"text"`` \| ``"regular-polygon"``
+Ƭ **KoShapeNames**: ``"circle"`` \| ``"rect"`` \| ``"line"`` \| ``"text"`` \| ``"regular-polygon"`` \| ``"path"`` \| ``"arrow"`` \| ``"arc"`` \| ``"star"`` \| ``"ring"`` \| ``"shape"`` \| ``"text-path"`` \| ``"ellipse"`` \| ``"wedge"``
 
 #### Defined in
 
-[lib/common/index.ts:9](https://github.com/giovanni-bertoncelli/ngx-konva/blob/bb48827/projects/ngx-konva/src/lib/common/index.ts#L9)
+[lib/common/index.ts:18](https://github.com/giovanni-bertoncelli/ngx-konva/blob/3e23c8a/projects/ngx-konva/src/lib/common/index.ts#L18)
 
 ___
 
@@ -69,17 +69,17 @@ ___
 
 #### Defined in
 
-[lib/common/index.ts:10](https://github.com/giovanni-bertoncelli/ngx-konva/blob/bb48827/projects/ngx-konva/src/lib/common/index.ts#L10)
+[lib/common/index.ts:19](https://github.com/giovanni-bertoncelli/ngx-konva/blob/3e23c8a/projects/ngx-konva/src/lib/common/index.ts#L19)
 
 ___
 
 ### KoShapeType
 
-Ƭ **KoShapeType**: typeof `Circle` \| typeof `Rect` \| typeof `Line` \| typeof `Text` \| typeof `RegularPolygon`
+Ƭ **KoShapeType**: typeof `Circle` \| typeof `Rect` \| typeof `Line` \| typeof `Text` \| typeof `RegularPolygon` \| typeof `Path` \| typeof `Arrow` \| typeof `Arc` \| typeof `Star` \| typeof `Ring` \| typeof `Shape` \| typeof `TextPath` \| typeof `Ellipse` \| typeof `Wedge`
 
 #### Defined in
 
-[lib/common/index.ts:11](https://github.com/giovanni-bertoncelli/ngx-konva/blob/bb48827/projects/ngx-konva/src/lib/common/index.ts#L11)
+[lib/common/index.ts:20](https://github.com/giovanni-bertoncelli/ngx-konva/blob/3e23c8a/projects/ngx-konva/src/lib/common/index.ts#L20)
 
 ___
 
@@ -89,14 +89,14 @@ ___
 
 #### Defined in
 
-[lib/components/ko-stage.component.ts:7](https://github.com/giovanni-bertoncelli/ngx-konva/blob/bb48827/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L7)
+[lib/components/ko-stage.component.ts:7](https://github.com/giovanni-bertoncelli/ngx-konva/blob/3e23c8a/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L7)
 
 ## Variables
 
 ### koShapeTypesMap
 
-• `Const` **koShapeTypesMap**: { [key in KoShapeSelectors]: KoShapeType }
+• `Const` **koShapeTypesMap**: { [key in KoShapeSelectors]: KoShapeType \| Shape }
 
 #### Defined in
 
-[lib/common/index.ts:13](https://github.com/giovanni-bertoncelli/ngx-konva/blob/bb48827/projects/ngx-konva/src/lib/common/index.ts#L13)
+[lib/common/index.ts:22](https://github.com/giovanni-bertoncelli/ngx-konva/blob/3e23c8a/projects/ngx-konva/src/lib/common/index.ts#L22)

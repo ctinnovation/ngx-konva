@@ -56,7 +56,7 @@ KoNestable.constructor
 
 #### Defined in
 
-[lib/components/ko-layer.component.ts:43](https://github.com/giovanni-bertoncelli/ngx-konva/blob/bb48827/projects/ngx-konva/src/lib/components/ko-layer.component.ts#L43)
+[lib/components/ko-layer.component.ts:43](https://github.com/giovanni-bertoncelli/ngx-konva/blob/3e23c8a/projects/ngx-konva/src/lib/components/ko-layer.component.ts#L43)
 
 ## Properties
 
@@ -66,7 +66,7 @@ KoNestable.constructor
 
 #### Defined in
 
-[lib/components/ko-layer.component.ts:25](https://github.com/giovanni-bertoncelli/ngx-konva/blob/bb48827/projects/ngx-konva/src/lib/components/ko-layer.component.ts#L25)
+[lib/components/ko-layer.component.ts:25](https://github.com/giovanni-bertoncelli/ngx-konva/blob/3e23c8a/projects/ngx-konva/src/lib/components/ko-layer.component.ts#L25)
 
 ___
 
@@ -76,7 +76,7 @@ ___
 
 #### Defined in
 
-[lib/components/ko-layer.component.ts:41](https://github.com/giovanni-bertoncelli/ngx-konva/blob/bb48827/projects/ngx-konva/src/lib/components/ko-layer.component.ts#L41)
+[lib/components/ko-layer.component.ts:41](https://github.com/giovanni-bertoncelli/ngx-konva/blob/3e23c8a/projects/ngx-konva/src/lib/components/ko-layer.component.ts#L41)
 
 ___
 
@@ -86,7 +86,7 @@ ___
 
 #### Defined in
 
-[lib/components/ko-layer.component.ts:38](https://github.com/giovanni-bertoncelli/ngx-konva/blob/bb48827/projects/ngx-konva/src/lib/components/ko-layer.component.ts#L38)
+[lib/components/ko-layer.component.ts:38](https://github.com/giovanni-bertoncelli/ngx-konva/blob/3e23c8a/projects/ngx-konva/src/lib/components/ko-layer.component.ts#L38)
 
 ___
 
@@ -96,7 +96,7 @@ ___
 
 #### Defined in
 
-[lib/components/ko-layer.component.ts:20](https://github.com/giovanni-bertoncelli/ngx-konva/blob/bb48827/projects/ngx-konva/src/lib/components/ko-layer.component.ts#L20)
+[lib/components/ko-layer.component.ts:20](https://github.com/giovanni-bertoncelli/ngx-konva/blob/3e23c8a/projects/ngx-konva/src/lib/components/ko-layer.component.ts#L20)
 
 ___
 
@@ -110,7 +110,7 @@ KoNestable.id
 
 #### Defined in
 
-[lib/common/ko-nestable.ts:12](https://github.com/giovanni-bertoncelli/ngx-konva/blob/bb48827/projects/ngx-konva/src/lib/common/ko-nestable.ts#L12)
+[lib/common/ko-nestable.ts:13](https://github.com/giovanni-bertoncelli/ngx-konva/blob/3e23c8a/projects/ngx-konva/src/lib/common/ko-nestable.ts#L13)
 
 ___
 
@@ -120,7 +120,7 @@ ___
 
 #### Defined in
 
-[lib/components/ko-layer.component.ts:22](https://github.com/giovanni-bertoncelli/ngx-konva/blob/bb48827/projects/ngx-konva/src/lib/components/ko-layer.component.ts#L22)
+[lib/components/ko-layer.component.ts:22](https://github.com/giovanni-bertoncelli/ngx-konva/blob/3e23c8a/projects/ngx-konva/src/lib/components/ko-layer.component.ts#L22)
 
 ___
 
@@ -130,7 +130,7 @@ ___
 
 #### Defined in
 
-[lib/components/ko-layer.component.ts:35](https://github.com/giovanni-bertoncelli/ngx-konva/blob/bb48827/projects/ngx-konva/src/lib/components/ko-layer.component.ts#L35)
+[lib/components/ko-layer.component.ts:35](https://github.com/giovanni-bertoncelli/ngx-konva/blob/3e23c8a/projects/ngx-konva/src/lib/components/ko-layer.component.ts#L35)
 
 ___
 
@@ -140,7 +140,7 @@ ___
 
 #### Defined in
 
-[lib/components/ko-layer.component.ts:23](https://github.com/giovanni-bertoncelli/ngx-konva/blob/bb48827/projects/ngx-konva/src/lib/components/ko-layer.component.ts#L23)
+[lib/components/ko-layer.component.ts:23](https://github.com/giovanni-bertoncelli/ngx-konva/blob/3e23c8a/projects/ngx-konva/src/lib/components/ko-layer.component.ts#L23)
 
 ## Accessors
 
@@ -160,7 +160,7 @@ ___
 
 #### Defined in
 
-[lib/components/ko-layer.component.ts:28](https://github.com/giovanni-bertoncelli/ngx-konva/blob/bb48827/projects/ngx-konva/src/lib/components/ko-layer.component.ts#L28)
+[lib/components/ko-layer.component.ts:28](https://github.com/giovanni-bertoncelli/ngx-konva/blob/3e23c8a/projects/ngx-konva/src/lib/components/ko-layer.component.ts#L28)
 
 ## Methods
 
@@ -178,7 +178,7 @@ KoNestable.getKoItem
 
 #### Defined in
 
-[lib/components/ko-layer.component.ts:64](https://github.com/giovanni-bertoncelli/ngx-konva/blob/bb48827/projects/ngx-konva/src/lib/components/ko-layer.component.ts#L64)
+[lib/components/ko-layer.component.ts:64](https://github.com/giovanni-bertoncelli/ngx-konva/blob/3e23c8a/projects/ngx-konva/src/lib/components/ko-layer.component.ts#L64)
 
 ___
 
@@ -196,7 +196,7 @@ AfterViewInit.ngAfterViewInit
 
 #### Defined in
 
-[lib/components/ko-layer.component.ts:52](https://github.com/giovanni-bertoncelli/ngx-konva/blob/bb48827/projects/ngx-konva/src/lib/components/ko-layer.component.ts#L52)
+[lib/components/ko-layer.component.ts:52](https://github.com/giovanni-bertoncelli/ngx-konva/blob/3e23c8a/projects/ngx-konva/src/lib/components/ko-layer.component.ts#L52)
 
 ___
 
@@ -218,7 +218,7 @@ KoNestable.ngOnDestroy
 
 #### Defined in
 
-[lib/components/ko-layer.component.ts:59](https://github.com/giovanni-bertoncelli/ngx-konva/blob/bb48827/projects/ngx-konva/src/lib/components/ko-layer.component.ts#L59)
+[lib/components/ko-layer.component.ts:59](https://github.com/giovanni-bertoncelli/ngx-konva/blob/3e23c8a/projects/ngx-konva/src/lib/components/ko-layer.component.ts#L59)
 
 ___
 
@@ -240,7 +240,7 @@ KoNestable.ngOnInit
 
 #### Defined in
 
-[lib/components/ko-layer.component.ts:48](https://github.com/giovanni-bertoncelli/ngx-konva/blob/bb48827/projects/ngx-konva/src/lib/components/ko-layer.component.ts#L48)
+[lib/components/ko-layer.component.ts:48](https://github.com/giovanni-bertoncelli/ngx-konva/blob/3e23c8a/projects/ngx-konva/src/lib/components/ko-layer.component.ts#L48)
 
 ___
 
@@ -254,7 +254,7 @@ ___
 
 #### Defined in
 
-[lib/components/ko-layer.component.ts:75](https://github.com/giovanni-bertoncelli/ngx-konva/blob/bb48827/projects/ngx-konva/src/lib/components/ko-layer.component.ts#L75)
+[lib/components/ko-layer.component.ts:75](https://github.com/giovanni-bertoncelli/ngx-konva/blob/3e23c8a/projects/ngx-konva/src/lib/components/ko-layer.component.ts#L75)
 
 ___
 
@@ -268,4 +268,4 @@ ___
 
 #### Defined in
 
-[lib/components/ko-layer.component.ts:68](https://github.com/giovanni-bertoncelli/ngx-konva/blob/bb48827/projects/ngx-konva/src/lib/components/ko-layer.component.ts#L68)
+[lib/components/ko-layer.component.ts:68](https://github.com/giovanni-bertoncelli/ngx-konva/blob/3e23c8a/projects/ngx-konva/src/lib/components/ko-layer.component.ts#L68)
