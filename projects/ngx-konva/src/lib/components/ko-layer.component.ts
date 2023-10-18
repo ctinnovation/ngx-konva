@@ -83,6 +83,7 @@ export class KoLayerComponent extends KoNestable implements OnInit, OnDestroy, A
       const koItem = child.getKoItem();
       this.layer.add(koItem);
       this.onNewItem.emit(koItem);
+      koItem.fire('ko:added', this.layer);
     }
 
     this.layer.draw();

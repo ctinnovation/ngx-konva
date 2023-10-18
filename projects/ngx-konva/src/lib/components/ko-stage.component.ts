@@ -86,6 +86,7 @@ export class KoStageComponent implements OnInit, OnDestroy, AfterViewInit {
       }
 
       this.stage.add(koItem);
+      koItem.fire('ko:added', this.stage);
       this.onNewLayer.emit(koItem);
     }
     this.stage.draw();
