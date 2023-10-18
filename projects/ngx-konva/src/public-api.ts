@@ -5,6 +5,7 @@
 export * from './lib/common';
 export * from './lib/components/ko-group.component';
 export * from './lib/components/ko-image.component';
+export * from './lib/components/ko-label.component';
 export * from './lib/components/ko-layer.component';
 export * from './lib/components/ko-shape.component';
 export * from './lib/components/ko-stage-autoscale.component';

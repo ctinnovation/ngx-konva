@@ -11,6 +11,7 @@ Supported Angular version: `16`.
 - [Example usage](#example-usage)
 - [Stage autoscale](#stage-autoscale)
 - [Images](#images)
+- [Labels](#labels)
 - [Tween (transitions)](#tween-transitions)
 - [Events handling](#events-handling)
   - [KoHoverDirective](#kohoverdirective)
@@ -45,7 +46,7 @@ npm install ngx-konva konva
 | [`Group`](https://konvajs.org/api/Konva.Group.html#main)                   | ✅      | `ko-group`                 |
 | [`Ring`](https://konvajs.org/api/Konva.Ring.html#main)                     | ❌      |                            |
 | [`Image`](https://konvajs.org/api/Konva.Image.html#main)                   | ✅      | `ko-image`                 |
-| [`Label`](https://konvajs.org/api/Konva.Label.html#main)                   | ❌      |                            |
+| [`Label`](https://konvajs.org/api/Konva.Label.html#main)                   | ✅      | `ko-label`                 |
 | [`Path`](https://konvajs.org/api/Konva.Path.html#main)                     | ❌      |                            |
 | [`Sprite`](https://konvajs.org/api/Konva.Sprite.html#main)                 | ❌      |                            |
 | [`Star`](https://konvajs.org/api/Konva.Star.html#main)                     | ❌      |                            |
@@ -115,6 +116,39 @@ In order to simplify the [Konva Image API](https://konvajs.org/docs/shapes/Image
         </ko-image>
       </ko-layer>
 </ko-stage>
+```
+
+## Labels
+
+You can use `ko-label` to render a [Label](https://konvajs.org/docs/shapes/Label.html) provided with a text and a tag. You can disable both of them by using the @Inputs `textDisabled` and `tagDisabled`, and you can change the configuration of each component by updating the @Input `config` for the Label, `textConfig` for the Text and `tagConfig` for the Tag.
+
+```html
+<ko-label [config]="{       
+          x: 500,
+          y: 500,
+          opacity: 0.75,
+          zIndex: 10
+        }" 
+        [tagConfig]="{
+          fill: 'black',
+          pointerDirection: 'down',
+          pointerWidth: 10,
+          pointerHeight: 10,
+          lineJoin: 'round',
+          shadowColor: 'black',
+          shadowBlur: 10,
+          shadowOffsetX: 10,
+          shadowOffsetY: 10,
+          shadowOpacity: 0.5,
+        }" 
+        [textConfig]="{
+          text: 'Tooltip pointing down',
+          fontFamily: 'Calibri',
+          fontSize: 18,
+          padding: 5,
+          fill: 'red',
+        }">
+</ko-label>
 ```
 
 ## Tween (transitions)

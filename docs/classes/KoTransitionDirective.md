@@ -48,7 +48,7 @@
 
 #### Defined in
 
-[lib/directives/ko-transition.directive.ts:41](https://github.com/giovanni-bertoncelli/ngx-konva/blob/66db3c0/projects/ngx-konva/src/lib/directives/ko-transition.directive.ts#L41)
+[lib/directives/ko-transition.directive.ts:41](https://github.com/giovanni-bertoncelli/ngx-konva/blob/bb48827/projects/ngx-konva/src/lib/directives/ko-transition.directive.ts#L41)
 
 ## Properties
 
@@ -58,7 +58,7 @@
 
 #### Defined in
 
-[lib/directives/ko-transition.directive.ts:16](https://github.com/giovanni-bertoncelli/ngx-konva/blob/66db3c0/projects/ngx-konva/src/lib/directives/ko-transition.directive.ts#L16)
+[lib/directives/ko-transition.directive.ts:16](https://github.com/giovanni-bertoncelli/ngx-konva/blob/bb48827/projects/ngx-konva/src/lib/directives/ko-transition.directive.ts#L16)
 
 ___
 
@@ -68,7 +68,7 @@ ___
 
 #### Defined in
 
-[lib/directives/ko-transition.directive.ts:14](https://github.com/giovanni-bertoncelli/ngx-konva/blob/66db3c0/projects/ngx-konva/src/lib/directives/ko-transition.directive.ts#L14)
+[lib/directives/ko-transition.directive.ts:14](https://github.com/giovanni-bertoncelli/ngx-konva/blob/bb48827/projects/ngx-konva/src/lib/directives/ko-transition.directive.ts#L14)
 
 ___
 
@@ -78,7 +78,7 @@ ___
 
 #### Defined in
 
-[lib/directives/ko-transition.directive.ts:13](https://github.com/giovanni-bertoncelli/ngx-konva/blob/66db3c0/projects/ngx-konva/src/lib/directives/ko-transition.directive.ts#L13)
+[lib/directives/ko-transition.directive.ts:13](https://github.com/giovanni-bertoncelli/ngx-konva/blob/bb48827/projects/ngx-konva/src/lib/directives/ko-transition.directive.ts#L13)
 
 ___
 
@@ -88,7 +88,7 @@ ___
 
 #### Defined in
 
-[lib/directives/ko-transition.directive.ts:26](https://github.com/giovanni-bertoncelli/ngx-konva/blob/66db3c0/projects/ngx-konva/src/lib/directives/ko-transition.directive.ts#L26)
+[lib/directives/ko-transition.directive.ts:26](https://github.com/giovanni-bertoncelli/ngx-konva/blob/bb48827/projects/ngx-konva/src/lib/directives/ko-transition.directive.ts#L26)
 
 ___
 
@@ -98,7 +98,7 @@ ___
 
 #### Defined in
 
-[lib/directives/ko-transition.directive.ts:43](https://github.com/giovanni-bertoncelli/ngx-konva/blob/66db3c0/projects/ngx-konva/src/lib/directives/ko-transition.directive.ts#L43)
+[lib/directives/ko-transition.directive.ts:43](https://github.com/giovanni-bertoncelli/ngx-konva/blob/bb48827/projects/ngx-konva/src/lib/directives/ko-transition.directive.ts#L43)
 
 ___
 
@@ -108,7 +108,7 @@ ___
 
 #### Defined in
 
-[lib/directives/ko-transition.directive.ts:39](https://github.com/giovanni-bertoncelli/ngx-konva/blob/66db3c0/projects/ngx-konva/src/lib/directives/ko-transition.directive.ts#L39)
+[lib/directives/ko-transition.directive.ts:39](https://github.com/giovanni-bertoncelli/ngx-konva/blob/bb48827/projects/ngx-konva/src/lib/directives/ko-transition.directive.ts#L39)
 
 ___
 
@@ -118,7 +118,7 @@ ___
 
 #### Defined in
 
-[lib/directives/ko-transition.directive.ts:37](https://github.com/giovanni-bertoncelli/ngx-konva/blob/66db3c0/projects/ngx-konva/src/lib/directives/ko-transition.directive.ts#L37)
+[lib/directives/ko-transition.directive.ts:37](https://github.com/giovanni-bertoncelli/ngx-konva/blob/bb48827/projects/ngx-konva/src/lib/directives/ko-transition.directive.ts#L37)
 
 ## Accessors
 
@@ -138,7 +138,7 @@ ___
 
 #### Defined in
 
-[lib/directives/ko-transition.directive.ts:29](https://github.com/giovanni-bertoncelli/ngx-konva/blob/66db3c0/projects/ngx-konva/src/lib/directives/ko-transition.directive.ts#L29)
+[lib/directives/ko-transition.directive.ts:29](https://github.com/giovanni-bertoncelli/ngx-konva/blob/bb48827/projects/ngx-konva/src/lib/directives/ko-transition.directive.ts#L29)
 
 ## Methods
 
@@ -156,7 +156,7 @@ OnDestroy.ngOnDestroy
 
 #### Defined in
 
-[lib/directives/ko-transition.directive.ts:70](https://github.com/giovanni-bertoncelli/ngx-konva/blob/66db3c0/projects/ngx-konva/src/lib/directives/ko-transition.directive.ts#L70)
+[lib/directives/ko-transition.directive.ts:70](https://github.com/giovanni-bertoncelli/ngx-konva/blob/bb48827/projects/ngx-konva/src/lib/directives/ko-transition.directive.ts#L70)
 
 ___
 
@@ -174,7 +174,7 @@ OnInit.ngOnInit
 
 #### Defined in
 
-[lib/directives/ko-transition.directive.ts:67](https://github.com/giovanni-bertoncelli/ngx-konva/blob/66db3c0/projects/ngx-konva/src/lib/directives/ko-transition.directive.ts#L67)
+[lib/directives/ko-transition.directive.ts:67](https://github.com/giovanni-bertoncelli/ngx-konva/blob/bb48827/projects/ngx-konva/src/lib/directives/ko-transition.directive.ts#L67)
 
 ___
 
@@ -188,4 +188,4 @@ ___
 
 #### Defined in
 
-[lib/directives/ko-transition.directive.ts:78](https://github.com/giovanni-bertoncelli/ngx-konva/blob/66db3c0/projects/ngx-konva/src/lib/directives/ko-transition.directive.ts#L78)
+[lib/directives/ko-transition.directive.ts:78](https://github.com/giovanni-bertoncelli/ngx-konva/blob/bb48827/projects/ngx-konva/src/lib/directives/ko-transition.directive.ts#L78)
