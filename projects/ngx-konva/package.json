@@ -1,6 +1,9 @@
 {
   "name": "ngx-konva",
-  "version": "16.0.1",
+  "version": "16.0.2",
+  "repository": {
+    "url": "https://github.com/giovanni-bertoncelli/ngx-konva"
+  },
   "peerDependencies": {
     "@angular/common": "^16.2.0",
     "@angular/core": "^16.2.0",

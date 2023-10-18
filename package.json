@@ -1,6 +1,6 @@
 {
   "name": "ngx-konva-workspace",
-  "version": "16.0.1",
+  "version": "16.0.2",
   "keywords": [
     "konva",
     "angular",
@@ -10,6 +10,9 @@
     "2d",
     "graphics"
   ],
+  "repository": {
+    "url": "https://github.com/giovanni-bertoncelli/ngx-konva"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
