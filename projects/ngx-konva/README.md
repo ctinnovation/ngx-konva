@@ -22,7 +22,7 @@ Supported Angular version: `16`.
 - [Inner events](#inner-events)
   - [ko-layer](#ko-layer)
   - [ko-stage](#ko-stage)
-  - [ko-shape](#ko-shape)
+  - [ko-nestable](#ko-nestable)
 - [How to contribute](#how-to-contribute)
   - [Event listeners](#event-listeners)
 - [Full API Documentation](#full-api-documentation)
@@ -278,7 +278,7 @@ It allows to capture all transform events. [Reference](https://konvajs.org/docs/
 `ko-layers` provides you these output:
 
 - `(onNewItem)`: when a new `Shape` or `Layer` is added to the current layer. Argument: the `Shape | Layer` added.
-- `(beforeUpdate)` `(afterUpdate)`: called before/after the layers gets updated. Argument: `Layer`. Useful to use the underlying KonvaJS API on the passed argument.
+- `(beforeUpdate)` `(afterUpdate)`: called before/after the layers gets updated. Argument: `Stage`. Useful to use the underlying KonvaJS API on the passed argument.
 
 ### ko-stage
 
@@ -287,11 +287,11 @@ It allows to capture all transform events. [Reference](https://konvajs.org/docs/
 - `(onNewLayer)`: when a new `Layer` is added to the current layer. Argument: the `Layer` added.
 - `(beforeUpdate)` `(afterUpdate)`: called before/after the layers gets updated. Argument: `Layer`. Useful to use the underlying KonvaJS API on the passed argument.
 
-### ko-shape
+### ko-nestable
 
-`ko-shape` (all basic shapes) provides you these output:
+`ko-nestable` (all basic shapes) provides you these output:
 
-- `(beforeUpdate)` `(afterUpdate)`: called before/after the layers gets updated. Argument: `Layer`. Useful to use the underlying KonvaJS API on the passed argument and modifying directly the Konva Node.
+- `(beforeUpdate)` `(afterUpdate)`: called before/after the layers gets updated. Argument: `KoNestableNode`. Useful to use the underlying KonvaJS API on the passed argument and modifying directly the Konva Node.
 
 ## How to contribute
 
