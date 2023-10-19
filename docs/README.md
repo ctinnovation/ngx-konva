@@ -15,7 +15,7 @@ Supported Angular version: `16`.
 - [Basic shapes](#basic-shapes)
 - [Images](#images)
 - [Labels](#labels)
-- [Tween (transitions)](#tween-transitions)
+- [Transitions (Konva.Tween)](#transitions-konvatween)
 - [Events handling](#events-handling)
   - [KoHoverDirective](#kohoverdirective)
   - [KoPointerDirective](#kopointerdirective)
@@ -59,30 +59,4 @@ npm install ngx-konva konva
 | [`Arrow`](https://konvajs.org/api/Konva.Arrow.html#main)                     | ✅      | `ko-arrow`                                                                    |
 | [`Shape`](https://konvajs.org/api/Konva.Shape.html#main)                     | ✅      | `ko-shape` (for [custom shapes](https://konvajs.org/docs/shapes/Custom.html)) |
 | [`Arc`](https://konvajs.org/api/Konva.Arc.html#main)                         | ✅      | `ko-arc`                                                                      |
-| [`Tween`](https://konvajs.org/api/Konva.Tween.html#main)                     | ✅      | `koTransition` (directive)                                                    |
-| [`Filters`](https://konvajs.org/docs/filters/Blur.html)                      | ❌      |                                                                               |
-| [`Animations`](https://konvajs.org/docs/animations/Create_an_Animation.html) | ❌      |                                                                               |
-
-## Example usage
-
-Each element respect the hierarchy described here: https://konvajs.org/docs/overview.html.
-
-```html
-<ko-stage [config]="{width: 100, height: 100}">
-      <ko-layer>
-        <ko-circle [config]="{ 
-          radius: 120,
-          fill: 'blue',
-          stroke: 'black',
-          strokeWidth: 4,
-          x: 0,
-          y: 0
-        }"></ko-circle>
-        <ko-image [config]="{x: 100, y: 100}"
-          src="https://upload.wikimedia.org/wikipedia/it/0/08/Dartfener.jpg">
-        </ko-image>
-      </ko-layer>
-</ko-stage>
-```
-
-Each item has an
+| [`Tween`](https://konvajs.org/api/Konva.Tween.html#main)                     | ✅      | `transitionWith`

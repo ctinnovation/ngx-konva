@@ -4,7 +4,7 @@
 
 ## Hierarchy
 
-- `KoNestable`
+- [`KoNestable`](KoNestable.md)
 
   ↳ **`KoLayerComponent`**
 
@@ -23,6 +23,8 @@
 ### Properties
 
 - [\_config](KoLayerComponent.md#_config)
+- [\_tween](KoLayerComponent.md#_tween)
+- [\_tweenTimeout](KoLayerComponent.md#_tweentimeout)
 - [afterUpdate](KoLayerComponent.md#afterupdate)
 - [beforeUpdate](KoLayerComponent.md#beforeupdate)
 - [children](KoLayerComponent.md#children)
@@ -30,6 +32,11 @@
 - [layer](KoLayerComponent.md#layer)
 - [onNewItem](KoLayerComponent.md#onnewitem)
 - [sub](KoLayerComponent.md#sub)
+- [transitionDelay](KoLayerComponent.md#transitiondelay)
+- [transitionOnFinish](KoLayerComponent.md#transitiononfinish)
+- [transitionOnUpdate](KoLayerComponent.md#transitiononupdate)
+- [transitionWith](KoLayerComponent.md#transitionwith)
+- [Easings](KoLayerComponent.md#easings)
 
 ### Accessors
 
@@ -41,6 +48,7 @@
 - [ngAfterViewInit](KoLayerComponent.md#ngafterviewinit)
 - [ngOnDestroy](KoLayerComponent.md#ngondestroy)
 - [ngOnInit](KoLayerComponent.md#ngoninit)
+- [setConfig](KoLayerComponent.md#setconfig)
 - [updateChildren](KoLayerComponent.md#updatechildren)
 - [updateLayer](KoLayerComponent.md#updatelayer)
 
@@ -52,21 +60,49 @@
 
 #### Overrides
 
-KoNestable.constructor
+[KoNestable](KoNestable.md).[constructor](KoNestable.md#constructor)
 
 #### Defined in
 
-[lib/components/ko-layer.component.ts:43](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/components/ko-layer.component.ts#L43)
+[projects/ngx-konva/src/lib/components/ko-layer.component.ts:41](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/components/ko-layer.component.ts#L41)
 
 ## Properties
 
 ### \_config
 
-• `Private` **\_config**: `LayerConfig` = `{}`
+• `Private` **\_config**: [`KoNestableConfig`](../modules.md#konestableconfig) = `{}`
 
 #### Defined in
 
-[lib/components/ko-layer.component.ts:25](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/components/ko-layer.component.ts#L25)
+[projects/ngx-konva/src/lib/components/ko-layer.component.ts:23](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/components/ko-layer.component.ts#L23)
+
+___
+
+### \_tween
+
+• `Protected` `Optional` **\_tween**: `Tween`
+
+#### Inherited from
+
+[KoNestable](KoNestable.md).[_tween](KoNestable.md#_tween)
+
+#### Defined in
+
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:33](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/common/ko-nestable.ts#L33)
+
+___
+
+### \_tweenTimeout
+
+• `Protected` `Optional` **\_tweenTimeout**: `any`
+
+#### Inherited from
+
+[KoNestable](KoNestable.md).[_tweenTimeout](KoNestable.md#_tweentimeout)
+
+#### Defined in
+
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:34](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/common/ko-nestable.ts#L34)
 
 ___
 
@@ -76,7 +112,7 @@ ___
 
 #### Defined in
 
-[lib/components/ko-layer.component.ts:41](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/components/ko-layer.component.ts#L41)
+[projects/ngx-konva/src/lib/components/ko-layer.component.ts:39](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/components/ko-layer.component.ts#L39)
 
 ___
 
@@ -86,17 +122,17 @@ ___
 
 #### Defined in
 
-[lib/components/ko-layer.component.ts:38](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/components/ko-layer.component.ts#L38)
+[projects/ngx-konva/src/lib/components/ko-layer.component.ts:36](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/components/ko-layer.component.ts#L36)
 
 ___
 
 ### children
 
-• **children**: `QueryList`<`KoNestable`\>
+• **children**: `QueryList`<[`KoNestable`](KoNestable.md)\>
 
 #### Defined in
 
-[lib/components/ko-layer.component.ts:20](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/components/ko-layer.component.ts#L20)
+[projects/ngx-konva/src/lib/components/ko-layer.component.ts:19](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/components/ko-layer.component.ts#L19)
 
 ___
 
@@ -106,11 +142,11 @@ ___
 
 #### Inherited from
 
-KoNestable.id
+[KoNestable](KoNestable.md).[id](KoNestable.md#id)
 
 #### Defined in
 
-[lib/common/ko-nestable.ts:13](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/common/ko-nestable.ts#L13)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:17](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/common/ko-nestable.ts#L17)
 
 ___
 
@@ -120,7 +156,7 @@ ___
 
 #### Defined in
 
-[lib/components/ko-layer.component.ts:22](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/components/ko-layer.component.ts#L22)
+[projects/ngx-konva/src/lib/components/ko-layer.component.ts:21](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/components/ko-layer.component.ts#L21)
 
 ___
 
@@ -130,17 +166,112 @@ ___
 
 #### Defined in
 
-[lib/components/ko-layer.component.ts:35](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/components/ko-layer.component.ts#L35)
+[projects/ngx-konva/src/lib/components/ko-layer.component.ts:33](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/components/ko-layer.component.ts#L33)
 
 ___
 
 ### sub
 
-• **sub**: `Subscription`
+• `Protected` **sub**: `Subscription`
+
+#### Inherited from
+
+[KoNestable](KoNestable.md).[sub](KoNestable.md#sub)
 
 #### Defined in
 
-[lib/components/ko-layer.component.ts:23](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/components/ko-layer.component.ts#L23)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:31](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/common/ko-nestable.ts#L31)
+
+___
+
+### transitionDelay
+
+• **transitionDelay**: `number` = `0`
+
+#### Inherited from
+
+[KoNestable](KoNestable.md).[transitionDelay](KoNestable.md#transitiondelay)
+
+#### Defined in
+
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:23](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/common/ko-nestable.ts#L23)
+
+___
+
+### transitionOnFinish
+
+• **transitionOnFinish**: `EventEmitter`<[`KoNestableNode`](../modules.md#konestablenode)\>
+
+#### Inherited from
+
+[KoNestable](KoNestable.md).[transitionOnFinish](KoNestable.md#transitiononfinish)
+
+#### Defined in
+
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:29](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/common/ko-nestable.ts#L29)
+
+___
+
+### transitionOnUpdate
+
+• **transitionOnUpdate**: `EventEmitter`<[`KoNestableNode`](../modules.md#konestablenode)\>
+
+#### Inherited from
+
+[KoNestable](KoNestable.md).[transitionOnUpdate](KoNestable.md#transitiononupdate)
+
+#### Defined in
+
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:26](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/common/ko-nestable.ts#L26)
+
+___
+
+### transitionWith
+
+• `Optional` **transitionWith**: `Omit`<`TweenConfig`, ``"onFinish"`` \| ``"onUpdate"`` \| ``"node"``\>
+
+#### Inherited from
+
+[KoNestable](KoNestable.md).[transitionWith](KoNestable.md#transitionwith)
+
+#### Defined in
+
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:20](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/common/ko-nestable.ts#L20)
+
+___
+
+### Easings
+
+▪ `Static` **Easings**: `Object` = `Easings`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `BackEaseIn` | (`t`: `any`, `b`: `any`, `c`: `any`, `d`: `any`) => `any` |
+| `BackEaseInOut` | (`t`: `any`, `b`: `any`, `c`: `any`, `d`: `any`) => `any` |
+| `BackEaseOut` | (`t`: `any`, `b`: `any`, `c`: `any`, `d`: `any`) => `any` |
+| `BounceEaseIn` | (`t`: `any`, `b`: `any`, `c`: `any`, `d`: `any`) => `any` |
+| `BounceEaseInOut` | (`t`: `any`, `b`: `any`, `c`: `any`, `d`: `any`) => `any` |
+| `BounceEaseOut` | (`t`: `any`, `b`: `any`, `c`: `any`, `d`: `any`) => `any` |
+| `EaseIn` | (`t`: `any`, `b`: `any`, `c`: `any`, `d`: `any`) => `any` |
+| `EaseInOut` | (`t`: `any`, `b`: `any`, `c`: `any`, `d`: `any`) => `any` |
+| `EaseOut` | (`t`: `any`, `b`: `any`, `c`: `any`, `d`: `any`) => `any` |
+| `ElasticEaseIn` | (`t`: `any`, `b`: `any`, `c`: `any`, `d`: `any`, `a`: `any`, `p`: `any`) => `any` |
+| `ElasticEaseInOut` | (`t`: `any`, `b`: `any`, `c`: `any`, `d`: `any`, `a`: `any`, `p`: `any`) => `any` |
+| `ElasticEaseOut` | (`t`: `any`, `b`: `any`, `c`: `any`, `d`: `any`, `a`: `any`, `p`: `any`) => `any` |
+| `Linear` | (`t`: `any`, `b`: `any`, `c`: `any`, `d`: `any`) => `any` |
+| `StrongEaseIn` | (`t`: `any`, `b`: `any`, `c`: `any`, `d`: `any`) => `any` |
+| `StrongEaseInOut` | (`t`: `any`, `b`: `any`, `c`: `any`, `d`: `any`) => `any` |
+| `StrongEaseOut` | (`t`: `any`, `b`: `any`, `c`: `any`, `d`: `any`) => `any` |
+
+#### Inherited from
+
+[KoNestable](KoNestable.md).[Easings](KoNestable.md#easings)
+
+#### Defined in
+
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:15](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/common/ko-nestable.ts#L15)
 
 ## Accessors
 
@@ -152,7 +283,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `c` | `LayerConfig` |
+| `c` | [`KoNestableConfig`](../modules.md#konestableconfig) |
 
 #### Returns
 
@@ -160,7 +291,7 @@ ___
 
 #### Defined in
 
-[lib/components/ko-layer.component.ts:28](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/components/ko-layer.component.ts#L28)
+[projects/ngx-konva/src/lib/components/ko-layer.component.ts:26](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/components/ko-layer.component.ts#L26)
 
 ## Methods
 
@@ -174,11 +305,11 @@ ___
 
 #### Overrides
 
-KoNestable.getKoItem
+[KoNestable](KoNestable.md).[getKoItem](KoNestable.md#getkoitem)
 
 #### Defined in
 
-[lib/components/ko-layer.component.ts:64](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/components/ko-layer.component.ts#L64)
+[projects/ngx-konva/src/lib/components/ko-layer.component.ts:57](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/components/ko-layer.component.ts#L57)
 
 ___
 
@@ -196,7 +327,7 @@ AfterViewInit.ngAfterViewInit
 
 #### Defined in
 
-[lib/components/ko-layer.component.ts:52](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/components/ko-layer.component.ts#L52)
+[projects/ngx-konva/src/lib/components/ko-layer.component.ts:50](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/components/ko-layer.component.ts#L50)
 
 ___
 
@@ -212,13 +343,13 @@ ___
 
 OnDestroy.ngOnDestroy
 
-#### Overrides
+#### Inherited from
 
-KoNestable.ngOnDestroy
+[KoNestable](KoNestable.md).[ngOnDestroy](KoNestable.md#ngondestroy)
 
 #### Defined in
 
-[lib/components/ko-layer.component.ts:59](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/components/ko-layer.component.ts#L59)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:43](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/common/ko-nestable.ts#L43)
 
 ___
 
@@ -236,11 +367,35 @@ OnInit.ngOnInit
 
 #### Overrides
 
-KoNestable.ngOnInit
+[KoNestable](KoNestable.md).[ngOnInit](KoNestable.md#ngoninit)
 
 #### Defined in
 
-[lib/components/ko-layer.component.ts:48](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/components/ko-layer.component.ts#L48)
+[projects/ngx-konva/src/lib/components/ko-layer.component.ts:46](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/components/ko-layer.component.ts#L46)
+
+___
+
+### setConfig
+
+▸ **setConfig**(`config`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `config` | [`KoNestableConfig`](../modules.md#konestableconfig) |
+
+#### Returns
+
+`void`
+
+#### Inherited from
+
+[KoNestable](KoNestable.md).[setConfig](KoNestable.md#setconfig)
+
+#### Defined in
+
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:48](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/common/ko-nestable.ts#L48)
 
 ___
 
@@ -254,7 +409,7 @@ ___
 
 #### Defined in
 
-[lib/components/ko-layer.component.ts:75](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/components/ko-layer.component.ts#L75)
+[projects/ngx-konva/src/lib/components/ko-layer.component.ts:68](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/components/ko-layer.component.ts#L68)
 
 ___
 
@@ -268,4 +423,4 @@ ___
 
 #### Defined in
 
-[lib/components/ko-layer.component.ts:68](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/components/ko-layer.component.ts#L68)
+[projects/ngx-konva/src/lib/components/ko-layer.component.ts:61](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/components/ko-layer.component.ts#L61)

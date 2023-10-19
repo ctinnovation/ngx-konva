@@ -65,11 +65,11 @@
 
 | Name | Type |
 | :------ | :------ |
-| `nestable` | `KoNestable` |
+| `nestable` | [`KoNestable`](KoNestable.md) |
 
 #### Defined in
 
-[lib/directives/ko-pointer.directive.ts:56](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L56)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:56](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L56)
 
 ## Properties
 
@@ -79,117 +79,117 @@
 
 #### Defined in
 
-[lib/directives/ko-pointer.directive.ts:40](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L40)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:40](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L40)
 
 ___
 
 ### koPointerCancel
 
-• **koPointerCancel**: `EventEmitter`<`KoNestableNode`\>
+• **koPointerCancel**: `EventEmitter`<[`KoNestableNode`](../modules.md#konestablenode)\>
 
 #### Defined in
 
-[lib/directives/ko-pointer.directive.ts:19](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L19)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:19](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L19)
 
 ___
 
 ### koPointerClick
 
-• **koPointerClick**: `EventEmitter`<`KoNestableNode`\>
+• **koPointerClick**: `EventEmitter`<[`KoNestableNode`](../modules.md#konestablenode)\>
 
 #### Defined in
 
-[lib/directives/ko-pointer.directive.ts:34](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L34)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:34](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L34)
 
 ___
 
 ### koPointerDblClick
 
-• **koPointerDblClick**: `EventEmitter`<`KoNestableNode`\>
+• **koPointerDblClick**: `EventEmitter`<[`KoNestableNode`](../modules.md#konestablenode)\>
 
 #### Defined in
 
-[lib/directives/ko-pointer.directive.ts:37](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L37)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:37](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L37)
 
 ___
 
 ### koPointerDown
 
-• **koPointerDown**: `EventEmitter`<`KoNestableNode`\>
+• **koPointerDown**: `EventEmitter`<[`KoNestableNode`](../modules.md#konestablenode)\>
 
 #### Defined in
 
-[lib/directives/ko-pointer.directive.ts:10](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L10)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:10](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L10)
 
 ___
 
 ### koPointerEnter
 
-• **koPointerEnter**: `EventEmitter`<`KoNestableNode`\>
+• **koPointerEnter**: `EventEmitter`<[`KoNestableNode`](../modules.md#konestablenode)\>
 
 #### Defined in
 
-[lib/directives/ko-pointer.directive.ts:25](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L25)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:25](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L25)
 
 ___
 
 ### koPointerLeave
 
-• **koPointerLeave**: `EventEmitter`<`KoNestableNode`\>
+• **koPointerLeave**: `EventEmitter`<[`KoNestableNode`](../modules.md#konestablenode)\>
 
 #### Defined in
 
-[lib/directives/ko-pointer.directive.ts:31](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L31)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:31](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L31)
 
 ___
 
 ### koPointerMove
 
-• **koPointerMove**: `EventEmitter`<`KoNestableNode`\>
+• **koPointerMove**: `EventEmitter`<[`KoNestableNode`](../modules.md#konestablenode)\>
 
 #### Defined in
 
-[lib/directives/ko-pointer.directive.ts:13](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L13)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:13](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L13)
 
 ___
 
 ### koPointerOut
 
-• **koPointerOut**: `EventEmitter`<`KoNestableNode`\>
+• **koPointerOut**: `EventEmitter`<[`KoNestableNode`](../modules.md#konestablenode)\>
 
 #### Defined in
 
-[lib/directives/ko-pointer.directive.ts:28](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L28)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:28](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L28)
 
 ___
 
 ### koPointerOver
 
-• **koPointerOver**: `EventEmitter`<`KoNestableNode`\>
+• **koPointerOver**: `EventEmitter`<[`KoNestableNode`](../modules.md#konestablenode)\>
 
 #### Defined in
 
-[lib/directives/ko-pointer.directive.ts:22](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L22)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:22](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L22)
 
 ___
 
 ### koPointerUp
 
-• **koPointerUp**: `EventEmitter`<`KoNestableNode`\>
+• **koPointerUp**: `EventEmitter`<[`KoNestableNode`](../modules.md#konestablenode)\>
 
 #### Defined in
 
-[lib/directives/ko-pointer.directive.ts:16](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L16)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:16](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L16)
 
 ___
 
 ### node
 
-• `Private` **node**: `KoNestableNode`
+• `Private` **node**: [`KoNestableNode`](../modules.md#konestablenode)
 
 #### Defined in
 
-[lib/directives/ko-pointer.directive.ts:42](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L42)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:42](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L42)
 
 ___
 
@@ -207,7 +207,7 @@ ___
 
 #### Defined in
 
-[lib/directives/ko-pointer.directive.ts:47](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L47)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:47](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L47)
 
 ___
 
@@ -225,7 +225,7 @@ ___
 
 #### Defined in
 
-[lib/directives/ko-pointer.directive.ts:52](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L52)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:52](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L52)
 
 ___
 
@@ -243,7 +243,7 @@ ___
 
 #### Defined in
 
-[lib/directives/ko-pointer.directive.ts:53](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L53)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:53](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L53)
 
 ___
 
@@ -261,7 +261,7 @@ ___
 
 #### Defined in
 
-[lib/directives/ko-pointer.directive.ts:44](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L44)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:44](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L44)
 
 ___
 
@@ -279,7 +279,7 @@ ___
 
 #### Defined in
 
-[lib/directives/ko-pointer.directive.ts:49](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L49)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:49](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L49)
 
 ___
 
@@ -297,7 +297,7 @@ ___
 
 #### Defined in
 
-[lib/directives/ko-pointer.directive.ts:51](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L51)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:51](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L51)
 
 ___
 
@@ -315,7 +315,7 @@ ___
 
 #### Defined in
 
-[lib/directives/ko-pointer.directive.ts:45](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L45)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:45](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L45)
 
 ___
 
@@ -333,7 +333,7 @@ ___
 
 #### Defined in
 
-[lib/directives/ko-pointer.directive.ts:50](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L50)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:50](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L50)
 
 ___
 
@@ -351,7 +351,7 @@ ___
 
 #### Defined in
 
-[lib/directives/ko-pointer.directive.ts:48](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L48)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:48](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L48)
 
 ___
 
@@ -369,7 +369,7 @@ ___
 
 #### Defined in
 
-[lib/directives/ko-pointer.directive.ts:46](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L46)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:46](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L46)
 
 ___
 
@@ -379,7 +379,7 @@ ___
 
 #### Defined in
 
-[lib/directives/ko-pointer.directive.ts:39](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L39)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:39](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L39)
 
 ## Methods
 
@@ -393,7 +393,7 @@ ___
 
 #### Defined in
 
-[lib/directives/ko-pointer.directive.ts:88](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L88)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:88](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L88)
 
 ___
 
@@ -411,7 +411,7 @@ OnDestroy.ngOnDestroy
 
 #### Defined in
 
-[lib/directives/ko-pointer.directive.ts:70](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L70)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:70](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L70)
 
 ___
 
@@ -429,7 +429,7 @@ OnInit.ngOnInit
 
 #### Defined in
 
-[lib/directives/ko-pointer.directive.ts:67](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L67)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:67](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L67)
 
 ___
 
@@ -443,7 +443,7 @@ ___
 
 #### Defined in
 
-[lib/directives/ko-pointer.directive.ts:117](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L117)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:117](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L117)
 
 ___
 
@@ -457,7 +457,7 @@ ___
 
 #### Defined in
 
-[lib/directives/ko-pointer.directive.ts:137](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L137)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:137](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L137)
 
 ___
 
@@ -471,7 +471,7 @@ ___
 
 #### Defined in
 
-[lib/directives/ko-pointer.directive.ts:141](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L141)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:141](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L141)
 
 ___
 
@@ -485,7 +485,7 @@ ___
 
 #### Defined in
 
-[lib/directives/ko-pointer.directive.ts:105](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L105)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:105](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L105)
 
 ___
 
@@ -499,7 +499,7 @@ ___
 
 #### Defined in
 
-[lib/directives/ko-pointer.directive.ts:125](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L125)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:125](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L125)
 
 ___
 
@@ -513,7 +513,7 @@ ___
 
 #### Defined in
 
-[lib/directives/ko-pointer.directive.ts:133](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L133)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:133](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L133)
 
 ___
 
@@ -527,7 +527,7 @@ ___
 
 #### Defined in
 
-[lib/directives/ko-pointer.directive.ts:109](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L109)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:109](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L109)
 
 ___
 
@@ -541,7 +541,7 @@ ___
 
 #### Defined in
 
-[lib/directives/ko-pointer.directive.ts:129](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L129)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:129](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L129)
 
 ___
 
@@ -555,7 +555,7 @@ ___
 
 #### Defined in
 
-[lib/directives/ko-pointer.directive.ts:121](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L121)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:121](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L121)
 
 ___
 
@@ -569,4 +569,4 @@ ___
 
 #### Defined in
 
-[lib/directives/ko-pointer.directive.ts:113](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L113)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:113](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L113)

@@ -3,6 +3,7 @@
  */
 
 export * from './lib/common';
+export * from './lib/common/ko-nestable';
 export * from './lib/components/ko-group.component';
 export * from './lib/components/ko-image.component';
 export * from './lib/components/ko-label.component';

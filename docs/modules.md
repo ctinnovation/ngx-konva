@@ -12,18 +12,21 @@
 - [KoImageComponent](classes/KoImageComponent.md)
 - [KoLabelComponent](classes/KoLabelComponent.md)
 - [KoLayerComponent](classes/KoLayerComponent.md)
+- [KoNestable](classes/KoNestable.md)
 - [KoPointerDirective](classes/KoPointerDirective.md)
 - [KoShapeComponent](classes/KoShapeComponent.md)
 - [KoStageAutoScaleComponent](classes/KoStageAutoScaleComponent.md)
 - [KoStageComponent](classes/KoStageComponent.md)
 - [KoTransformDirective](classes/KoTransformDirective.md)
-- [KoTransitionDirective](classes/KoTransitionDirective.md)
 - [NgxKonvaModule](classes/NgxKonvaModule.md)
 
 ### Type Aliases
 
 - [KoImageConfig](modules.md#koimageconfig)
+- [KoNestableConfig](modules.md#konestableconfig)
+- [KoNestableNode](modules.md#konestablenode)
 - [KoShape](modules.md#koshape)
+- [KoShapeConfig](modules.md#koshapeconfig)
 - [KoShapeNames](modules.md#koshapenames)
 - [KoShapeSelectors](modules.md#koshapeselectors)
 - [KoShapeType](modules.md#koshapetype)
@@ -41,7 +44,27 @@
 
 #### Defined in
 
-[lib/components/ko-image.component.ts:6](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/components/ko-image.component.ts#L6)
+[projects/ngx-konva/src/lib/components/ko-image.component.ts:6](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/components/ko-image.component.ts#L6)
+
+___
+
+### KoNestableConfig
+
+Ƭ **KoNestableConfig**: [`KoShapeConfig`](modules.md#koshapeconfig) \| `GroupConfig` \| `LayerConfig` \| `LabelConfig` & { `_skipTransition?`: `boolean`  }
+
+#### Defined in
+
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:11](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/common/ko-nestable.ts#L11)
+
+___
+
+### KoNestableNode
+
+Ƭ **KoNestableNode**: `Group` \| `Layer` \| [`KoShape`](modules.md#koshape) \| `Label`
+
+#### Defined in
+
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:10](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/common/ko-nestable.ts#L10)
 
 ___
 
@@ -51,7 +74,17 @@ ___
 
 #### Defined in
 
-[lib/common/index.ts:21](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/common/index.ts#L21)
+[projects/ngx-konva/src/lib/common/index.ts:21](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/common/index.ts#L21)
+
+___
+
+### KoShapeConfig
+
+Ƭ **KoShapeConfig**: `RectConfig` \| `CircleConfig` \| `LineConfig` \| `TextConfig` \| `RegularPolygonConfig` \| `PathConfig` \| `ArrowConfig` \| `ArcConfig` \| `StarConfig` \| `RingConfig` \| `ShapeConfig` \| `TextPathConfig` \| `EllipseConfig` \| `WedgeConfig` & { `_skipTransition?`: `boolean`  }
+
+#### Defined in
+
+[projects/ngx-konva/src/lib/common/index.ts:17](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/common/index.ts#L17)
 
 ___
 
@@ -61,7 +94,7 @@ ___
 
 #### Defined in
 
-[lib/common/index.ts:18](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/common/index.ts#L18)
+[projects/ngx-konva/src/lib/common/index.ts:18](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/common/index.ts#L18)
 
 ___
 
@@ -71,7 +104,7 @@ ___
 
 #### Defined in
 
-[lib/common/index.ts:19](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/common/index.ts#L19)
+[projects/ngx-konva/src/lib/common/index.ts:19](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/common/index.ts#L19)
 
 ___
 
@@ -81,7 +114,7 @@ ___
 
 #### Defined in
 
-[lib/common/index.ts:20](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/common/index.ts#L20)
+[projects/ngx-konva/src/lib/common/index.ts:20](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/common/index.ts#L20)
 
 ___
 
@@ -91,7 +124,7 @@ ___
 
 #### Defined in
 
-[lib/components/ko-stage.component.ts:7](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L7)
+[projects/ngx-konva/src/lib/components/ko-stage.component.ts:7](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L7)
 
 ## Variables
 
@@ -101,4 +134,4 @@ ___
 
 #### Defined in
 
-[lib/common/index.ts:22](https://github.com/giovanni-bertoncelli/ngx-konva/blob/2de20a6/projects/ngx-konva/src/lib/common/index.ts#L22)
+[projects/ngx-konva/src/lib/common/index.ts:22](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/common/index.ts#L22)

@@ -42,51 +42,51 @@
 
 | Name | Type |
 | :------ | :------ |
-| `nestable` | `KoNestable` |
+| `nestable` | [`KoNestable`](KoNestable.md) |
 
 #### Defined in
 
-lib/directives/ko-drag.directive.ts:24
+[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:24](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L24)
 
 ## Properties
 
 ### koDragEnd
 
-• **koDragEnd**: `EventEmitter`<`KoNestableNode`\>
+• **koDragEnd**: `EventEmitter`<[`KoNestableNode`](../modules.md#konestablenode)\>
 
 #### Defined in
 
-lib/directives/ko-drag.directive.ts:16
+[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:16](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L16)
 
 ___
 
 ### koDragMove
 
-• **koDragMove**: `EventEmitter`<`KoNestableNode`\>
+• **koDragMove**: `EventEmitter`<[`KoNestableNode`](../modules.md#konestablenode)\>
 
 #### Defined in
 
-lib/directives/ko-drag.directive.ts:13
+[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:13](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L13)
 
 ___
 
 ### koDragStart
 
-• **koDragStart**: `EventEmitter`<`KoNestableNode`\>
+• **koDragStart**: `EventEmitter`<[`KoNestableNode`](../modules.md#konestablenode)\>
 
 #### Defined in
 
-lib/directives/ko-drag.directive.ts:10
+[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:10](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L10)
 
 ___
 
 ### node
 
-• `Private` **node**: `KoNestableNode`
+• `Private` **node**: [`KoNestableNode`](../modules.md#konestablenode)
 
 #### Defined in
 
-lib/directives/ko-drag.directive.ts:18
+[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:18](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L18)
 
 ___
 
@@ -104,7 +104,7 @@ ___
 
 #### Defined in
 
-lib/directives/ko-drag.directive.ts:21
+[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:21](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L21)
 
 ___
 
@@ -122,7 +122,7 @@ ___
 
 #### Defined in
 
-lib/directives/ko-drag.directive.ts:22
+[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:22](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L22)
 
 ___
 
@@ -140,7 +140,7 @@ ___
 
 #### Defined in
 
-lib/directives/ko-drag.directive.ts:20
+[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:20](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L20)
 
 ## Methods
 
@@ -154,7 +154,7 @@ lib/directives/ko-drag.directive.ts:20
 
 #### Defined in
 
-lib/directives/ko-drag.directive.ts:45
+[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:45](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L45)
 
 ___
 
@@ -172,7 +172,7 @@ OnDestroy.ngOnDestroy
 
 #### Defined in
 
-lib/directives/ko-drag.directive.ts:38
+[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:38](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L38)
 
 ___
 
@@ -190,7 +190,7 @@ OnInit.ngOnInit
 
 #### Defined in
 
-lib/directives/ko-drag.directive.ts:35
+[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:35](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L35)
 
 ___
 
@@ -204,7 +204,7 @@ ___
 
 #### Defined in
 
-lib/directives/ko-drag.directive.ts:55
+[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:55](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L55)
 
 ___
 
@@ -218,7 +218,7 @@ ___
 
 #### Defined in
 
-lib/directives/ko-drag.directive.ts:59
+[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:59](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L59)
 
 ___
 
@@ -232,4 +232,4 @@ ___
 
 #### Defined in
 
-lib/directives/ko-drag.directive.ts:51
+[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:51](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L51)

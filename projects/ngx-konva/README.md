@@ -13,7 +13,7 @@ Supported Angular version: `16`.
 - [Basic shapes](#basic-shapes)
 - [Images](#images)
 - [Labels](#labels)
-- [Tween (transitions)](#tween-transitions)
+- [Transitions (Konva.Tween)](#transitions-konvatween)
 - [Events handling](#events-handling)
   - [KoHoverDirective](#kohoverdirective)
   - [KoPointerDirective](#kopointerdirective)
@@ -57,7 +57,7 @@ npm install ngx-konva konva
 | [`Arrow`](https://konvajs.org/api/Konva.Arrow.html#main)                     | ✅      | `ko-arrow`                                                                    |
 | [`Shape`](https://konvajs.org/api/Konva.Shape.html#main)                     | ✅      | `ko-shape` (for [custom shapes](https://konvajs.org/docs/shapes/Custom.html)) |
 | [`Arc`](https://konvajs.org/api/Konva.Arc.html#main)                         | ✅      | `ko-arc`                                                                      |
-| [`Tween`](https://konvajs.org/api/Konva.Tween.html#main)                     | ✅      | `koTransition` (directive)                                                    |
+| [`Tween`](https://konvajs.org/api/Konva.Tween.html#main)                     | ✅      | `transitionWith` @Input                                                       |
 | [`Filters`](https://konvajs.org/docs/filters/Blur.html)                      | ❌      |                                                                               |
 | [`Animations`](https://konvajs.org/docs/animations/Create_an_Animation.html) | ❌      |                                                                               |
 
@@ -186,16 +186,22 @@ You can use `ko-label` to render a [Label](https://konvajs.org/docs/shapes/Label
 </ko-label>
 ```
 
-## Tween (transitions)
+## Transitions (Konva.Tween)
 
-> 🔥 Still an experimental feature
+In order to use [Tween](https://konvajs.org/api/Konva.Tween.html#main) and transition between states in a component you can use the `transitionWith` @Input available for every kind of shape. Consider that the passed `[config]` is considered the initial state of the component and it will not apply an initial animation. Each modification on `[config]` @Input will cancel (if not already finished) the previous transition and bring the component to the next state with the configuration passed inside `transitionWith`, that accepts the `TweenConfig.duration` and `TweenConfig.easing` parameters.
 
-In order to use [Tween](https://konvajs.org/api/Konva.Tween.html#main) and transition between states in a component you can use the `KoTransitionDirective`. Consider that the passed `[config]` is considered the initial state of the component. Each modification on `[koTransition]` @Input will cancel (if not already finished) the previous transition and bring the component to the next state with the configuration passed.
+If you want to skip a transition in one of the `[config]` updates you can alway pass the `_skipTransition: true` parameter and for that change no animation will be triggered.
 
 ```html
-<ko-image [koTransition]="{opacity: 1, duration: 5}" [config]="{x: 100, y: 100, zIndex: 0, opacity:0}" 
-  src="https://upload.wikimedia.org/wikipedia/it/0/08/Dartfener.jpg"></ko-image>
+<ko-image [transitionWith]="{duration: 2}" [config]="imageConfig"
+    src="https://upload.wikimedia.org/wikipedia/it/0/08/Dartfener.jpg"></ko-image>
 ```
+
+Try changing `imageConfig` over time to see the animation happening.
+
+You can subscribe to the Tween events by using the `(transitionOnFinish)` and `(transitionOnUpdate)` @Output.
+
+> **Tip:** if you need it, `KoNestable.Easing` exports the default Tween easing functions.
 
 ## Events handling
 
