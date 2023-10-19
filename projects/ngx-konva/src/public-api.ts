@@ -14,6 +14,5 @@ export * from './lib/directives/ko-drag.directive';
 export * from './lib/directives/ko-hover.directive';
 export * from './lib/directives/ko-pointer.directive';
 export * from './lib/directives/ko-transform.directive';
-export * from './lib/directives/ko-transition.directive';
 export * from './lib/ngx-konva.module';
 

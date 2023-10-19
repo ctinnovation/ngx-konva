@@ -61,7 +61,6 @@ export class KoStageComponent implements OnInit, OnDestroy, AfterViewInit {
         this.updateLayers();
       })
     )
-    console.log(this.children.toArray())
     this.updateLayers();
   }
 

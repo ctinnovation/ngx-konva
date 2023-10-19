@@ -1,9 +1,8 @@
 import { AfterViewInit, Component, ContentChildren, EventEmitter, Input, OnInit, Output, QueryList } from '@angular/core';
-import { Group, GroupConfig } from 'konva/lib/Group';
+import { Group } from 'konva/lib/Group';
 import { Layer } from 'konva/lib/Layer';
-import { Subscription } from 'rxjs';
 import { KoShape } from '../common';
-import { KoNestable } from '../common/ko-nestable';
+import { KoNestable, KoNestableConfig } from '../common/ko-nestable';
 
 @Component({
   selector: 'ko-group',
@@ -20,9 +19,9 @@ export class KoGroupComponent extends KoNestable implements OnInit, AfterViewIni
 
   group: Group;
 
-  private _config: GroupConfig = {};
+  private _config: KoNestableConfig = {};
   @Input()
-  set config(c: GroupConfig) {
+  set config(c: KoNestableConfig) {
     this._config = c;
     this._config.id = this.id;
     this.updateGroup();
@@ -36,8 +35,6 @@ export class KoGroupComponent extends KoNestable implements OnInit, AfterViewIni
 
   @Output()
   afterUpdate = new EventEmitter<Group>();
-
-  sub = new Subscription();
 
   constructor() {
     super();
@@ -58,18 +55,13 @@ export class KoGroupComponent extends KoNestable implements OnInit, AfterViewIni
     )
   }
 
-  override ngOnDestroy(): void {
-    super.ngOnDestroy();
-    this.sub.unsubscribe();
-  }
-
   override getKoItem(): Group {
     return this.group;
   }
 
   private updateGroup() {
     this.beforeUpdate.emit(this.group);
-    this.group.setAttrs(this._config);
+    this.setConfig(this._config);
     this.afterUpdate.emit(this.group);
   }
 

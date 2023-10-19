@@ -1,9 +1,8 @@
 import { AfterViewInit, Component, ContentChildren, EventEmitter, Input, OnDestroy, OnInit, Output, QueryList } from '@angular/core';
 import { Group } from 'konva/lib/Group';
-import { Layer, LayerConfig } from 'konva/lib/Layer';
-import { Subscription } from 'rxjs';
+import { Layer } from 'konva/lib/Layer';
 import { KoShape } from '../common';
-import { KoNestable } from '../common/ko-nestable';
+import { KoNestable, KoNestableConfig } from '../common/ko-nestable';
 
 
 @Component({
@@ -20,12 +19,11 @@ export class KoLayerComponent extends KoNestable implements OnInit, OnDestroy, A
   children!: QueryList<KoNestable>;
 
   layer: Layer;
-  sub = new Subscription();
 
-  private _config: LayerConfig = {};
+  private _config: KoNestableConfig = {};
 
   @Input()
-  set config(c: LayerConfig) {
+  set config(c: KoNestableConfig) {
     this._config = c;
     this._config.id = this.id;
     this.updateLayer();
@@ -56,18 +54,13 @@ export class KoLayerComponent extends KoNestable implements OnInit, OnDestroy, A
     this.updateChildren();
   }
 
-  override ngOnDestroy(): void {
-    this.sub.unsubscribe();
-    super.ngOnDestroy();
-  }
-
   override getKoItem(): Layer {
     return this.layer;
   }
 
   updateLayer() {
     this.beforeUpdate.emit(this.layer);
-    this.layer.setAttrs(this._config);
+    this.setConfig(this._config);
     this.layer.draw();
     this.afterUpdate.emit(this.layer);
   }

@@ -11,7 +11,6 @@ import { KoDragDirective } from './directives/ko-drag.directive';
 import { KoHoverDirective } from './directives/ko-hover.directive';
 import { KoPointerDirective } from './directives/ko-pointer.directive';
 import { KoTransformDirective } from './directives/ko-transform.directive';
-import { KoTransitionDirective } from './directives/ko-transition.directive';
 
 @NgModule({
   declarations: [
@@ -23,7 +22,6 @@ import { KoTransitionDirective } from './directives/ko-transition.directive';
     KoGroupComponent,
     KoPointerDirective,
     KoImageComponent,
-    KoTransitionDirective,
     KoLabelComponent,
     KoDragDirective,
     KoTransformDirective
@@ -38,7 +36,6 @@ import { KoTransitionDirective } from './directives/ko-transition.directive';
     KoGroupComponent,
     KoPointerDirective,
     KoImageComponent,
-    KoTransitionDirective,
     KoLabelComponent,
     KoDragDirective,
     KoTransformDirective

@@ -1,7 +1,7 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
-import { Label, LabelConfig, Tag, TagConfig } from 'konva/lib/shapes/Label';
+import { Label, Tag, TagConfig } from 'konva/lib/shapes/Label';
 import { Text, TextConfig } from 'konva/lib/shapes/Text';
-import { KoNestable } from '../common/ko-nestable';
+import { KoNestable, KoNestableConfig } from '../common/ko-nestable';
 
 @Component({
   selector: 'ko-label',
@@ -17,9 +17,9 @@ export class KoLabelComponent extends KoNestable implements OnInit {
   text?: Text;
   tag?: Tag;
 
-  private _config: LabelConfig = {};
+  private _config: KoNestableConfig = {};
   @Input()
-  set config(c: LabelConfig) {
+  set config(c: KoNestableConfig) {
     this._config = c;
     this._config.id = this.id;
     this.updateLabel();
@@ -96,7 +96,7 @@ export class KoLabelComponent extends KoNestable implements OnInit {
 
   private updateLabel() {
     this._beforeRender();
-    this.node.setAttrs(this._config);
+    this.setConfig(this._config);
     this._afterRender();
   }
 

@@ -1,7 +1,7 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { ImageConfig, Image as KonvaImage } from 'konva/lib/shapes/Image';
 import { KoShape } from '../common';
-import { KoNestable } from '../common/ko-nestable';
+import { KoNestable, KoNestableConfig } from '../common/ko-nestable';
 
 export type KoImageConfig = Omit<ImageConfig, 'image'>;
 
@@ -26,9 +26,9 @@ export class KoImageComponent extends KoNestable implements OnInit {
     this.updateShape();
   };
 
-  private _config: KoImageConfig = {};
+  private _config: KoNestableConfig = {};
   @Input()
-  set config(c: KoImageConfig) {
+  set config(c: KoNestableConfig) {
     this._config = c;
     this._config['id'] = this.id;
     this.updateShape();
@@ -86,7 +86,7 @@ export class KoImageComponent extends KoNestable implements OnInit {
 
   private onImageLoad() {
     this._beforeRender();
-    this.node.setAttrs(this._config);
+    this.setConfig(this._config);
     this._afterRender();
   }
 }
