@@ -14,6 +14,7 @@ export type KoNestableConfig = (KoShapeConfig | GroupConfig | LayerConfig | Labe
 export class KoNestable implements OnInit, OnDestroy {
   static Easings = Easings;
 
+  @Input()
   id: string = v4();
 
   @Input()

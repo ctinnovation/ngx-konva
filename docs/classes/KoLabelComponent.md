@@ -28,7 +28,9 @@
 - [afterUpdate](KoLabelComponent.md#afterupdate)
 - [beforeUpdate](KoLabelComponent.md#beforeupdate)
 - [centerOrigin](KoLabelComponent.md#centerorigin)
+- [groupComponent](KoLabelComponent.md#groupcomponent)
 - [id](KoLabelComponent.md#id)
+- [layerComponent](KoLabelComponent.md#layercomponent)
 - [node](KoLabelComponent.md#node)
 - [sub](KoLabelComponent.md#sub)
 - [tag](KoLabelComponent.md#tag)
@@ -63,7 +65,14 @@
 
 ### constructor
 
-• **new KoLabelComponent**()
+• **new KoLabelComponent**(`layerComponent`, `groupComponent`)
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `layerComponent` | [`KoLayerComponent`](KoLayerComponent.md) |
+| `groupComponent` | [`KoGroupComponent`](KoGroupComponent.md) |
 
 #### Overrides
 
@@ -71,7 +80,7 @@
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-label.component.ts:69](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/components/ko-label.component.ts#L69)
+[projects/ngx-konva/src/lib/components/ko-label.component.ts:71](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-label.component.ts#L71)
 
 ## Properties
 
@@ -81,7 +90,7 @@
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-label.component.ts:20](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/components/ko-label.component.ts#L20)
+[projects/ngx-konva/src/lib/components/ko-label.component.ts:22](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-label.component.ts#L22)
 
 ___
 
@@ -91,7 +100,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-label.component.ts:35](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/components/ko-label.component.ts#L35)
+[projects/ngx-konva/src/lib/components/ko-label.component.ts:37](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-label.component.ts#L37)
 
 ___
 
@@ -101,7 +110,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-label.component.ts:28](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/components/ko-label.component.ts#L28)
+[projects/ngx-konva/src/lib/components/ko-label.component.ts:30](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-label.component.ts#L30)
 
 ___
 
@@ -115,7 +124,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/ko-nestable.ts:33](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/common/ko-nestable.ts#L33)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:34](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/common/ko-nestable.ts#L34)
 
 ___
 
@@ -129,7 +138,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/ko-nestable.ts:34](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/common/ko-nestable.ts#L34)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:35](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/common/ko-nestable.ts#L35)
 
 ___
 
@@ -139,7 +148,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-label.component.ts:67](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/components/ko-label.component.ts#L67)
+[projects/ngx-konva/src/lib/components/ko-label.component.ts:69](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-label.component.ts#L69)
 
 ___
 
@@ -149,7 +158,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-label.component.ts:64](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/components/ko-label.component.ts#L64)
+[projects/ngx-konva/src/lib/components/ko-label.component.ts:66](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-label.component.ts#L66)
 
 ___
 
@@ -159,7 +168,17 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-label.component.ts:61](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/components/ko-label.component.ts#L61)
+[projects/ngx-konva/src/lib/components/ko-label.component.ts:63](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-label.component.ts#L63)
+
+___
+
+### groupComponent
+
+• `Private` **groupComponent**: [`KoGroupComponent`](KoGroupComponent.md)
+
+#### Defined in
+
+[projects/ngx-konva/src/lib/components/ko-label.component.ts:73](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-label.component.ts#L73)
 
 ___
 
@@ -173,7 +192,17 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/ko-nestable.ts:17](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/common/ko-nestable.ts#L17)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:18](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/common/ko-nestable.ts#L18)
+
+___
+
+### layerComponent
+
+• `Private` **layerComponent**: [`KoLayerComponent`](KoLayerComponent.md)
+
+#### Defined in
+
+[projects/ngx-konva/src/lib/components/ko-label.component.ts:72](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-label.component.ts#L72)
 
 ___
 
@@ -183,7 +212,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-label.component.ts:16](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/components/ko-label.component.ts#L16)
+[projects/ngx-konva/src/lib/components/ko-label.component.ts:18](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-label.component.ts#L18)
 
 ___
 
@@ -197,7 +226,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/ko-nestable.ts:31](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/common/ko-nestable.ts#L31)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:32](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/common/ko-nestable.ts#L32)
 
 ___
 
@@ -207,7 +236,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-label.component.ts:18](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/components/ko-label.component.ts#L18)
+[projects/ngx-konva/src/lib/components/ko-label.component.ts:20](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-label.component.ts#L20)
 
 ___
 
@@ -217,7 +246,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-label.component.ts:17](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/components/ko-label.component.ts#L17)
+[projects/ngx-konva/src/lib/components/ko-label.component.ts:19](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-label.component.ts#L19)
 
 ___
 
@@ -231,7 +260,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/ko-nestable.ts:23](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/common/ko-nestable.ts#L23)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:24](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/common/ko-nestable.ts#L24)
 
 ___
 
@@ -245,7 +274,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/ko-nestable.ts:29](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/common/ko-nestable.ts#L29)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:30](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/common/ko-nestable.ts#L30)
 
 ___
 
@@ -259,7 +288,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/ko-nestable.ts:26](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/common/ko-nestable.ts#L26)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:27](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/common/ko-nestable.ts#L27)
 
 ___
 
@@ -273,7 +302,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/ko-nestable.ts:20](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/common/ko-nestable.ts#L20)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:21](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/common/ko-nestable.ts#L21)
 
 ___
 
@@ -308,7 +337,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/ko-nestable.ts:15](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/common/ko-nestable.ts#L15)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:15](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/common/ko-nestable.ts#L15)
 
 ## Accessors
 
@@ -328,7 +357,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-label.component.ts:22](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/components/ko-label.component.ts#L22)
+[projects/ngx-konva/src/lib/components/ko-label.component.ts:24](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-label.component.ts#L24)
 
 ___
 
@@ -348,7 +377,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-label.component.ts:37](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/components/ko-label.component.ts#L37)
+[projects/ngx-konva/src/lib/components/ko-label.component.ts:39](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-label.component.ts#L39)
 
 ___
 
@@ -368,7 +397,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-label.component.ts:43](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/components/ko-label.component.ts#L43)
+[projects/ngx-konva/src/lib/components/ko-label.component.ts:45](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-label.component.ts#L45)
 
 ___
 
@@ -388,7 +417,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-label.component.ts:30](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/components/ko-label.component.ts#L30)
+[projects/ngx-konva/src/lib/components/ko-label.component.ts:32](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-label.component.ts#L32)
 
 ___
 
@@ -408,7 +437,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-label.component.ts:52](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/components/ko-label.component.ts#L52)
+[projects/ngx-konva/src/lib/components/ko-label.component.ts:54](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-label.component.ts#L54)
 
 ## Methods
 
@@ -422,7 +451,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-label.component.ts:115](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/components/ko-label.component.ts#L115)
+[projects/ngx-konva/src/lib/components/ko-label.component.ts:124](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-label.component.ts#L124)
 
 ___
 
@@ -436,7 +465,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-label.component.ts:111](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/components/ko-label.component.ts#L111)
+[projects/ngx-konva/src/lib/components/ko-label.component.ts:120](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-label.component.ts#L120)
 
 ___
 
@@ -454,7 +483,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-label.component.ts:85](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/components/ko-label.component.ts#L85)
+[projects/ngx-konva/src/lib/components/ko-label.component.ts:94](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-label.component.ts#L94)
 
 ___
 
@@ -472,7 +501,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-label.component.ts:81](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/components/ko-label.component.ts#L81)
+[projects/ngx-konva/src/lib/components/ko-label.component.ts:90](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-label.component.ts#L90)
 
 ___
 
@@ -494,7 +523,7 @@ OnInit.ngOnInit
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/ko-nestable.ts:41](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/common/ko-nestable.ts#L41)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:42](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/common/ko-nestable.ts#L42)
 
 ___
 
@@ -518,7 +547,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/ko-nestable.ts:48](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/common/ko-nestable.ts#L48)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:49](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/common/ko-nestable.ts#L49)
 
 ___
 
@@ -532,7 +561,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-label.component.ts:97](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/components/ko-label.component.ts#L97)
+[projects/ngx-konva/src/lib/components/ko-label.component.ts:106](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-label.component.ts#L106)
 
 ___
 
@@ -546,7 +575,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-label.component.ts:103](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/components/ko-label.component.ts#L103)
+[projects/ngx-konva/src/lib/components/ko-label.component.ts:112](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-label.component.ts#L112)
 
 ___
 
@@ -560,4 +589,4 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-label.component.ts:89](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/components/ko-label.component.ts#L89)
+[projects/ngx-konva/src/lib/components/ko-label.component.ts:98](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-label.component.ts#L98)

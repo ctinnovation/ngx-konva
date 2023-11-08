@@ -1,7 +1,9 @@
-import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Optional, Output } from '@angular/core';
 import { ImageConfig, Image as KonvaImage } from 'konva/lib/shapes/Image';
 import { KoShape } from '../common';
 import { KoNestable, KoNestableConfig } from '../common/ko-nestable';
+import { KoGroupComponent } from './ko-group.component';
+import { KoLayerComponent } from './ko-layer.component';
 
 export type KoImageConfig = Omit<ImageConfig, 'image'>;
 
@@ -45,12 +47,20 @@ export class KoImageComponent extends KoNestable implements OnInit {
 
   onLoadListener = this.onImageLoad.bind(this);
 
-  constructor() {
+  constructor(
+    @Optional() private layerComponent: KoLayerComponent,
+    @Optional() private groupComponent: KoGroupComponent
+  ) {
+    if (!layerComponent && !groupComponent) {
+      throw new Error(`ko-image should be nested inside ko-layer!`)
+    }
+
     super();
     this.node = new KonvaImage({
       ...this._config,
       image: this._image
-    })
+    });
+    (this.groupComponent || this.layerComponent).addChild(this.node);
     this._image.addEventListener('load', this.onLoadListener);
   }
 

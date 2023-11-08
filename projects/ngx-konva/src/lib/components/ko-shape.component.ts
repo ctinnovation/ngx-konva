@@ -1,6 +1,8 @@
-import { Component, ElementRef, EventEmitter, Input, OnInit, Output } from '@angular/core';
+import { Component, ElementRef, EventEmitter, Input, OnInit, Optional, Output } from '@angular/core';
 import { KoShape, KoShapeConfig, KoShapeSelectors, koShapeTypesMap } from '../common';
 import { KoNestable } from '../common/ko-nestable';
+import { KoGroupComponent } from './ko-group.component';
+import { KoLayerComponent } from './ko-layer.component';
 
 @Component({
   selector: 'ko-circle, ko-rect, ko-line, ko-text, ko-regular-polygon, ko-path, ko-arrow, ko-arc, ko-star, ko-ring, ko-shape, ko-text-path, ko-ellipse, ko-wedge',
@@ -34,11 +36,18 @@ export class KoShapeComponent extends KoNestable implements OnInit {
   selector: KoShapeSelectors;
 
   constructor(
-    private elementRef: ElementRef<HTMLElement>
+    private elementRef: ElementRef<HTMLElement>,
+    @Optional() private layerComponent: KoLayerComponent,
+    @Optional() private groupComponent: KoGroupComponent
   ) {
     super();
     this.selector = this.elementRef.nativeElement.localName as KoShapeSelectors;
-    this.shape = new (koShapeTypesMap[this.selector] as any)(this._config as any)
+    if (!layerComponent && !groupComponent) {
+      throw new Error(`${this.selector} should be nested inside ko-layer or ko-group!`)
+    }
+
+    this.shape = new (koShapeTypesMap[this.selector] as any)(this._config as any);
+    (this.groupComponent || this.layerComponent).addChild(this.shape);
   }
 
   override ngOnInit(): void {

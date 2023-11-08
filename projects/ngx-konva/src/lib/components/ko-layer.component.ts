@@ -1,8 +1,10 @@
-import { AfterViewInit, Component, ContentChildren, EventEmitter, Input, OnDestroy, OnInit, Output, QueryList } from '@angular/core';
+import { AfterViewInit, Component, EventEmitter, Input, OnDestroy, OnInit, Optional, Output, SkipSelf } from '@angular/core';
 import { Group } from 'konva/lib/Group';
 import { Layer } from 'konva/lib/Layer';
 import { KoShape } from '../common';
-import { KoNestable, KoNestableConfig } from '../common/ko-nestable';
+import { KoNestable, KoNestableConfig, KoNestableNode } from '../common/ko-nestable';
+import { KoStageAutoScaleComponent } from './ko-stage-autoscale.component';
+import { KoStageComponent } from './ko-stage.component';
 
 
 @Component({
@@ -15,12 +17,12 @@ import { KoNestable, KoNestableConfig } from '../common/ko-nestable';
   }]
 })
 export class KoLayerComponent extends KoNestable implements OnInit, OnDestroy, AfterViewInit {
-  @ContentChildren(KoNestable)
-  children!: QueryList<KoNestable>;
-
   layer: Layer;
+  stageComponent: KoStageComponent;
 
-  private _config: KoNestableConfig = {};
+  private _config: KoNestableConfig = {
+    id: this.id
+  };
 
   @Input()
   set config(c: KoNestableConfig) {
@@ -38,9 +40,24 @@ export class KoLayerComponent extends KoNestable implements OnInit, OnDestroy, A
   @Output()
   afterUpdate = new EventEmitter<Layer>();
 
-  constructor() {
+  constructor(
+    @Optional() stageComponent?: KoStageComponent,
+    @Optional() stageAutoComponent?: KoStageAutoScaleComponent,
+    @Optional() @SkipSelf() private layerComponent?: KoLayerComponent
+  ) {
+    if (!stageComponent && !stageAutoComponent) {
+      throw new Error('ko-layer should be nested inside ko-stage or ko-stage-autoscale or ko-layer!')
+    }
+
     super();
     this.layer = new Layer(this._config);
+    this.stageComponent = (stageComponent || stageAutoComponent)!;
+
+    if (this.layerComponent) {
+      this.layerComponent.addChild(this.layer);
+    } else {
+      this.stageComponent.addChild(this.layer);
+    }
   }
 
   override ngOnInit(): void {
@@ -48,10 +65,6 @@ export class KoLayerComponent extends KoNestable implements OnInit, OnDestroy, A
   }
 
   ngAfterViewInit(): void {
-    this.sub.add(
-      this.children.changes.subscribe(this.updateChildren.bind(this))
-    );
-    this.updateChildren();
   }
 
   override getKoItem(): Layer {
@@ -65,20 +78,17 @@ export class KoLayerComponent extends KoNestable implements OnInit, OnDestroy, A
     this.afterUpdate.emit(this.layer);
   }
 
-  private updateChildren() {
-    for (const child of this.children.toArray()) {
-      const found = this.layer.findOne(`#${child.id}`);
+  addChild(child: KoNestableNode) {
+    const found = this.layer.findOne(`#${child.id()}`);
 
-      if (found) {
-        continue;
-      }
-
-      const koItem = child.getKoItem();
-      this.layer.add(koItem);
-      this.onNewItem.emit(koItem);
-      koItem.fire('ko:added', this.layer);
+    if (found) {
+      return;
     }
 
+    this.layer.add(child);
+    this.onNewItem.emit(child);
+    child.fire('ko:added', this.layer);
     this.layer.draw();
   }
+
 }

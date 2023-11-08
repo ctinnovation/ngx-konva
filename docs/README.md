@@ -24,7 +24,7 @@ Supported Angular version: `16`.
 - [Inner events](#inner-events)
   - [ko-layer](#ko-layer)
   - [ko-stage](#ko-stage)
-  - [ko-shape](#ko-shape)
+  - [ko-nestable](#ko-nestable)
 - [How to contribute](#how-to-contribute)
   - [Event listeners](#event-listeners)
 - [Full API Documentation](#full-api-documentation)

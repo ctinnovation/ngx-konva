@@ -1,4 +1,4 @@
-import { AfterContentInit, ChangeDetectorRef, Component, ElementRef, OnDestroy, OnInit, Optional, SkipSelf } from '@angular/core';
+import { AfterContentInit, ChangeDetectorRef, Component, ElementRef, OnDestroy, OnInit, SkipSelf } from '@angular/core';
 import { KoStageComponent } from './ko-stage.component';
 
 @Component({
@@ -6,18 +6,21 @@ import { KoStageComponent } from './ko-stage.component';
   template: `
       <ng-content></ng-content>
   `,
-  styles: [``]
+  styles: [``],
+  providers: [{
+    provide: KoStageComponent,
+    useExisting: KoStageAutoScaleComponent
+  }]
 })
 export class KoStageAutoScaleComponent extends KoStageComponent implements OnInit, OnDestroy, AfterContentInit {
   private initialDimensions: { width: number, height: number } | null = null;
   private resizeObserver = new ResizeObserver(this.onResize.bind(this));
 
   constructor(
-    @SkipSelf() @Optional() private parentContainer: ElementRef<HTMLDivElement>,
+    @SkipSelf() private parentContainer: ElementRef<HTMLDivElement>,
     private cdRef: ChangeDetectorRef,
-    @Optional() container: ElementRef
   ) {
-    super(container);
+    super(parentContainer);
     if (!parentContainer) {
       throw new Error(
         'ko-stage-autoscale should be nested inside a div/element!'

@@ -46,7 +46,7 @@
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-transform.directive.ts:24](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-transform.directive.ts#L24)
+[projects/ngx-konva/src/lib/directives/ko-transform.directive.ts:24](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/directives/ko-transform.directive.ts#L24)
 
 ## Properties
 
@@ -56,7 +56,7 @@
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-transform.directive.ts:13](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-transform.directive.ts#L13)
+[projects/ngx-konva/src/lib/directives/ko-transform.directive.ts:13](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/directives/ko-transform.directive.ts#L13)
 
 ___
 
@@ -66,7 +66,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-transform.directive.ts:16](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-transform.directive.ts#L16)
+[projects/ngx-konva/src/lib/directives/ko-transform.directive.ts:16](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/directives/ko-transform.directive.ts#L16)
 
 ___
 
@@ -76,7 +76,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-transform.directive.ts:10](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-transform.directive.ts#L10)
+[projects/ngx-konva/src/lib/directives/ko-transform.directive.ts:10](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/directives/ko-transform.directive.ts#L10)
 
 ___
 
@@ -86,7 +86,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-transform.directive.ts:18](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-transform.directive.ts#L18)
+[projects/ngx-konva/src/lib/directives/ko-transform.directive.ts:18](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/directives/ko-transform.directive.ts#L18)
 
 ___
 
@@ -104,7 +104,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-transform.directive.ts:22](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-transform.directive.ts#L22)
+[projects/ngx-konva/src/lib/directives/ko-transform.directive.ts:22](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/directives/ko-transform.directive.ts#L22)
 
 ___
 
@@ -122,7 +122,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-transform.directive.ts:21](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-transform.directive.ts#L21)
+[projects/ngx-konva/src/lib/directives/ko-transform.directive.ts:21](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/directives/ko-transform.directive.ts#L21)
 
 ___
 
@@ -140,7 +140,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-transform.directive.ts:20](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-transform.directive.ts#L20)
+[projects/ngx-konva/src/lib/directives/ko-transform.directive.ts:20](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/directives/ko-transform.directive.ts#L20)
 
 ## Methods
 
@@ -154,7 +154,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-transform.directive.ts:45](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-transform.directive.ts#L45)
+[projects/ngx-konva/src/lib/directives/ko-transform.directive.ts:45](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/directives/ko-transform.directive.ts#L45)
 
 ___
 
@@ -172,7 +172,7 @@ OnDestroy.ngOnDestroy
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-transform.directive.ts:38](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-transform.directive.ts#L38)
+[projects/ngx-konva/src/lib/directives/ko-transform.directive.ts:38](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/directives/ko-transform.directive.ts#L38)
 
 ___
 
@@ -190,7 +190,7 @@ OnInit.ngOnInit
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-transform.directive.ts:35](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-transform.directive.ts#L35)
+[projects/ngx-konva/src/lib/directives/ko-transform.directive.ts:35](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/directives/ko-transform.directive.ts#L35)
 
 ___
 
@@ -204,7 +204,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-transform.directive.ts:59](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-transform.directive.ts#L59)
+[projects/ngx-konva/src/lib/directives/ko-transform.directive.ts:59](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/directives/ko-transform.directive.ts#L59)
 
 ___
 
@@ -218,7 +218,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-transform.directive.ts:55](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-transform.directive.ts#L55)
+[projects/ngx-konva/src/lib/directives/ko-transform.directive.ts:55](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/directives/ko-transform.directive.ts#L55)
 
 ___
 
@@ -232,4 +232,4 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-transform.directive.ts:51](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/directives/ko-transform.directive.ts#L51)
+[projects/ngx-konva/src/lib/directives/ko-transform.directive.ts:51](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/directives/ko-transform.directive.ts#L51)
