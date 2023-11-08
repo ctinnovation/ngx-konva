@@ -25,7 +25,6 @@
 - [\_config](KoStageComponent.md#_config)
 - [afterUpdate](KoStageComponent.md#afterupdate)
 - [beforeUpdate](KoStageComponent.md#beforeupdate)
-- [children](KoStageComponent.md#children)
 - [container](KoStageComponent.md#container)
 - [onNewLayer](KoStageComponent.md#onnewlayer)
 - [stage](KoStageComponent.md#stage)
@@ -37,10 +36,10 @@
 
 ### Methods
 
+- [addChild](KoStageComponent.md#addchild)
 - [ngAfterViewInit](KoStageComponent.md#ngafterviewinit)
 - [ngOnDestroy](KoStageComponent.md#ngondestroy)
 - [ngOnInit](KoStageComponent.md#ngoninit)
-- [updateLayers](KoStageComponent.md#updatelayers)
 - [updateStage](KoStageComponent.md#updatestage)
 
 ## Constructors
@@ -57,7 +56,7 @@
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage.component.ts:45](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L45)
+[projects/ngx-konva/src/lib/components/ko-stage.component.ts:40](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L40)
 
 ## Properties
 
@@ -67,7 +66,7 @@
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage.component.ts:31](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L31)
+[projects/ngx-konva/src/lib/components/ko-stage.component.ts:26](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L26)
 
 ___
 
@@ -77,7 +76,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage.component.ts:26](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L26)
+[projects/ngx-konva/src/lib/components/ko-stage.component.ts:21](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L21)
 
 ___
 
@@ -87,17 +86,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage.component.ts:23](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L23)
-
-___
-
-### children
-
-• **children**: `QueryList`<[`KoNestable`](KoNestable.md)\>
-
-#### Defined in
-
-[projects/ngx-konva/src/lib/components/ko-stage.component.ts:18](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L18)
+[projects/ngx-konva/src/lib/components/ko-stage.component.ts:18](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L18)
 
 ___
 
@@ -107,7 +96,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage.component.ts:15](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L15)
+[projects/ngx-konva/src/lib/components/ko-stage.component.ts:14](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L14)
 
 ___
 
@@ -117,7 +106,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage.component.ts:29](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L29)
+[projects/ngx-konva/src/lib/components/ko-stage.component.ts:24](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L24)
 
 ___
 
@@ -127,7 +116,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage.component.ts:20](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L20)
+[projects/ngx-konva/src/lib/components/ko-stage.component.ts:15](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L15)
 
 ___
 
@@ -137,7 +126,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage.component.ts:43](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L43)
+[projects/ngx-konva/src/lib/components/ko-stage.component.ts:38](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L38)
 
 ## Accessors
 
@@ -157,9 +146,29 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage.component.ts:34](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L34)
+[projects/ngx-konva/src/lib/components/ko-stage.component.ts:29](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L29)
 
 ## Methods
+
+### addChild
+
+▸ **addChild**(`layer`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `layer` | `Layer` |
+
+#### Returns
+
+`void`
+
+#### Defined in
+
+[projects/ngx-konva/src/lib/components/ko-stage.component.ts:61](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L61)
+
+___
 
 ### ngAfterViewInit
 
@@ -175,7 +184,7 @@ AfterViewInit.ngAfterViewInit
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage.component.ts:58](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L58)
+[projects/ngx-konva/src/lib/components/ko-stage.component.ts:53](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L53)
 
 ___
 
@@ -193,7 +202,7 @@ OnDestroy.ngOnDestroy
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage.component.ts:67](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L67)
+[projects/ngx-konva/src/lib/components/ko-stage.component.ts:56](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L56)
 
 ___
 
@@ -211,21 +220,7 @@ OnInit.ngOnInit
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage.component.ts:56](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L56)
-
-___
-
-### updateLayers
-
-▸ `Private` **updateLayers**(): `void`
-
-#### Returns
-
-`void`
-
-#### Defined in
-
-[projects/ngx-konva/src/lib/components/ko-stage.component.ts:72](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L72)
+[projects/ngx-konva/src/lib/components/ko-stage.component.ts:51](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L51)
 
 ___
 
@@ -239,4 +234,4 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage.component.ts:94](https://github.com/giovanni-bertoncelli/ngx-konva/blob/d94ca4c/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L94)
+[projects/ngx-konva/src/lib/components/ko-stage.component.ts:74](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L74)
