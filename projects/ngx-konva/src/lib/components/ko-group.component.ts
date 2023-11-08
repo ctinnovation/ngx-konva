@@ -1,8 +1,9 @@
-import { AfterViewInit, Component, ContentChildren, EventEmitter, Input, OnInit, Output, QueryList } from '@angular/core';
+import { AfterViewInit, Component, EventEmitter, Input, OnInit, Optional, Output } from '@angular/core';
 import { Group } from 'konva/lib/Group';
 import { Layer } from 'konva/lib/Layer';
 import { KoShape } from '../common';
-import { KoNestable, KoNestableConfig } from '../common/ko-nestable';
+import { KoNestable, KoNestableConfig, KoNestableNode } from '../common/ko-nestable';
+import { KoLayerComponent } from './ko-layer.component';
 
 @Component({
   selector: 'ko-group',
@@ -14,9 +15,6 @@ import { KoNestable, KoNestableConfig } from '../common/ko-nestable';
   }]
 })
 export class KoGroupComponent extends KoNestable implements OnInit, AfterViewInit {
-  @ContentChildren(KoNestable)
-  private children!: QueryList<KoNestable>;
-
   group: Group;
 
   private _config: KoNestableConfig = {};
@@ -36,9 +34,12 @@ export class KoGroupComponent extends KoNestable implements OnInit, AfterViewIni
   @Output()
   afterUpdate = new EventEmitter<Group>();
 
-  constructor() {
+  constructor(
+    @Optional() private layerComponent: KoLayerComponent
+  ) {
     super();
     this.group = new Group();
+    this.layerComponent.addChild(this.group);
   }
 
   override ngOnInit(): void {
@@ -46,13 +47,6 @@ export class KoGroupComponent extends KoNestable implements OnInit, AfterViewIni
   }
 
   ngAfterViewInit(): void {
-    this.updateChildren();
-
-    this.sub.add(
-      this.children.changes.subscribe(
-        this.updateChildren.bind(this)
-      )
-    )
   }
 
   override getKoItem(): Group {
@@ -65,17 +59,14 @@ export class KoGroupComponent extends KoNestable implements OnInit, AfterViewIni
     this.afterUpdate.emit(this.group);
   }
 
-  private updateChildren() {
-    for (const child of this.children.toArray()) {
-      const found = this.group.findOne(`#${child.id}`);
+  addChild(child: KoNestableNode) {
+    const found = this.group.findOne(`#${child.id()}`);
 
-      if (found) {
-        continue;
-      }
-
-      const koItem = child.getKoItem();
-      this.group.add(koItem);
-      this.onNewItem.emit(koItem);
+    if (found) {
+      return;
     }
+
+    this.group.add(child);
+    this.onNewItem.emit(child);
   }
 }

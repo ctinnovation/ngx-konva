@@ -1,8 +1,7 @@
-import { AfterViewInit, Component, ContentChildren, ElementRef, EventEmitter, Input, OnDestroy, OnInit, Optional, Output, QueryList, forwardRef } from '@angular/core';
+import { AfterViewInit, Component, ElementRef, EventEmitter, Input, OnDestroy, OnInit, Optional, Output } from '@angular/core';
 import { Layer } from 'konva/lib/Layer';
 import { Stage, StageConfig } from 'konva/lib/Stage';
 import { Subscription } from 'rxjs';
-import { KoNestable } from '../common/ko-nestable';
 
 export type StageConfigOptionalContainer = Omit<StageConfig, 'container'> & Partial<Pick<StageConfig, 'container'>>;
 
@@ -13,10 +12,6 @@ export type StageConfigOptionalContainer = Omit<StageConfig, 'container'> & Part
 })
 export class KoStageComponent implements OnInit, OnDestroy, AfterViewInit {
   container: ElementRef;
-
-  @ContentChildren(forwardRef(() => KoNestable))
-  children!: QueryList<KoNestable>;
-
   stage: Stage;
 
   @Output()
@@ -56,12 +51,6 @@ export class KoStageComponent implements OnInit, OnDestroy, AfterViewInit {
   ngOnInit(): void { }
 
   ngAfterViewInit(): void {
-    this.sub.add(
-      this.children.changes.subscribe(() => {
-        this.updateLayers();
-      })
-    )
-    this.updateLayers();
   }
 
   ngOnDestroy(): void {
@@ -69,25 +58,16 @@ export class KoStageComponent implements OnInit, OnDestroy, AfterViewInit {
     this.stage.destroy();
   }
 
-  private updateLayers() {
-    for (const child of this.children.toArray()) {
-      const found = this.stage.findOne(`#${child.id}`);
-
-      if (found) {
-        continue;
-      }
-
-      const koItem = child.getKoItem();
-
-      if (!(koItem instanceof Layer)) {
-        console.warn(`${koItem.nodeType} not attachable to ko-stage/ko-stage-autoscale!`);
-        continue;
-      }
-
-      this.stage.add(koItem);
-      koItem.fire('ko:added', this.stage);
-      this.onNewLayer.emit(koItem);
+  addChild(layer: Layer) {
+    const found = this.stage.findOne(`#${layer.id()}`);
+    console.log(layer, found)
+    if (found) {
+      return;
     }
+
+    this.stage.add(layer);
+    layer.fire('ko:added', this.stage);
+    this.onNewLayer.emit(layer);
     this.stage.draw();
   }
 

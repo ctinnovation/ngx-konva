@@ -1,7 +1,9 @@
-import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Optional, Output } from '@angular/core';
 import { Label, Tag, TagConfig } from 'konva/lib/shapes/Label';
 import { Text, TextConfig } from 'konva/lib/shapes/Text';
 import { KoNestable, KoNestableConfig } from '../common/ko-nestable';
+import { KoGroupComponent } from './ko-group.component';
+import { KoLayerComponent } from './ko-layer.component';
 
 @Component({
   selector: 'ko-label',
@@ -66,9 +68,15 @@ export class KoLabelComponent extends KoNestable implements OnInit {
   @Output()
   afterUpdate = new EventEmitter<Label>();
 
-  constructor() {
-    super();
+  constructor(
+    @Optional() private layerComponent: KoLayerComponent,
+    @Optional() private groupComponent: KoGroupComponent
+  ) {
+    if (!layerComponent && !groupComponent) {
+      throw new Error(`ko-label should be nested inside ko-layer!`)
+    }
 
+    super();
     this.node = new Label(this._config);
     this.text = new Text(this._textConfig);
     this.tag = new Tag(this._tagConfig);
@@ -76,6 +84,7 @@ export class KoLabelComponent extends KoNestable implements OnInit {
     this.node
       .add(this.tag)
       .add(this.text);
+    (this.groupComponent || this.layerComponent).addChild(this.node);
   }
 
   override ngOnDestroy(): void {
