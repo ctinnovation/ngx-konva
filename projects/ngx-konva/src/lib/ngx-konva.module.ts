@@ -9,6 +9,7 @@ import { KoStageAutoScaleComponent } from './components/ko-stage-autoscale.compo
 import { KoStageComponent } from './components/ko-stage.component';
 import { KoDragDirective } from './directives/ko-drag.directive';
 import { KoHoverDirective } from './directives/ko-hover.directive';
+import { KoMouseDirective } from './directives/ko-mouse.directive';
 import { KoPointerDirective } from './directives/ko-pointer.directive';
 import { KoTransformDirective } from './directives/ko-transform.directive';
 
@@ -24,7 +25,8 @@ import { KoTransformDirective } from './directives/ko-transform.directive';
     KoImageComponent,
     KoLabelComponent,
     KoDragDirective,
-    KoTransformDirective
+    KoTransformDirective,
+    KoMouseDirective
   ],
   imports: [CommonModule],
   exports: [
@@ -38,7 +40,8 @@ import { KoTransformDirective } from './directives/ko-transform.directive';
     KoImageComponent,
     KoLabelComponent,
     KoDragDirective,
-    KoTransformDirective
+    KoTransformDirective,
+    KoMouseDirective
   ],
   providers: [],
 })
