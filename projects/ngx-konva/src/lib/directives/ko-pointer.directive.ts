@@ -1,4 +1,5 @@
 import { Directive, EventEmitter, OnDestroy, OnInit, Optional, Output, Self } from '@angular/core';
+import { KonvaEventObject } from 'konva/lib/Node';
 import { Subscription } from 'rxjs';
 import { KoNestable, KoNestableNode } from '../common/ko-nestable';
 import { KoStageComponent } from '../components/ko-stage.component';
@@ -8,34 +9,34 @@ import { KoStageComponent } from '../components/ko-stage.component';
 })
 export class KoPointerDirective implements OnInit, OnDestroy {
   @Output()
-  koPointerDown = new EventEmitter<KoNestableNode>();
+  koPointerDown = new EventEmitter<KonvaEventObject<PointerEvent>>();
 
   @Output()
-  koPointerMove = new EventEmitter<KoNestableNode>();
+  koPointerMove = new EventEmitter<KonvaEventObject<PointerEvent>>();
 
   @Output()
-  koPointerUp = new EventEmitter<KoNestableNode>();
+  koPointerUp = new EventEmitter<KonvaEventObject<PointerEvent>>();
 
   @Output()
-  koPointerCancel = new EventEmitter<KoNestableNode>();
+  koPointerCancel = new EventEmitter<KonvaEventObject<PointerEvent>>();
 
   @Output()
-  koPointerOver = new EventEmitter<KoNestableNode>();
+  koPointerOver = new EventEmitter<KonvaEventObject<PointerEvent>>();
 
   @Output()
-  koPointerEnter = new EventEmitter<KoNestableNode>();
+  koPointerEnter = new EventEmitter<KonvaEventObject<PointerEvent>>();
 
   @Output()
-  koPointerOut = new EventEmitter<KoNestableNode>();
+  koPointerOut = new EventEmitter<KonvaEventObject<PointerEvent>>();
 
   @Output()
-  koPointerLeave = new EventEmitter<KoNestableNode>();
+  koPointerLeave = new EventEmitter<KonvaEventObject<PointerEvent>>();
 
   @Output()
-  koPointerClick = new EventEmitter<KoNestableNode>();
+  koPointerClick = new EventEmitter<KonvaEventObject<PointerEvent>>();
 
   @Output()
-  koPointerDblClick = new EventEmitter<KoNestableNode>();
+  koPointerDblClick = new EventEmitter<KonvaEventObject<PointerEvent>>();
 
   sub = new Subscription();
   hovering = false;
@@ -105,44 +106,44 @@ export class KoPointerDirective implements OnInit, OnDestroy {
     this.node.on('pointerdblclick', this.onPointerDblClickListener);
   }
 
-  onPointerDown() {
-    this.koPointerDown.emit(this.node);
+  onPointerDown(event: KonvaEventObject<PointerEvent>) {
+    this.koPointerDown.emit(event);
   }
 
-  onPointerMove() {
-    this.koPointerMove.emit(this.node);
+  onPointerMove(event: KonvaEventObject<PointerEvent>) {
+    this.koPointerMove.emit(event);
   }
 
-  onPointerUp() {
-    this.koPointerUp.emit(this.node);
+  onPointerUp(event: KonvaEventObject<PointerEvent>) {
+    this.koPointerUp.emit(event);
   }
 
-  onPointerCancel() {
-    this.koPointerCancel.emit(this.node);
+  onPointerCancel(event: KonvaEventObject<PointerEvent>) {
+    this.koPointerCancel.emit(event);
   }
 
-  onPointerOver() {
-    this.koPointerOver.emit(this.node);
+  onPointerOver(event: KonvaEventObject<PointerEvent>) {
+    this.koPointerOver.emit(event);
   }
 
-  onPointerEnter() {
-    this.koPointerEnter.emit(this.node);
+  onPointerEnter(event: KonvaEventObject<PointerEvent>) {
+    this.koPointerEnter.emit(event);
   }
 
-  onPointerOut() {
-    this.koPointerOut.emit(this.node);
+  onPointerOut(event: KonvaEventObject<PointerEvent>) {
+    this.koPointerOut.emit(event);
   }
 
-  onPointerLeave() {
-    this.koPointerLeave.emit(this.node);
+  onPointerLeave(event: KonvaEventObject<PointerEvent>) {
+    this.koPointerLeave.emit(event);
   }
 
-  onPointerClick() {
-    this.koPointerClick.emit(this.node);
+  onPointerClick(event: KonvaEventObject<PointerEvent>) {
+    this.koPointerClick.emit(event);
   }
 
-  onPointerDblClick() {
-    this.koPointerDblClick.emit(this.node);
+  onPointerDblClick(event: KonvaEventObject<PointerEvent>) {
+    this.koPointerDblClick.emit(event);
   }
 
 }

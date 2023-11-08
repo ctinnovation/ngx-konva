@@ -1,4 +1,5 @@
 import { Directive, EventEmitter, OnDestroy, OnInit, Optional, Output, Self } from '@angular/core';
+import { KonvaEventObject } from 'konva/lib/Node';
 import { Subscription } from 'rxjs';
 import { KoNestable, KoNestableNode } from '../common/ko-nestable';
 import { KoStageComponent } from '../components/ko-stage.component';
@@ -8,34 +9,34 @@ import { KoStageComponent } from '../components/ko-stage.component';
 })
 export class KoMouseDirective implements OnInit, OnDestroy {
   @Output()
-  koMouseDown = new EventEmitter<KoNestableNode>();
+  koMouseDown = new EventEmitter<KonvaEventObject<MouseEvent>>();
 
   @Output()
-  koMouseMove = new EventEmitter<KoNestableNode>();
+  koMouseMove = new EventEmitter<KonvaEventObject<MouseEvent>>();
 
   @Output()
-  koMouseUp = new EventEmitter<KoNestableNode>();
+  koMouseUp = new EventEmitter<KonvaEventObject<MouseEvent>>();
 
   @Output()
-  koMouseLeave = new EventEmitter<KoNestableNode>();
+  koMouseLeave = new EventEmitter<KonvaEventObject<MouseEvent>>();
 
   @Output()
-  koMouseOver = new EventEmitter<KoNestableNode>();
+  koMouseOver = new EventEmitter<KonvaEventObject<MouseEvent>>();
 
   @Output()
-  koMouseEnter = new EventEmitter<KoNestableNode>();
+  koMouseEnter = new EventEmitter<KonvaEventObject<MouseEvent>>();
 
   @Output()
-  koMouseWheel = new EventEmitter<KoNestableNode>();
+  koMouseWheel = new EventEmitter<KonvaEventObject<MouseEvent>>();
 
   @Output()
-  koMouseOut = new EventEmitter<KoNestableNode>();
+  koMouseOut = new EventEmitter<KonvaEventObject<MouseEvent>>();
 
   @Output()
-  koClick = new EventEmitter<KoNestableNode>();
+  koClick = new EventEmitter<KonvaEventObject<MouseEvent>>();
 
   @Output()
-  koDblclick = new EventEmitter<KoNestableNode>();
+  koDblclick = new EventEmitter<KonvaEventObject<MouseEvent>>();
 
   sub = new Subscription();
   hovering = false;
@@ -105,44 +106,44 @@ export class KoMouseDirective implements OnInit, OnDestroy {
     this.node.on('dblclick', this.onDblclickListener);
   }
 
-  onMouseWheel() {
-    this.koMouseWheel.emit(this.node);
+  onMouseWheel(event: KonvaEventObject<MouseEvent>) {
+    this.koMouseWheel.emit(event);
   }
 
-  onMouseDown() {
-    this.koMouseDown.emit(this.node);
+  onMouseDown(event: KonvaEventObject<MouseEvent>) {
+    this.koMouseDown.emit(event);
   }
 
-  onMouseMove() {
-    this.koMouseMove.emit(this.node);
+  onMouseMove(event: KonvaEventObject<MouseEvent>) {
+    this.koMouseMove.emit(event);
   }
 
-  onMouseUp() {
-    this.koMouseUp.emit(this.node);
+  onMouseUp(event: KonvaEventObject<MouseEvent>) {
+    this.koMouseUp.emit(event);
   }
 
-  onMouseOver() {
-    this.koMouseOver.emit(this.node);
+  onMouseOver(event: KonvaEventObject<MouseEvent>) {
+    this.koMouseOver.emit(event);
   }
 
-  onMouseEnter() {
-    this.koMouseEnter.emit(this.node);
+  onMouseEnter(event: KonvaEventObject<MouseEvent>) {
+    this.koMouseEnter.emit(event);
   }
 
-  onMouseOut() {
-    this.koMouseOut.emit(this.node);
+  onMouseOut(event: KonvaEventObject<MouseEvent>) {
+    this.koMouseOut.emit(event);
   }
 
-  onMouseLeave() {
-    this.koMouseLeave.emit(this.node);
+  onMouseLeave(event: KonvaEventObject<MouseEvent>) {
+    this.koMouseLeave.emit(event);
   }
 
-  onClick() {
-    this.koClick.emit(this.node);
+  onClick(event: KonvaEventObject<MouseEvent>) {
+    this.koClick.emit(event);
   }
 
-  onDblclick() {
-    this.koDblclick.emit(this.node);
+  onDblclick(event: KonvaEventObject<MouseEvent>) {
+    this.koDblclick.emit(event);
   }
 
 }
