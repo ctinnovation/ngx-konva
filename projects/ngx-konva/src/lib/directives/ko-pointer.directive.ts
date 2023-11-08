@@ -1,6 +1,7 @@
 import { Directive, EventEmitter, OnDestroy, OnInit, Optional, Output, Self } from '@angular/core';
 import { Subscription } from 'rxjs';
 import { KoNestable, KoNestableNode } from '../common/ko-nestable';
+import { KoStageComponent } from '../components/ko-stage.component';
 
 @Directive({
   selector: '[koPointer]'
@@ -54,13 +55,15 @@ export class KoPointerDirective implements OnInit, OnDestroy {
 
 
   constructor(
-    @Optional() @Self() nestable: KoNestable
+    @Optional() @Self() nestable: KoNestable,
+    @Optional() @Self() stage: KoStageComponent,
   ) {
-    if (!nestable) {
-      throw new Error('koPointer attachable only to ko-shape');
+    if (!nestable && !stage) {
+      throw new Error('koPointer attachable only to ko-shape or ko-stage');
     }
 
-    this.node = nestable.getKoItem();
+    this.node = (nestable && nestable.getKoItem()) ||
+      (stage && stage.stage);
     this.addListeners();
   }
 

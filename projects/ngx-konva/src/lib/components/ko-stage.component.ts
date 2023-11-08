@@ -60,7 +60,6 @@ export class KoStageComponent implements OnInit, OnDestroy, AfterViewInit {
 
   addChild(layer: Layer) {
     const found = this.stage.findOne(`#${layer.id()}`);
-    console.log(layer, found)
     if (found) {
       return;
     }
