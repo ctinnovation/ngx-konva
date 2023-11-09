@@ -73,7 +73,7 @@
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-shape.component.ts:38](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-shape.component.ts#L38)
+[projects/ngx-konva/src/lib/components/ko-shape.component.ts:38](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/components/ko-shape.component.ts#L38)
 
 ## Properties
 
@@ -83,7 +83,7 @@
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-shape.component.ts:19](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-shape.component.ts#L19)
+[projects/ngx-konva/src/lib/components/ko-shape.component.ts:19](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/components/ko-shape.component.ts#L19)
 
 ___
 
@@ -97,7 +97,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/ko-nestable.ts:34](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/common/ko-nestable.ts#L34)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:34](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/common/ko-nestable.ts#L34)
 
 ___
 
@@ -111,7 +111,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/ko-nestable.ts:35](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/common/ko-nestable.ts#L35)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:35](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/common/ko-nestable.ts#L35)
 
 ___
 
@@ -121,7 +121,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-shape.component.ts:34](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-shape.component.ts#L34)
+[projects/ngx-konva/src/lib/components/ko-shape.component.ts:34](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/components/ko-shape.component.ts#L34)
 
 ___
 
@@ -131,7 +131,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-shape.component.ts:31](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-shape.component.ts#L31)
+[projects/ngx-konva/src/lib/components/ko-shape.component.ts:31](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/components/ko-shape.component.ts#L31)
 
 ___
 
@@ -141,7 +141,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-shape.component.ts:28](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-shape.component.ts#L28)
+[projects/ngx-konva/src/lib/components/ko-shape.component.ts:28](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/components/ko-shape.component.ts#L28)
 
 ___
 
@@ -151,7 +151,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-shape.component.ts:39](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-shape.component.ts#L39)
+[projects/ngx-konva/src/lib/components/ko-shape.component.ts:39](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/components/ko-shape.component.ts#L39)
 
 ___
 
@@ -161,7 +161,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-shape.component.ts:41](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-shape.component.ts#L41)
+[projects/ngx-konva/src/lib/components/ko-shape.component.ts:41](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/components/ko-shape.component.ts#L41)
 
 ___
 
@@ -175,7 +175,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/ko-nestable.ts:18](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/common/ko-nestable.ts#L18)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:18](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/common/ko-nestable.ts#L18)
 
 ___
 
@@ -185,7 +185,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-shape.component.ts:40](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-shape.component.ts#L40)
+[projects/ngx-konva/src/lib/components/ko-shape.component.ts:40](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/components/ko-shape.component.ts#L40)
 
 ___
 
@@ -195,7 +195,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-shape.component.ts:36](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-shape.component.ts#L36)
+[projects/ngx-konva/src/lib/components/ko-shape.component.ts:36](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/components/ko-shape.component.ts#L36)
 
 ___
 
@@ -205,7 +205,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-shape.component.ts:17](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-shape.component.ts#L17)
+[projects/ngx-konva/src/lib/components/ko-shape.component.ts:17](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/components/ko-shape.component.ts#L17)
 
 ___
 
@@ -219,7 +219,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/ko-nestable.ts:32](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/common/ko-nestable.ts#L32)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:32](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/common/ko-nestable.ts#L32)
 
 ___
 
@@ -233,7 +233,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/ko-nestable.ts:24](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/common/ko-nestable.ts#L24)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:24](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/common/ko-nestable.ts#L24)
 
 ___
 
@@ -247,7 +247,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/ko-nestable.ts:30](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/common/ko-nestable.ts#L30)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:30](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/common/ko-nestable.ts#L30)
 
 ___
 
@@ -261,7 +261,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/ko-nestable.ts:27](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/common/ko-nestable.ts#L27)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:27](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/common/ko-nestable.ts#L27)
 
 ___
 
@@ -275,7 +275,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/ko-nestable.ts:21](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/common/ko-nestable.ts#L21)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:21](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/common/ko-nestable.ts#L21)
 
 ___
 
@@ -310,7 +310,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/ko-nestable.ts:15](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/common/ko-nestable.ts#L15)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:15](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/common/ko-nestable.ts#L15)
 
 ## Accessors
 
@@ -330,7 +330,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-shape.component.ts:21](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-shape.component.ts#L21)
+[projects/ngx-konva/src/lib/components/ko-shape.component.ts:21](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/components/ko-shape.component.ts#L21)
 
 ## Methods
 
@@ -344,7 +344,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-shape.component.ts:71](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-shape.component.ts#L71)
+[projects/ngx-konva/src/lib/components/ko-shape.component.ts:71](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/components/ko-shape.component.ts#L71)
 
 ___
 
@@ -358,7 +358,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-shape.component.ts:67](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-shape.component.ts#L67)
+[projects/ngx-konva/src/lib/components/ko-shape.component.ts:67](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/components/ko-shape.component.ts#L67)
 
 ___
 
@@ -376,7 +376,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-shape.component.ts:57](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-shape.component.ts#L57)
+[projects/ngx-konva/src/lib/components/ko-shape.component.ts:57](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/components/ko-shape.component.ts#L57)
 
 ___
 
@@ -394,7 +394,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/ko-nestable.ts:44](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/common/ko-nestable.ts#L44)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:44](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/common/ko-nestable.ts#L44)
 
 ___
 
@@ -416,7 +416,7 @@ OnInit.ngOnInit
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-shape.component.ts:53](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-shape.component.ts#L53)
+[projects/ngx-konva/src/lib/components/ko-shape.component.ts:53](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/components/ko-shape.component.ts#L53)
 
 ___
 
@@ -440,7 +440,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/ko-nestable.ts:49](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/common/ko-nestable.ts#L49)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:49](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/common/ko-nestable.ts#L49)
 
 ___
 
@@ -454,4 +454,4 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-shape.component.ts:61](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-shape.component.ts#L61)
+[projects/ngx-konva/src/lib/components/ko-shape.component.ts:61](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/components/ko-shape.component.ts#L61)

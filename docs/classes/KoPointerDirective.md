@@ -59,17 +59,18 @@
 
 ### constructor
 
-• **new KoPointerDirective**(`nestable`)
+• **new KoPointerDirective**(`nestable`, `stage`)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `nestable` | [`KoNestable`](KoNestable.md) |
+| `stage` | [`KoStageComponent`](KoStageComponent.md) |
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:56](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L56)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:58](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L58)
 
 ## Properties
 
@@ -79,107 +80,107 @@
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:40](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L40)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:42](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L42)
 
 ___
 
 ### koPointerCancel
 
-• **koPointerCancel**: `EventEmitter`<[`KoNestableNode`](../modules.md#konestablenode)\>
+• **koPointerCancel**: `EventEmitter`<`KonvaEventObject`<`PointerEvent`\>\>
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:19](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L19)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:21](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L21)
 
 ___
 
 ### koPointerClick
 
-• **koPointerClick**: `EventEmitter`<[`KoNestableNode`](../modules.md#konestablenode)\>
+• **koPointerClick**: `EventEmitter`<`KonvaEventObject`<`PointerEvent`\>\>
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:34](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L34)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:36](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L36)
 
 ___
 
 ### koPointerDblClick
 
-• **koPointerDblClick**: `EventEmitter`<[`KoNestableNode`](../modules.md#konestablenode)\>
+• **koPointerDblClick**: `EventEmitter`<`KonvaEventObject`<`PointerEvent`\>\>
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:37](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L37)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:39](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L39)
 
 ___
 
 ### koPointerDown
 
-• **koPointerDown**: `EventEmitter`<[`KoNestableNode`](../modules.md#konestablenode)\>
+• **koPointerDown**: `EventEmitter`<`KonvaEventObject`<`PointerEvent`\>\>
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:10](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L10)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:12](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L12)
 
 ___
 
 ### koPointerEnter
 
-• **koPointerEnter**: `EventEmitter`<[`KoNestableNode`](../modules.md#konestablenode)\>
+• **koPointerEnter**: `EventEmitter`<`KonvaEventObject`<`PointerEvent`\>\>
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:25](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L25)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:27](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L27)
 
 ___
 
 ### koPointerLeave
 
-• **koPointerLeave**: `EventEmitter`<[`KoNestableNode`](../modules.md#konestablenode)\>
+• **koPointerLeave**: `EventEmitter`<`KonvaEventObject`<`PointerEvent`\>\>
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:31](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L31)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:33](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L33)
 
 ___
 
 ### koPointerMove
 
-• **koPointerMove**: `EventEmitter`<[`KoNestableNode`](../modules.md#konestablenode)\>
+• **koPointerMove**: `EventEmitter`<`KonvaEventObject`<`PointerEvent`\>\>
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:13](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L13)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:15](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L15)
 
 ___
 
 ### koPointerOut
 
-• **koPointerOut**: `EventEmitter`<[`KoNestableNode`](../modules.md#konestablenode)\>
+• **koPointerOut**: `EventEmitter`<`KonvaEventObject`<`PointerEvent`\>\>
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:28](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L28)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:30](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L30)
 
 ___
 
 ### koPointerOver
 
-• **koPointerOver**: `EventEmitter`<[`KoNestableNode`](../modules.md#konestablenode)\>
+• **koPointerOver**: `EventEmitter`<`KonvaEventObject`<`PointerEvent`\>\>
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:22](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L22)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:24](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L24)
 
 ___
 
 ### koPointerUp
 
-• **koPointerUp**: `EventEmitter`<[`KoNestableNode`](../modules.md#konestablenode)\>
+• **koPointerUp**: `EventEmitter`<`KonvaEventObject`<`PointerEvent`\>\>
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:16](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L16)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:18](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L18)
 
 ___
 
@@ -189,17 +190,23 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:42](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L42)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:44](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L44)
 
 ___
 
 ### onPointerCancelListener
 
-• **onPointerCancelListener**: () => `void`
+• **onPointerCancelListener**: (`event`: `KonvaEventObject`<`PointerEvent`\>) => `void`
 
 #### Type declaration
 
-▸ (): `void`
+▸ (`event`): `void`
+
+##### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `event` | `KonvaEventObject`<`PointerEvent`\> |
 
 ##### Returns
 
@@ -207,17 +214,23 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:47](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L47)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:49](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L49)
 
 ___
 
 ### onPointerClickListener
 
-• **onPointerClickListener**: () => `void`
+• **onPointerClickListener**: (`event`: `KonvaEventObject`<`PointerEvent`\>) => `void`
 
 #### Type declaration
 
-▸ (): `void`
+▸ (`event`): `void`
+
+##### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `event` | `KonvaEventObject`<`PointerEvent`\> |
 
 ##### Returns
 
@@ -225,17 +238,23 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:52](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L52)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:54](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L54)
 
 ___
 
 ### onPointerDblClickListener
 
-• **onPointerDblClickListener**: () => `void`
+• **onPointerDblClickListener**: (`event`: `KonvaEventObject`<`PointerEvent`\>) => `void`
 
 #### Type declaration
 
-▸ (): `void`
+▸ (`event`): `void`
+
+##### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `event` | `KonvaEventObject`<`PointerEvent`\> |
 
 ##### Returns
 
@@ -243,17 +262,23 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:53](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L53)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:55](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L55)
 
 ___
 
 ### onPointerDownListener
 
-• **onPointerDownListener**: () => `void`
+• **onPointerDownListener**: (`event`: `KonvaEventObject`<`PointerEvent`\>) => `void`
 
 #### Type declaration
 
-▸ (): `void`
+▸ (`event`): `void`
+
+##### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `event` | `KonvaEventObject`<`PointerEvent`\> |
 
 ##### Returns
 
@@ -261,17 +286,23 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:44](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L44)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:46](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L46)
 
 ___
 
 ### onPointerEnterListener
 
-• **onPointerEnterListener**: () => `void`
+• **onPointerEnterListener**: (`event`: `KonvaEventObject`<`PointerEvent`\>) => `void`
 
 #### Type declaration
 
-▸ (): `void`
+▸ (`event`): `void`
+
+##### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `event` | `KonvaEventObject`<`PointerEvent`\> |
 
 ##### Returns
 
@@ -279,17 +310,23 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:49](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L49)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:51](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L51)
 
 ___
 
 ### onPointerLeaveListener
 
-• **onPointerLeaveListener**: () => `void`
+• **onPointerLeaveListener**: (`event`: `KonvaEventObject`<`PointerEvent`\>) => `void`
 
 #### Type declaration
 
-▸ (): `void`
+▸ (`event`): `void`
+
+##### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `event` | `KonvaEventObject`<`PointerEvent`\> |
 
 ##### Returns
 
@@ -297,17 +334,23 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:51](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L51)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:53](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L53)
 
 ___
 
 ### onPointerMoveListener
 
-• **onPointerMoveListener**: () => `void`
+• **onPointerMoveListener**: (`event`: `KonvaEventObject`<`PointerEvent`\>) => `void`
 
 #### Type declaration
 
-▸ (): `void`
+▸ (`event`): `void`
+
+##### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `event` | `KonvaEventObject`<`PointerEvent`\> |
 
 ##### Returns
 
@@ -315,17 +358,23 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:45](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L45)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:47](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L47)
 
 ___
 
 ### onPointerOutListener
 
-• **onPointerOutListener**: () => `void`
+• **onPointerOutListener**: (`event`: `KonvaEventObject`<`PointerEvent`\>) => `void`
 
 #### Type declaration
 
-▸ (): `void`
+▸ (`event`): `void`
+
+##### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `event` | `KonvaEventObject`<`PointerEvent`\> |
 
 ##### Returns
 
@@ -333,17 +382,23 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:50](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L50)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:52](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L52)
 
 ___
 
 ### onPointerOverListener
 
-• **onPointerOverListener**: () => `void`
+• **onPointerOverListener**: (`event`: `KonvaEventObject`<`PointerEvent`\>) => `void`
 
 #### Type declaration
 
-▸ (): `void`
+▸ (`event`): `void`
+
+##### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `event` | `KonvaEventObject`<`PointerEvent`\> |
 
 ##### Returns
 
@@ -351,17 +406,23 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:48](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L48)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:50](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L50)
 
 ___
 
 ### onPointerUpListener
 
-• **onPointerUpListener**: () => `void`
+• **onPointerUpListener**: (`event`: `KonvaEventObject`<`PointerEvent`\>) => `void`
 
 #### Type declaration
 
-▸ (): `void`
+▸ (`event`): `void`
+
+##### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `event` | `KonvaEventObject`<`PointerEvent`\> |
 
 ##### Returns
 
@@ -369,7 +430,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:46](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L46)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:48](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L48)
 
 ___
 
@@ -379,7 +440,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:39](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L39)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:41](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L41)
 
 ## Methods
 
@@ -393,7 +454,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:88](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L88)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:92](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L92)
 
 ___
 
@@ -411,7 +472,7 @@ OnDestroy.ngOnDestroy
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:70](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L70)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:74](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L74)
 
 ___
 
@@ -429,13 +490,19 @@ OnInit.ngOnInit
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:67](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L67)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:71](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L71)
 
 ___
 
 ### onPointerCancel
 
-▸ **onPointerCancel**(): `void`
+▸ **onPointerCancel**(`event`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `event` | `KonvaEventObject`<`PointerEvent`\> |
 
 #### Returns
 
@@ -443,13 +510,19 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:117](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L117)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:121](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L121)
 
 ___
 
 ### onPointerClick
 
-▸ **onPointerClick**(): `void`
+▸ **onPointerClick**(`event`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `event` | `KonvaEventObject`<`PointerEvent`\> |
 
 #### Returns
 
@@ -457,13 +530,19 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:137](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L137)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:141](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L141)
 
 ___
 
 ### onPointerDblClick
 
-▸ **onPointerDblClick**(): `void`
+▸ **onPointerDblClick**(`event`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `event` | `KonvaEventObject`<`PointerEvent`\> |
 
 #### Returns
 
@@ -471,13 +550,19 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:141](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L141)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:145](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L145)
 
 ___
 
 ### onPointerDown
 
-▸ **onPointerDown**(): `void`
+▸ **onPointerDown**(`event`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `event` | `KonvaEventObject`<`PointerEvent`\> |
 
 #### Returns
 
@@ -485,13 +570,19 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:105](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L105)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:109](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L109)
 
 ___
 
 ### onPointerEnter
 
-▸ **onPointerEnter**(): `void`
+▸ **onPointerEnter**(`event`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `event` | `KonvaEventObject`<`PointerEvent`\> |
 
 #### Returns
 
@@ -499,13 +590,19 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:125](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L125)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:129](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L129)
 
 ___
 
 ### onPointerLeave
 
-▸ **onPointerLeave**(): `void`
+▸ **onPointerLeave**(`event`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `event` | `KonvaEventObject`<`PointerEvent`\> |
 
 #### Returns
 
@@ -513,13 +610,19 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:133](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L133)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:137](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L137)
 
 ___
 
 ### onPointerMove
 
-▸ **onPointerMove**(): `void`
+▸ **onPointerMove**(`event`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `event` | `KonvaEventObject`<`PointerEvent`\> |
 
 #### Returns
 
@@ -527,13 +630,19 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:109](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L109)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:113](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L113)
 
 ___
 
 ### onPointerOut
 
-▸ **onPointerOut**(): `void`
+▸ **onPointerOut**(`event`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `event` | `KonvaEventObject`<`PointerEvent`\> |
 
 #### Returns
 
@@ -541,13 +650,19 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:129](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L129)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:133](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L133)
 
 ___
 
 ### onPointerOver
 
-▸ **onPointerOver**(): `void`
+▸ **onPointerOver**(`event`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `event` | `KonvaEventObject`<`PointerEvent`\> |
 
 #### Returns
 
@@ -555,13 +670,19 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:121](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L121)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:125](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L125)
 
 ___
 
 ### onPointerUp
 
-▸ **onPointerUp**(): `void`
+▸ **onPointerUp**(`event`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `event` | `KonvaEventObject`<`PointerEvent`\> |
 
 #### Returns
 
@@ -569,4 +690,4 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:113](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L113)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:117](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L117)

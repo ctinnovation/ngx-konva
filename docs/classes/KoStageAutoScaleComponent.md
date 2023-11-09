@@ -26,6 +26,7 @@
 - [beforeUpdate](KoStageAutoScaleComponent.md#beforeupdate)
 - [cdRef](KoStageAutoScaleComponent.md#cdref)
 - [container](KoStageAutoScaleComponent.md#container)
+- [initDimensions](KoStageAutoScaleComponent.md#initdimensions)
 - [initialDimensions](KoStageAutoScaleComponent.md#initialdimensions)
 - [onNewLayer](KoStageAutoScaleComponent.md#onnewlayer)
 - [parentContainer](KoStageAutoScaleComponent.md#parentcontainer)
@@ -50,7 +51,7 @@
 
 ### constructor
 
-• **new KoStageAutoScaleComponent**(`parentContainer`, `cdRef`, `container`)
+• **new KoStageAutoScaleComponent**(`parentContainer`, `cdRef`)
 
 #### Parameters
 
@@ -58,7 +59,6 @@
 | :------ | :------ |
 | `parentContainer` | `ElementRef`<`HTMLDivElement`\> |
 | `cdRef` | `ChangeDetectorRef` |
-| `container` | `ElementRef`<`any`\> |
 
 #### Overrides
 
@@ -66,7 +66,7 @@
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts:15](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts#L15)
+[projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts:22](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts#L22)
 
 ## Properties
 
@@ -80,7 +80,7 @@
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage.component.ts:21](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L21)
+[projects/ngx-konva/src/lib/components/ko-stage.component.ts:21](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L21)
 
 ___
 
@@ -94,7 +94,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage.component.ts:18](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L18)
+[projects/ngx-konva/src/lib/components/ko-stage.component.ts:18](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L18)
 
 ___
 
@@ -104,7 +104,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts:17](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts#L17)
+[projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts:24](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts#L24)
 
 ___
 
@@ -118,7 +118,17 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage.component.ts:14](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L14)
+[projects/ngx-konva/src/lib/components/ko-stage.component.ts:14](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L14)
+
+___
+
+### initDimensions
+
+• **initDimensions**: `EventEmitter`<{ `height`: `number` ; `width`: `number`  }\>
+
+#### Defined in
+
+[projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts:20](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts#L20)
 
 ___
 
@@ -128,7 +138,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts:12](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts#L12)
+[projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts:16](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts#L16)
 
 ___
 
@@ -142,7 +152,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage.component.ts:24](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L24)
+[projects/ngx-konva/src/lib/components/ko-stage.component.ts:24](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L24)
 
 ___
 
@@ -152,7 +162,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts:16](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts#L16)
+[projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts:23](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts#L23)
 
 ___
 
@@ -162,7 +172,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts:13](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts#L13)
+[projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts:17](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts#L17)
 
 ___
 
@@ -176,7 +186,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage.component.ts:15](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L15)
+[projects/ngx-konva/src/lib/components/ko-stage.component.ts:15](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L15)
 
 ## Accessors
 
@@ -200,7 +210,7 @@ KoStageComponent.config
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage.component.ts:29](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L29)
+[projects/ngx-konva/src/lib/components/ko-stage.component.ts:29](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L29)
 
 ## Methods
 
@@ -224,7 +234,7 @@ KoStageComponent.config
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage.component.ts:61](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L61)
+[projects/ngx-konva/src/lib/components/ko-stage.component.ts:61](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L61)
 
 ___
 
@@ -242,7 +252,7 @@ AfterContentInit.ngAfterContentInit
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts:40](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts#L40)
+[projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts:46](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts#L46)
 
 ___
 
@@ -260,7 +270,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage.component.ts:53](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L53)
+[projects/ngx-konva/src/lib/components/ko-stage.component.ts:53](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L53)
 
 ___
 
@@ -282,7 +292,7 @@ OnDestroy.ngOnDestroy
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts:44](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts#L44)
+[projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts:50](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts#L50)
 
 ___
 
@@ -304,7 +314,7 @@ OnInit.ngOnInit
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts:36](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts#L36)
+[projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts:42](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts#L42)
 
 ___
 
@@ -318,7 +328,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts:49](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts#L49)
+[projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts:55](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts#L55)
 
 ___
 
@@ -332,4 +342,4 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts:53](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts#L53)
+[projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts:59](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts#L59)
