@@ -72,6 +72,7 @@ export class KoStageAutoScaleComponent extends KoStageComponent implements OnIni
       scaleX: scaleWidth,
       scaleY: scaleHeight
     }
+    this.afterUpdate.emit(this.stage);
     this.cdRef.detectChanges();
   }
 
