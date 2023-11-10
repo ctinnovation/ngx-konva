@@ -80,7 +80,6 @@ export class KoLayerComponent extends KoNestable implements OnInit, OnDestroy, A
 
   addChild(child: KoNestableNode) {
     const found = this.layer.findOne(`#${child.id()}`);
-
     if (found) {
       return;
     }

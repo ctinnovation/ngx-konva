@@ -17,7 +17,9 @@ import { KoLayerComponent } from './ko-layer.component';
 export class KoGroupComponent extends KoNestable implements OnInit, AfterViewInit {
   group: Group;
 
-  private _config: KoNestableConfig = {};
+  private _config: KoNestableConfig = {
+    id: this.id
+  };
   @Input()
   set config(c: KoNestableConfig) {
     this._config = c;
