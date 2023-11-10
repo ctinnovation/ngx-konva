@@ -69,7 +69,7 @@
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-group.component.ts:37](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-group.component.ts#L37)
+[projects/ngx-konva/src/lib/components/ko-group.component.ts:37](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/components/ko-group.component.ts#L37)
 
 ## Properties
 
@@ -79,7 +79,7 @@
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-group.component.ts:20](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-group.component.ts#L20)
+[projects/ngx-konva/src/lib/components/ko-group.component.ts:20](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/components/ko-group.component.ts#L20)
 
 ___
 
@@ -93,7 +93,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/ko-nestable.ts:34](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/common/ko-nestable.ts#L34)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:34](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/common/ko-nestable.ts#L34)
 
 ___
 
@@ -107,7 +107,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/ko-nestable.ts:35](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/common/ko-nestable.ts#L35)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:35](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/common/ko-nestable.ts#L35)
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-group.component.ts:35](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-group.component.ts#L35)
+[projects/ngx-konva/src/lib/components/ko-group.component.ts:35](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/components/ko-group.component.ts#L35)
 
 ___
 
@@ -127,7 +127,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-group.component.ts:32](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-group.component.ts#L32)
+[projects/ngx-konva/src/lib/components/ko-group.component.ts:32](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/components/ko-group.component.ts#L32)
 
 ___
 
@@ -137,7 +137,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-group.component.ts:18](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-group.component.ts#L18)
+[projects/ngx-konva/src/lib/components/ko-group.component.ts:18](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/components/ko-group.component.ts#L18)
 
 ___
 
@@ -151,7 +151,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/ko-nestable.ts:18](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/common/ko-nestable.ts#L18)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:18](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/common/ko-nestable.ts#L18)
 
 ___
 
@@ -161,7 +161,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-group.component.ts:38](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-group.component.ts#L38)
+[projects/ngx-konva/src/lib/components/ko-group.component.ts:38](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/components/ko-group.component.ts#L38)
 
 ___
 
@@ -171,7 +171,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-group.component.ts:29](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-group.component.ts#L29)
+[projects/ngx-konva/src/lib/components/ko-group.component.ts:29](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/components/ko-group.component.ts#L29)
 
 ___
 
@@ -185,7 +185,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/ko-nestable.ts:32](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/common/ko-nestable.ts#L32)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:32](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/common/ko-nestable.ts#L32)
 
 ___
 
@@ -199,7 +199,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/ko-nestable.ts:24](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/common/ko-nestable.ts#L24)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:24](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/common/ko-nestable.ts#L24)
 
 ___
 
@@ -213,7 +213,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/ko-nestable.ts:30](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/common/ko-nestable.ts#L30)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:30](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/common/ko-nestable.ts#L30)
 
 ___
 
@@ -227,7 +227,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/ko-nestable.ts:27](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/common/ko-nestable.ts#L27)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:27](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/common/ko-nestable.ts#L27)
 
 ___
 
@@ -241,7 +241,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/ko-nestable.ts:21](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/common/ko-nestable.ts#L21)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:21](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/common/ko-nestable.ts#L21)
 
 ___
 
@@ -276,7 +276,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/ko-nestable.ts:15](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/common/ko-nestable.ts#L15)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:15](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/common/ko-nestable.ts#L15)
 
 ## Accessors
 
@@ -296,7 +296,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-group.component.ts:22](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-group.component.ts#L22)
+[projects/ngx-konva/src/lib/components/ko-group.component.ts:22](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/components/ko-group.component.ts#L22)
 
 ## Methods
 
@@ -316,7 +316,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-group.component.ts:62](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-group.component.ts#L62)
+[projects/ngx-konva/src/lib/components/ko-group.component.ts:62](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/components/ko-group.component.ts#L62)
 
 ___
 
@@ -334,7 +334,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-group.component.ts:52](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-group.component.ts#L52)
+[projects/ngx-konva/src/lib/components/ko-group.component.ts:52](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/components/ko-group.component.ts#L52)
 
 ___
 
@@ -352,7 +352,7 @@ AfterViewInit.ngAfterViewInit
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-group.component.ts:49](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-group.component.ts#L49)
+[projects/ngx-konva/src/lib/components/ko-group.component.ts:49](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/components/ko-group.component.ts#L49)
 
 ___
 
@@ -370,7 +370,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/ko-nestable.ts:44](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/common/ko-nestable.ts#L44)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:44](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/common/ko-nestable.ts#L44)
 
 ___
 
@@ -392,7 +392,7 @@ OnInit.ngOnInit
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-group.component.ts:45](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-group.component.ts#L45)
+[projects/ngx-konva/src/lib/components/ko-group.component.ts:45](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/components/ko-group.component.ts#L45)
 
 ___
 
@@ -416,7 +416,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/ko-nestable.ts:49](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/common/ko-nestable.ts#L49)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:49](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/common/ko-nestable.ts#L49)
 
 ___
 
@@ -430,4 +430,4 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-group.component.ts:56](https://github.com/giovanni-bertoncelli/ngx-konva/blob/a56f97a/projects/ngx-konva/src/lib/components/ko-group.component.ts#L56)
+[projects/ngx-konva/src/lib/components/ko-group.component.ts:56](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/components/ko-group.component.ts#L56)

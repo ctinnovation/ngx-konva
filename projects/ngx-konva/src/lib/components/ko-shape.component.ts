@@ -16,7 +16,9 @@ import { KoLayerComponent } from './ko-layer.component';
 export class KoShapeComponent extends KoNestable implements OnInit {
   shape: KoShape;
 
-  private _config: KoShapeConfig = {};
+  private _config: KoShapeConfig = {
+    id: this.id
+  };
   @Input()
   set config(c: KoShapeConfig) {
     this._config = c;

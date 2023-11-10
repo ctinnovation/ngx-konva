@@ -28,7 +28,9 @@ export class KoImageComponent extends KoNestable implements OnInit {
     this.updateShape();
   };
 
-  private _config: KoNestableConfig = {};
+  private _config: KoNestableConfig = {
+    id: this.id
+  };
   @Input()
   set config(c: KoNestableConfig) {
     this._config = c;

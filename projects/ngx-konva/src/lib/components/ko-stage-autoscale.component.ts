@@ -1,4 +1,4 @@
-import { AfterContentInit, ChangeDetectorRef, Component, ElementRef, OnDestroy, OnInit, SkipSelf } from '@angular/core';
+import { AfterContentInit, ChangeDetectorRef, Component, ElementRef, EventEmitter, OnDestroy, OnInit, Output, SkipSelf } from '@angular/core';
 import { KoStageComponent } from './ko-stage.component';
 
 @Component({
@@ -15,6 +15,9 @@ import { KoStageComponent } from './ko-stage.component';
 export class KoStageAutoScaleComponent extends KoStageComponent implements OnInit, OnDestroy, AfterContentInit {
   private initialDimensions: { width: number, height: number } | null = null;
   private resizeObserver = new ResizeObserver(this.onResize.bind(this));
+
+  @Output()
+  initDimensions = new EventEmitter<{ width: number, height: number }>();
 
   constructor(
     @SkipSelf() private parentContainer: ElementRef<HTMLDivElement>,
@@ -60,6 +63,7 @@ export class KoStageAutoScaleComponent extends KoStageComponent implements OnIni
       return;
     } else if (!this.initialDimensions) {
       this.initialDimensions = this.parentContainer.nativeElement.getBoundingClientRect();
+      this.initDimensions.emit(this.initialDimensions!);
     }
 
     const scaleWidth = width / this.initialDimensions.width;
@@ -72,6 +76,7 @@ export class KoStageAutoScaleComponent extends KoStageComponent implements OnIni
       scaleX: scaleWidth,
       scaleY: scaleHeight
     }
+    this.afterUpdate.emit(this.stage);
     this.cdRef.detectChanges();
   }
 

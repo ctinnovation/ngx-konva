@@ -1,6 +1,7 @@
 import { Component, EventEmitter, Input, OnInit, Optional, Output } from '@angular/core';
 import { Label, Tag, TagConfig } from 'konva/lib/shapes/Label';
 import { Text, TextConfig } from 'konva/lib/shapes/Text';
+import { v4 } from 'uuid';
 import { KoNestable, KoNestableConfig } from '../common/ko-nestable';
 import { KoGroupComponent } from './ko-group.component';
 import { KoLayerComponent } from './ko-layer.component';
@@ -19,7 +20,9 @@ export class KoLabelComponent extends KoNestable implements OnInit {
   text?: Text;
   tag?: Tag;
 
-  private _config: KoNestableConfig = {};
+  private _config: KoNestableConfig = {
+    id: this.id
+  };
   @Input()
   set config(c: KoNestableConfig) {
     this._config = c;
@@ -31,6 +34,7 @@ export class KoLabelComponent extends KoNestable implements OnInit {
   @Input()
   set textConfig(c: TextConfig) {
     this._textConfig = c;
+    this._textConfig.id = `${this.id}:${v4()}`;
     this.updateText();
   };
 
@@ -38,6 +42,7 @@ export class KoLabelComponent extends KoNestable implements OnInit {
   @Input()
   set tagConfig(c: TagConfig) {
     this._tagConfig = c;
+    this._tagConfig.id = `${this.id}:${v4()}`;
     this.updateTag();
   };
 
@@ -84,6 +89,7 @@ export class KoLabelComponent extends KoNestable implements OnInit {
     this.node
       .add(this.tag)
       .add(this.text);
+
     (this.groupComponent || this.layerComponent).addChild(this.node);
   }
 

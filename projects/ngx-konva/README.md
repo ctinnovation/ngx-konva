@@ -113,6 +113,8 @@ The first container size different from 0, 0 will be considered the initial 1 sc
 </div>
 ```
 
+If you want to capture the initial canvas resolution you can listen to the EventEmitter `(initDimensions)` that will return `{ width: number, height: number }` of the `scale: 1` canvas.
+
 ## Basic shapes
 
 Apart for nodes that are described in the next paragraphs, for each of the basic shapes provided by Konva there is a component that can be used. Take a look to the [Konva API implementation status](#konva-api-implementation-status) to see which component you should use. 
