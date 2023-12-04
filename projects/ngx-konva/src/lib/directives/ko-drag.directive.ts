@@ -1,4 +1,5 @@
 import { Directive, EventEmitter, OnDestroy, OnInit, Optional, Output, Self } from '@angular/core';
+import { KonvaEventObject } from 'konva/lib/Node';
 import { KoShape } from '../common';
 import { KoNestable, KoNestableNode } from '../common/ko-nestable';
 
@@ -7,13 +8,13 @@ import { KoNestable, KoNestableNode } from '../common/ko-nestable';
 })
 export class KoDragDirective implements OnInit, OnDestroy {
   @Output()
-  koDragStart = new EventEmitter<KoNestableNode>();
+  koDragStart = new EventEmitter<KonvaEventObject<DragEvent>>();
 
   @Output()
-  koDragMove = new EventEmitter<KoNestableNode>();
+  koDragMove = new EventEmitter<KonvaEventObject<DragEvent>>();
 
   @Output()
-  koDragEnd = new EventEmitter<KoNestableNode>();
+  koDragEnd = new EventEmitter<KonvaEventObject<DragEvent>>();
 
   private node: KoNestableNode;
 
@@ -48,16 +49,16 @@ export class KoDragDirective implements OnInit, OnDestroy {
     this.node.on('dragmove', this.onDragMoveListener);
   }
 
-  onDragStart() {
-    this.koDragStart.emit(this.node!);
+  onDragStart(event: KonvaEventObject<DragEvent>) {
+    this.koDragStart.emit(event);
   }
 
-  onDragEnd() {
-    this.koDragEnd.emit(this.node!);
+  onDragEnd(event: KonvaEventObject<DragEvent>) {
+    this.koDragEnd.emit(event);
   }
 
-  onDragMove() {
-    this.koDragMove.emit(this.node!);
+  onDragMove(event: KonvaEventObject<DragEvent>) {
+    this.koDragMove.emit(event);
   }
 
 }

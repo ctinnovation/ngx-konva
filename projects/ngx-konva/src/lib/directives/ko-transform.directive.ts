@@ -1,4 +1,5 @@
 import { Directive, EventEmitter, OnDestroy, OnInit, Optional, Output, Self } from '@angular/core';
+import { KonvaEventObject } from 'konva/lib/Node';
 import { KoShape } from '../common';
 import { KoNestable, KoNestableNode } from '../common/ko-nestable';
 
@@ -7,13 +8,13 @@ import { KoNestable, KoNestableNode } from '../common/ko-nestable';
 })
 export class KoTransformDirective implements OnInit, OnDestroy {
   @Output()
-  koTransformStart = new EventEmitter<KoNestableNode>();
+  koTransformStart = new EventEmitter<KonvaEventObject<any>>();
 
   @Output()
-  koTransform = new EventEmitter<KoNestableNode>();
+  koTransform = new EventEmitter<KonvaEventObject<any>>();
 
   @Output()
-  koTransformEnd = new EventEmitter<KoNestableNode>();
+  koTransformEnd = new EventEmitter<KonvaEventObject<any>>();
 
   private node: KoNestableNode;
 
@@ -48,16 +49,16 @@ export class KoTransformDirective implements OnInit, OnDestroy {
     this.node.on('transform', this.onTranformListener);
   }
 
-  onTransformStart() {
-    this.koTransformStart.emit(this.node!);
+  onTransformStart(event: KonvaEventObject<any>) {
+    this.koTransformStart.emit(event);
   }
 
-  onTransformEnd() {
-    this.koTransformEnd.emit(this.node!);
+  onTransformEnd(event: KonvaEventObject<any>) {
+    this.koTransformEnd.emit(event);
   }
 
-  onTransform() {
-    this.koTransform.emit(this.node!);
+  onTransform(event: KonvaEventObject<any>) {
+    this.koTransform.emit(event);
   }
 
 }
