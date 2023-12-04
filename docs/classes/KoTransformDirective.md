@@ -46,37 +46,37 @@
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-transform.directive.ts:24](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/directives/ko-transform.directive.ts#L24)
+[projects/ngx-konva/src/lib/directives/ko-transform.directive.ts:25](https://github.com/ctinnovation/ngx-konva/blob/0caea8a/projects/ngx-konva/src/lib/directives/ko-transform.directive.ts#L25)
 
 ## Properties
 
 ### koTransform
 
-• **koTransform**: `EventEmitter`<[`KoNestableNode`](../modules.md#konestablenode)\>
+• **koTransform**: `EventEmitter`<`KonvaEventObject`<`any`\>\>
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-transform.directive.ts:13](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/directives/ko-transform.directive.ts#L13)
+[projects/ngx-konva/src/lib/directives/ko-transform.directive.ts:14](https://github.com/ctinnovation/ngx-konva/blob/0caea8a/projects/ngx-konva/src/lib/directives/ko-transform.directive.ts#L14)
 
 ___
 
 ### koTransformEnd
 
-• **koTransformEnd**: `EventEmitter`<[`KoNestableNode`](../modules.md#konestablenode)\>
+• **koTransformEnd**: `EventEmitter`<`KonvaEventObject`<`any`\>\>
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-transform.directive.ts:16](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/directives/ko-transform.directive.ts#L16)
+[projects/ngx-konva/src/lib/directives/ko-transform.directive.ts:17](https://github.com/ctinnovation/ngx-konva/blob/0caea8a/projects/ngx-konva/src/lib/directives/ko-transform.directive.ts#L17)
 
 ___
 
 ### koTransformStart
 
-• **koTransformStart**: `EventEmitter`<[`KoNestableNode`](../modules.md#konestablenode)\>
+• **koTransformStart**: `EventEmitter`<`KonvaEventObject`<`any`\>\>
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-transform.directive.ts:10](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/directives/ko-transform.directive.ts#L10)
+[projects/ngx-konva/src/lib/directives/ko-transform.directive.ts:11](https://github.com/ctinnovation/ngx-konva/blob/0caea8a/projects/ngx-konva/src/lib/directives/ko-transform.directive.ts#L11)
 
 ___
 
@@ -86,17 +86,23 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-transform.directive.ts:18](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/directives/ko-transform.directive.ts#L18)
+[projects/ngx-konva/src/lib/directives/ko-transform.directive.ts:19](https://github.com/ctinnovation/ngx-konva/blob/0caea8a/projects/ngx-konva/src/lib/directives/ko-transform.directive.ts#L19)
 
 ___
 
 ### onTranformListener
 
-• **onTranformListener**: () => `void`
+• **onTranformListener**: (`event`: `KonvaEventObject`<`any`\>) => `void`
 
 #### Type declaration
 
-▸ (): `void`
+▸ (`event`): `void`
+
+##### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `event` | `KonvaEventObject`<`any`\> |
 
 ##### Returns
 
@@ -104,17 +110,23 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-transform.directive.ts:22](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/directives/ko-transform.directive.ts#L22)
+[projects/ngx-konva/src/lib/directives/ko-transform.directive.ts:23](https://github.com/ctinnovation/ngx-konva/blob/0caea8a/projects/ngx-konva/src/lib/directives/ko-transform.directive.ts#L23)
 
 ___
 
 ### onTransformEndListener
 
-• **onTransformEndListener**: () => `void`
+• **onTransformEndListener**: (`event`: `KonvaEventObject`<`any`\>) => `void`
 
 #### Type declaration
 
-▸ (): `void`
+▸ (`event`): `void`
+
+##### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `event` | `KonvaEventObject`<`any`\> |
 
 ##### Returns
 
@@ -122,17 +134,23 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-transform.directive.ts:21](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/directives/ko-transform.directive.ts#L21)
+[projects/ngx-konva/src/lib/directives/ko-transform.directive.ts:22](https://github.com/ctinnovation/ngx-konva/blob/0caea8a/projects/ngx-konva/src/lib/directives/ko-transform.directive.ts#L22)
 
 ___
 
 ### onTransformStarterListener
 
-• **onTransformStarterListener**: () => `void`
+• **onTransformStarterListener**: (`event`: `KonvaEventObject`<`any`\>) => `void`
 
 #### Type declaration
 
-▸ (): `void`
+▸ (`event`): `void`
+
+##### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `event` | `KonvaEventObject`<`any`\> |
 
 ##### Returns
 
@@ -140,7 +158,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-transform.directive.ts:20](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/directives/ko-transform.directive.ts#L20)
+[projects/ngx-konva/src/lib/directives/ko-transform.directive.ts:21](https://github.com/ctinnovation/ngx-konva/blob/0caea8a/projects/ngx-konva/src/lib/directives/ko-transform.directive.ts#L21)
 
 ## Methods
 
@@ -154,7 +172,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-transform.directive.ts:45](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/directives/ko-transform.directive.ts#L45)
+[projects/ngx-konva/src/lib/directives/ko-transform.directive.ts:46](https://github.com/ctinnovation/ngx-konva/blob/0caea8a/projects/ngx-konva/src/lib/directives/ko-transform.directive.ts#L46)
 
 ___
 
@@ -172,7 +190,7 @@ OnDestroy.ngOnDestroy
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-transform.directive.ts:38](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/directives/ko-transform.directive.ts#L38)
+[projects/ngx-konva/src/lib/directives/ko-transform.directive.ts:39](https://github.com/ctinnovation/ngx-konva/blob/0caea8a/projects/ngx-konva/src/lib/directives/ko-transform.directive.ts#L39)
 
 ___
 
@@ -190,13 +208,19 @@ OnInit.ngOnInit
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-transform.directive.ts:35](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/directives/ko-transform.directive.ts#L35)
+[projects/ngx-konva/src/lib/directives/ko-transform.directive.ts:36](https://github.com/ctinnovation/ngx-konva/blob/0caea8a/projects/ngx-konva/src/lib/directives/ko-transform.directive.ts#L36)
 
 ___
 
 ### onTransform
 
-▸ **onTransform**(): `void`
+▸ **onTransform**(`event`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `event` | `KonvaEventObject`<`any`\> |
 
 #### Returns
 
@@ -204,13 +228,19 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-transform.directive.ts:59](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/directives/ko-transform.directive.ts#L59)
+[projects/ngx-konva/src/lib/directives/ko-transform.directive.ts:60](https://github.com/ctinnovation/ngx-konva/blob/0caea8a/projects/ngx-konva/src/lib/directives/ko-transform.directive.ts#L60)
 
 ___
 
 ### onTransformEnd
 
-▸ **onTransformEnd**(): `void`
+▸ **onTransformEnd**(`event`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `event` | `KonvaEventObject`<`any`\> |
 
 #### Returns
 
@@ -218,13 +248,19 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-transform.directive.ts:55](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/directives/ko-transform.directive.ts#L55)
+[projects/ngx-konva/src/lib/directives/ko-transform.directive.ts:56](https://github.com/ctinnovation/ngx-konva/blob/0caea8a/projects/ngx-konva/src/lib/directives/ko-transform.directive.ts#L56)
 
 ___
 
 ### onTransformStart
 
-▸ **onTransformStart**(): `void`
+▸ **onTransformStart**(`event`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `event` | `KonvaEventObject`<`any`\> |
 
 #### Returns
 
@@ -232,4 +268,4 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-transform.directive.ts:51](https://github.com/giovanni-bertoncelli/ngx-konva/blob/69b9287/projects/ngx-konva/src/lib/directives/ko-transform.directive.ts#L51)
+[projects/ngx-konva/src/lib/directives/ko-transform.directive.ts:52](https://github.com/ctinnovation/ngx-konva/blob/0caea8a/projects/ngx-konva/src/lib/directives/ko-transform.directive.ts#L52)

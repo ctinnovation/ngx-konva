@@ -3,9 +3,7 @@ import { KoStageComponent } from './ko-stage.component';
 
 @Component({
   selector: 'ko-stage-autoscale',
-  template: `
-      <ng-content></ng-content>
-  `,
+  template: `<ng-content></ng-content>`,
   styles: [``],
   providers: [{
     provide: KoStageComponent,

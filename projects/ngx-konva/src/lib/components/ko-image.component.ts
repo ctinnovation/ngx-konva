@@ -9,7 +9,7 @@ export type KoImageConfig = Omit<ImageConfig, 'image'>;
 
 @Component({
   selector: 'ko-image',
-  template: ``,
+  template: `<ng-content></ng-content>`,
   styles: [``],
   providers: [{
     provide: KoNestable,

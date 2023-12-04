@@ -8,7 +8,7 @@ import { KoLayerComponent } from './ko-layer.component';
 
 @Component({
   selector: 'ko-label',
-  template: ``,
+  template: `<ng-content></ng-content>`,
   styles: [``],
   providers: [{
     provide: KoNestable,

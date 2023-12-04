@@ -6,7 +6,7 @@ import { KoLayerComponent } from './ko-layer.component';
 
 @Component({
   selector: 'ko-circle, ko-rect, ko-line, ko-text, ko-regular-polygon, ko-path, ko-arrow, ko-arc, ko-star, ko-ring, ko-shape, ko-text-path, ko-ellipse, ko-wedge',
-  template: ``,
+  template: `<ng-content></ng-content>`,
   styles: [``],
   providers: [{
     provide: KoNestable,
