@@ -22,6 +22,7 @@
 
 ### Properties
 
+- [additionalScale](KoStageAutoScaleComponent.md#additionalscale)
 - [afterUpdate](KoStageAutoScaleComponent.md#afterupdate)
 - [beforeUpdate](KoStageAutoScaleComponent.md#beforeupdate)
 - [cdRef](KoStageAutoScaleComponent.md#cdref)
@@ -66,9 +67,19 @@
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts:20](https://github.com/ctinnovation/ngx-konva/blob/0caea8a/projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts#L20)
+[projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts:23](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts#L23)
 
 ## Properties
+
+### additionalScale
+
+• **additionalScale**: `number` \| { `x`: `number` ; `y`: `number`  } = `1`
+
+#### Defined in
+
+[projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts:18](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts#L18)
+
+___
 
 ### afterUpdate
 
@@ -80,7 +91,7 @@
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage.component.ts:21](https://github.com/ctinnovation/ngx-konva/blob/0caea8a/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L21)
+[projects/ngx-konva/src/lib/components/ko-stage.component.ts:21](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L21)
 
 ___
 
@@ -94,7 +105,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage.component.ts:18](https://github.com/ctinnovation/ngx-konva/blob/0caea8a/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L18)
+[projects/ngx-konva/src/lib/components/ko-stage.component.ts:18](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L18)
 
 ___
 
@@ -104,7 +115,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts:22](https://github.com/ctinnovation/ngx-konva/blob/0caea8a/projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts#L22)
+[projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts:25](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts#L25)
 
 ___
 
@@ -118,7 +129,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage.component.ts:14](https://github.com/ctinnovation/ngx-konva/blob/0caea8a/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L14)
+[projects/ngx-konva/src/lib/components/ko-stage.component.ts:14](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L14)
 
 ___
 
@@ -128,7 +139,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts:18](https://github.com/ctinnovation/ngx-konva/blob/0caea8a/projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts#L18)
+[projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts:21](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts#L21)
 
 ___
 
@@ -138,7 +149,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts:14](https://github.com/ctinnovation/ngx-konva/blob/0caea8a/projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts#L14)
+[projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts:14](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts#L14)
 
 ___
 
@@ -152,7 +163,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage.component.ts:24](https://github.com/ctinnovation/ngx-konva/blob/0caea8a/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L24)
+[projects/ngx-konva/src/lib/components/ko-stage.component.ts:24](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L24)
 
 ___
 
@@ -162,7 +173,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts:21](https://github.com/ctinnovation/ngx-konva/blob/0caea8a/projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts#L21)
+[projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts:24](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts#L24)
 
 ___
 
@@ -172,7 +183,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts:15](https://github.com/ctinnovation/ngx-konva/blob/0caea8a/projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts#L15)
+[projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts:15](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts#L15)
 
 ___
 
@@ -186,7 +197,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage.component.ts:15](https://github.com/ctinnovation/ngx-konva/blob/0caea8a/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L15)
+[projects/ngx-konva/src/lib/components/ko-stage.component.ts:15](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L15)
 
 ## Accessors
 
@@ -210,7 +221,7 @@ KoStageComponent.config
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage.component.ts:29](https://github.com/ctinnovation/ngx-konva/blob/0caea8a/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L29)
+[projects/ngx-konva/src/lib/components/ko-stage.component.ts:29](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L29)
 
 ## Methods
 
@@ -234,7 +245,7 @@ KoStageComponent.config
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage.component.ts:61](https://github.com/ctinnovation/ngx-konva/blob/0caea8a/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L61)
+[projects/ngx-konva/src/lib/components/ko-stage.component.ts:61](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L61)
 
 ___
 
@@ -252,7 +263,7 @@ AfterContentInit.ngAfterContentInit
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts:44](https://github.com/ctinnovation/ngx-konva/blob/0caea8a/projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts#L44)
+[projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts:47](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts#L47)
 
 ___
 
@@ -270,7 +281,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage.component.ts:53](https://github.com/ctinnovation/ngx-konva/blob/0caea8a/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L53)
+[projects/ngx-konva/src/lib/components/ko-stage.component.ts:53](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L53)
 
 ___
 
@@ -292,7 +303,7 @@ OnDestroy.ngOnDestroy
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts:48](https://github.com/ctinnovation/ngx-konva/blob/0caea8a/projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts#L48)
+[projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts:51](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts#L51)
 
 ___
 
@@ -314,7 +325,7 @@ OnInit.ngOnInit
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts:40](https://github.com/ctinnovation/ngx-konva/blob/0caea8a/projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts#L40)
+[projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts:43](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts#L43)
 
 ___
 
@@ -328,7 +339,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts:53](https://github.com/ctinnovation/ngx-konva/blob/0caea8a/projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts#L53)
+[projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts:56](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts#L56)
 
 ___
 
@@ -342,4 +353,4 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts:57](https://github.com/ctinnovation/ngx-konva/blob/0caea8a/projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts#L57)
+[projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts:60](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/components/ko-stage-autoscale.component.ts#L60)

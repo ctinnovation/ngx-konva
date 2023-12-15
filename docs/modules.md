@@ -45,7 +45,7 @@
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-image.component.ts:8](https://github.com/ctinnovation/ngx-konva/blob/0caea8a/projects/ngx-konva/src/lib/components/ko-image.component.ts#L8)
+[projects/ngx-konva/src/lib/components/ko-image.component.ts:8](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/components/ko-image.component.ts#L8)
 
 ___
 
@@ -55,7 +55,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/ko-nestable.ts:11](https://github.com/ctinnovation/ngx-konva/blob/0caea8a/projects/ngx-konva/src/lib/common/ko-nestable.ts#L11)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:11](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/common/ko-nestable.ts#L11)
 
 ___
 
@@ -65,7 +65,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/ko-nestable.ts:10](https://github.com/ctinnovation/ngx-konva/blob/0caea8a/projects/ngx-konva/src/lib/common/ko-nestable.ts#L10)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:10](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/common/ko-nestable.ts#L10)
 
 ___
 
@@ -75,7 +75,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/index.ts:21](https://github.com/ctinnovation/ngx-konva/blob/0caea8a/projects/ngx-konva/src/lib/common/index.ts#L21)
+[projects/ngx-konva/src/lib/common/index.ts:21](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/common/index.ts#L21)
 
 ___
 
@@ -85,7 +85,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/index.ts:17](https://github.com/ctinnovation/ngx-konva/blob/0caea8a/projects/ngx-konva/src/lib/common/index.ts#L17)
+[projects/ngx-konva/src/lib/common/index.ts:17](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/common/index.ts#L17)
 
 ___
 
@@ -95,7 +95,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/index.ts:18](https://github.com/ctinnovation/ngx-konva/blob/0caea8a/projects/ngx-konva/src/lib/common/index.ts#L18)
+[projects/ngx-konva/src/lib/common/index.ts:18](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/common/index.ts#L18)
 
 ___
 
@@ -105,7 +105,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/index.ts:19](https://github.com/ctinnovation/ngx-konva/blob/0caea8a/projects/ngx-konva/src/lib/common/index.ts#L19)
+[projects/ngx-konva/src/lib/common/index.ts:19](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/common/index.ts#L19)
 
 ___
 
@@ -115,7 +115,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/index.ts:20](https://github.com/ctinnovation/ngx-konva/blob/0caea8a/projects/ngx-konva/src/lib/common/index.ts#L20)
+[projects/ngx-konva/src/lib/common/index.ts:20](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/common/index.ts#L20)
 
 ___
 
@@ -125,7 +125,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage.component.ts:6](https://github.com/ctinnovation/ngx-konva/blob/0caea8a/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L6)
+[projects/ngx-konva/src/lib/components/ko-stage.component.ts:6](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L6)
 
 ## Variables
 
@@ -135,4 +135,4 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/index.ts:22](https://github.com/ctinnovation/ngx-konva/blob/0caea8a/projects/ngx-konva/src/lib/common/index.ts#L22)
+[projects/ngx-konva/src/lib/common/index.ts:22](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/common/index.ts#L22)
