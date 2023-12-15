@@ -1,4 +1,4 @@
-import { AfterContentInit, ChangeDetectorRef, Component, ElementRef, EventEmitter, OnDestroy, OnInit, Output, SkipSelf } from '@angular/core';
+import { AfterContentInit, ChangeDetectorRef, Component, ElementRef, EventEmitter, Input, OnDestroy, OnInit, Output, SkipSelf } from '@angular/core';
 import { KoStageComponent } from './ko-stage.component';
 
 @Component({
@@ -13,6 +13,9 @@ import { KoStageComponent } from './ko-stage.component';
 export class KoStageAutoScaleComponent extends KoStageComponent implements OnInit, OnDestroy, AfterContentInit {
   private initialDimensions: { width: number, height: number } | null = null;
   private resizeObserver = new ResizeObserver(this.onResize.bind(this));
+
+  @Input()
+  additionalScale: number | { x: number, y: number } = 1;
 
   @Output()
   initDimensions = new EventEmitter<{ width: number, height: number }>();
@@ -67,12 +70,20 @@ export class KoStageAutoScaleComponent extends KoStageComponent implements OnIni
     const scaleWidth = width / this.initialDimensions.width;
     const scaleHeight = height / this.initialDimensions.height;
 
+    let additionalScaleX = this.additionalScale as number;
+    let additionalScaleY = this.additionalScale as number;
+
+    if (typeof this.additionalScale !== 'number') {
+      additionalScaleX = this.additionalScale.x;
+      additionalScaleY = this.additionalScale.y;
+    }
+
     this.config = {
       container: this.parentContainer.nativeElement,
       width,
       height,
-      scaleX: scaleWidth,
-      scaleY: scaleHeight
+      scaleX: scaleWidth * additionalScaleX,
+      scaleY: scaleHeight * additionalScaleY
     }
     this.afterUpdate.emit(this.stage);
     this.cdRef.detectChanges();
