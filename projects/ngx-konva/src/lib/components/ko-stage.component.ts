@@ -34,6 +34,9 @@ export class KoStageComponent implements OnInit, OnDestroy, AfterViewInit {
     this._config = c;
     this.updateStage();
   };
+  get config() {
+    return this._config;
+  }
 
   private sub = new Subscription();
 
