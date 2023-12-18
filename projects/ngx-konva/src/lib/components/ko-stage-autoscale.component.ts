@@ -14,8 +14,15 @@ export class KoStageAutoScaleComponent extends KoStageComponent implements OnIni
   private initialDimensions: { width: number, height: number } | null = null;
   private resizeObserver = new ResizeObserver(this.onResize.bind(this));
 
+  private _additionalScale: number | { x: number, y: number } = 1;
   @Input()
-  additionalScale: number | { x: number, y: number } = 1;
+  set additionalScale(s: number | { x: number, y: number }) {
+    this._additionalScale = s;
+    this.scaleStage();
+  };
+  get additionalScale() {
+    return this._additionalScale;
+  }
 
   @Output()
   initDimensions = new EventEmitter<{ width: number, height: number }>();
@@ -79,12 +86,14 @@ export class KoStageAutoScaleComponent extends KoStageComponent implements OnIni
     }
 
     this.config = {
+      ...this.config,
       container: this.parentContainer.nativeElement,
       width,
       height,
       scaleX: scaleWidth * additionalScaleX,
-      scaleY: scaleHeight * additionalScaleY
+      scaleY: scaleHeight * additionalScaleY,
     }
+    console.log(this.config)
     this.afterUpdate.emit(this.stage);
     this.cdRef.detectChanges();
   }
