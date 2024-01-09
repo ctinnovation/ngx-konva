@@ -40,7 +40,7 @@ export class KoGroupComponent extends KoNestable implements OnInit, AfterViewIni
     @Optional() private layerComponent: KoLayerComponent
   ) {
     super();
-    this.group = new Group();
+    this.group = new Group(this._config);
     this.layerComponent.addChild(this.group);
   }
 
