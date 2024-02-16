@@ -70,7 +70,7 @@
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:58](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L58)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:58](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L58)
 
 ## Properties
 
@@ -80,7 +80,7 @@
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:42](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L42)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:42](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L42)
 
 ___
 
@@ -90,7 +90,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:21](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L21)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:21](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L21)
 
 ___
 
@@ -100,7 +100,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:36](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L36)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:36](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L36)
 
 ___
 
@@ -110,7 +110,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:39](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L39)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:39](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L39)
 
 ___
 
@@ -120,7 +120,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:12](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L12)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:12](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L12)
 
 ___
 
@@ -130,7 +130,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:27](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L27)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:27](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L27)
 
 ___
 
@@ -140,7 +140,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:33](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L33)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:33](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L33)
 
 ___
 
@@ -150,7 +150,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:15](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L15)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:15](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L15)
 
 ___
 
@@ -160,7 +160,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:30](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L30)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:30](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L30)
 
 ___
 
@@ -170,7 +170,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:24](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L24)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:24](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L24)
 
 ___
 
@@ -180,7 +180,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:18](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L18)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:18](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L18)
 
 ___
 
@@ -190,7 +190,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:44](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L44)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:44](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L44)
 
 ___
 
@@ -214,7 +214,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:49](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L49)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:49](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L49)
 
 ___
 
@@ -238,7 +238,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:54](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L54)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:54](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L54)
 
 ___
 
@@ -262,7 +262,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:55](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L55)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:55](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L55)
 
 ___
 
@@ -286,7 +286,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:46](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L46)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:46](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L46)
 
 ___
 
@@ -310,7 +310,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:51](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L51)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:51](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L51)
 
 ___
 
@@ -334,7 +334,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:53](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L53)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:53](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L53)
 
 ___
 
@@ -358,7 +358,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:47](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L47)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:47](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L47)
 
 ___
 
@@ -382,7 +382,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:52](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L52)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:52](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L52)
 
 ___
 
@@ -406,7 +406,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:50](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L50)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:50](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L50)
 
 ___
 
@@ -430,7 +430,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:48](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L48)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:48](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L48)
 
 ___
 
@@ -440,7 +440,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:41](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L41)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:41](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L41)
 
 ## Methods
 
@@ -454,7 +454,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:92](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L92)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:92](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L92)
 
 ___
 
@@ -472,7 +472,7 @@ OnDestroy.ngOnDestroy
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:74](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L74)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:74](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L74)
 
 ___
 
@@ -490,7 +490,7 @@ OnInit.ngOnInit
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:71](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L71)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:71](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L71)
 
 ___
 
@@ -510,7 +510,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:121](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L121)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:121](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L121)
 
 ___
 
@@ -530,7 +530,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:141](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L141)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:141](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L141)
 
 ___
 
@@ -550,7 +550,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:145](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L145)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:145](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L145)
 
 ___
 
@@ -570,7 +570,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:109](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L109)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:109](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L109)
 
 ___
 
@@ -590,7 +590,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:129](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L129)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:129](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L129)
 
 ___
 
@@ -610,7 +610,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:137](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L137)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:137](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L137)
 
 ___
 
@@ -630,7 +630,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:113](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L113)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:113](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L113)
 
 ___
 
@@ -650,7 +650,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:133](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L133)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:133](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L133)
 
 ___
 
@@ -670,7 +670,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:125](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L125)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:125](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L125)
 
 ___
 
@@ -690,4 +690,4 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:117](https://github.com/ctinnovation/ngx-konva/blob/4fde6f6/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L117)
+[projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts:117](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-pointer.directive.ts#L117)

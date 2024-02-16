@@ -11,6 +11,7 @@ import { KoDragDirective } from './directives/ko-drag.directive';
 import { KoHoverDirective } from './directives/ko-hover.directive';
 import { KoMouseDirective } from './directives/ko-mouse.directive';
 import { KoPointerDirective } from './directives/ko-pointer.directive';
+import { KoTouchDirective } from './directives/ko-touch.directive';
 import { KoTransformDirective } from './directives/ko-transform.directive';
 
 @NgModule({
@@ -26,7 +27,8 @@ import { KoTransformDirective } from './directives/ko-transform.directive';
     KoLabelComponent,
     KoDragDirective,
     KoTransformDirective,
-    KoMouseDirective
+    KoMouseDirective,
+    KoTouchDirective
   ],
   imports: [CommonModule],
   exports: [
@@ -41,7 +43,8 @@ import { KoTransformDirective } from './directives/ko-transform.directive';
     KoLabelComponent,
     KoDragDirective,
     KoTransformDirective,
-    KoMouseDirective
+    KoMouseDirective,
+    KoTouchDirective
   ],
   providers: [],
 })
