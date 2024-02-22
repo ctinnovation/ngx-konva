@@ -1,0 +1,6 @@
+{
+  "generate": {
+    "fromPackageJson": true,
+    "excludeTaskList": true
+  }
+}

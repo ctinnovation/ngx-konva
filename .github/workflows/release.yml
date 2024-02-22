@@ -1,0 +1,172 @@
+name: Create new release
+
+on:
+  pull_request:
+    branches:
+      - main
+    types: [closed]
+  workflow_dispatch:
+    inputs:
+      semver:
+        description: "Semver version"
+        required: true
+        default: "minor"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20.x"
+      - uses: actions/cache@v4
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+      - run: npm install -g @angular/cli@16.2.9
+      - run: npm ci
+      - run: npm run build
+      - name: Upload dist artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: lib-dist-artifacts
+          retention-days: 1
+          path: |
+            dist
+
+  create:
+    name: Create PR for new release
+    if: github.event.inputs.semver
+    runs-on: ubuntu-latest
+    needs:
+      - build
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20.x"
+
+      - name: install dependencies
+        run: npm install -g changescribe
+
+      - name: setup git config
+        run: |
+          # setup the username and email. I tend to use 'GitHub Actions Bot' with no email by default
+          git config user.name "GitHub Actions Bot"
+          git config user.email "<github@ctinnovation.it>"
+
+      - name: update version and changelog
+        run: |
+          npm version ${{ github.event.inputs.semver }} --no-git-tag-version
+
+      - name: update version and changelog
+        working-directory: "projects/ngx-konva"
+        run: |
+          npm version ${{ github.event.inputs.semver }} --no-git-tag-version
+
+      - name: Get new version from package.json
+        working-directory: "projects/ngx-konva"
+        run: |
+          pkg_version=$(cat package.json | grep version | head -1 | awk -F: '{ print $2 }' | sed 's/[\",]//g' | tr -d '[[:space:]]')
+          echo "PACKAGE_VERSION=$pkg_version" >> $GITHUB_ENV
+          echo $PACKAGE_VERSION
+
+      - name: Create pull request
+        id: pr-create
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ github.token }}
+          script: |
+            const res = await github.rest.pulls.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              ref: "refs/tags/tagname",
+              head: "release_${{ env.PACKAGE_VERSION }}",
+              base: "main",
+              title: "Release: [v${{ env.PACKAGE_VERSION }}]",
+              body: `PR created by Github Actions bot in order to release new version **v${{ env.PACKAGE_VERSION }}**.`
+            })
+            return res.data.number;
+
+      - name: Request and assign review
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ github.token }}
+          script: |
+            await github.rest.pulls.requestReviewers({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: ${{ steps.pr-create.outputs.result }},
+              reviewers: ['${{ github.actor }}']
+            });
+            await github.rest.issues.addAssignees({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: ${{ steps.pr-create.outputs.result }},
+              assignees: ['${{ github.actor }}']
+            });
+
+  publish:
+    name: Tagging and publish new release
+    runs-on: ubuntu-latest
+    if: (github.event.pull_request.merged == true) && (startsWith(github.event.pull_request.title, 'Release:'))
+    needs:
+      - build
+
+    steps:
+      - run: |
+        echo ${{ github.event.pull_request.title}}
+        echo "TAG=$(echo '${{ github.event.pull_request.title}}' | awk -F '[][]' '{print $2}')" >> $GITHUB_ENV
+
+      - name: Checkout
+        if: "${{ env.TAG }}"
+        uses: actions/checkout@v4
+
+      - name: Download dist artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: lib-dist-artifacts
+
+      - name: Tagging
+        if: "${{ env.TAG }}"
+        run: |
+          git tag ${{ env.TAG }}
+          git push origin --tags
+
+      - name: Create and publish release on tag
+        if: "${{ env.TAG }}"
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ github.token }}
+          script: |
+            github.rest.repos.createRelease({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              tag_name: "${{ env.TAG }}",
+              target_commitish: "${{ github.sha}}",
+              name: "${{ env.TAG }}"
+            })
+
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20.x"
+          registry-url: "https://registry.npmjs.org"
+          always-auth: "true"
+
+      - name: NPM package publish
+        if: "${{ env.TAG }}"
+        working-directory: "dist/ngx-konva"
+        run: |
+          npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
