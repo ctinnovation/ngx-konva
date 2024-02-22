@@ -124,8 +124,8 @@ jobs:
 
     steps:
       - run: |
-        echo ${{ github.event.pull_request.title}}
-        echo "TAG=$(echo '${{ github.event.pull_request.title}}' | awk -F '[][]' '{print $2}')" >> $GITHUB_ENV
+          echo ${{ github.event.pull_request.title}}
+          echo "TAG=$(echo '${{ github.event.pull_request.title}}' | awk -F '[][]' '{print $2}')" >> $GITHUB_ENV
 
       - name: Checkout
         if: "${{ env.TAG }}"
