@@ -56,7 +56,7 @@ jobs:
           node-version: "20.x"
 
       - name: install dependencies
-        run: npm install -g changescribe
+        run: npm ci
 
       - name: setup git config
         run: |
