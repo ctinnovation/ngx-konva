@@ -135,6 +135,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: lib-dist-artifacts
+          path: dist/
 
       - name: Tagging
         if: "${{ env.TAG }}"
