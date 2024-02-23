@@ -12,7 +12,7 @@
   ],
   "license": "MIT",
   "repository": {
-    "url": "https://github.com/giovanni-bertoncelli/ngx-konva"
+    "url": "https://github.com/ctinnovation/ngx-konva"
   },
   "scripts": {
     "ng": "ng",

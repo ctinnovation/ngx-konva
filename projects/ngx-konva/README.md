@@ -241,7 +241,7 @@ It allows to capture when the user hover on a Node. Each `onHoverStart` and `onH
 }"></ko-circle>
 ```
 
-It allows to capture all pointer events. [Full API](https://github.com/giovanni-bertoncelli/ngx-konva/blob/main/docs/classes/KoPointerDirective.md).
+It allows to capture all pointer events. [Full API](https://github.com/ctinnovation/ngx-konva/blob/main/docs/classes/KoPointerDirective.md).
 
 ### KoDragDirective
 
@@ -315,4 +315,4 @@ In order to add new event listeners to the shapes see `ko-hover.directive.ts` as
 
 ## Full API Documentation
 
-See [/docs](https://github.com/giovanni-bertoncelli/ngx-konva/tree/main/docs) for full API Documentation.
+See [/docs](https://github.com/ctinnovation/ngx-konva/tree/main/docs) for full API Documentation.

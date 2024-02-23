@@ -12,7 +12,7 @@
     "graphics"
   ],
   "repository": {
-    "url": "https://github.com/giovanni-bertoncelli/ngx-konva"
+    "url": "https://github.com/ctinnovation/ngx-konva"
   },
   "peerDependencies": {
     "@angular/common": "^16.2.0",
