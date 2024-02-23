@@ -65,11 +65,11 @@ jobs:
           git config user.email "<github@ctinnovation.it>"
 
       - name: update version and changelog
+        working-directory: "projects/ngx-konva"
         run: |
           npm version ${{ github.event.inputs.semver }} --no-git-tag-version
 
       - name: update version and changelog
-        working-directory: "projects/ngx-konva"
         run: |
           npm version ${{ github.event.inputs.semver }} --no-git-tag-version
 
