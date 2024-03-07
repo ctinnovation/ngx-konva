@@ -1,5 +1,4 @@
 import { Component, ElementRef, EventEmitter, Input, OnInit, Optional, Output } from '@angular/core';
-import { isEqual } from 'lodash';
 import { KoShape, KoShapeConfig, KoShapeSelectors, koShapeTypesMap } from '../common';
 import { KoNestable } from '../common/ko-nestable';
 import { KoGroupComponent } from './ko-group.component';
@@ -22,10 +21,6 @@ export class KoShapeComponent extends KoNestable implements OnInit {
   };
   @Input()
   set config(c: KoShapeConfig) {
-    if (isEqual(c, this._config)) {
-      return;
-    }
-
     this._config = c;
     this._config.id = this.id;
     this.updateShape();
