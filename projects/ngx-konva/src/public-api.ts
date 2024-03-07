@@ -2,7 +2,6 @@
  * Public API Surface of ngx-konva
  */
 
-export * from 'konva/lib';
 export * from './lib/common';
 export * from './lib/common/ko-nestable';
 export * from './lib/components/ko-group.component';
@@ -19,3 +18,4 @@ export * from './lib/directives/ko-pointer.directive';
 export * from './lib/directives/ko-touch.directive';
 export * from './lib/directives/ko-transform.directive';
 export * from './lib/ngx-konva.module';
+
