@@ -1,6 +1,5 @@
 import { Component, EventEmitter, Input, OnInit, Optional, Output } from '@angular/core';
 import { ImageConfig, Image as KonvaImage } from 'konva/lib/shapes/Image';
-import { isEqual } from 'lodash';
 import { KoShape } from '../common';
 import { KoNestable, KoNestableConfig } from '../common/ko-nestable';
 import { KoGroupComponent } from './ko-group.component';
@@ -38,10 +37,6 @@ export class KoImageComponent extends KoNestable implements OnInit {
   };
   @Input()
   set config(c: KoNestableConfig) {
-    if (isEqual(this._config, c)) {
-      return;
-    }
-
     this._config = c;
     this._config['id'] = this.id;
     this.updateShape();
