@@ -12,4 +12,8 @@
 
 ### constructor
 
-• **new NgxKonvaModule**()
+• **new NgxKonvaModule**(): [`NgxKonvaModule`](NgxKonvaModule.md)
+
+#### Returns
+
+[`NgxKonvaModule`](NgxKonvaModule.md)

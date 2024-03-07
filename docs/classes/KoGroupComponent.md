@@ -55,7 +55,7 @@
 
 ### constructor
 
-• **new KoGroupComponent**(`layerComponent`)
+• **new KoGroupComponent**(`layerComponent`): [`KoGroupComponent`](KoGroupComponent.md)
 
 #### Parameters
 
@@ -63,13 +63,17 @@
 | :------ | :------ |
 | `layerComponent` | [`KoLayerComponent`](KoLayerComponent.md) |
 
+#### Returns
+
+[`KoGroupComponent`](KoGroupComponent.md)
+
 #### Overrides
 
 [KoNestable](KoNestable.md).[constructor](KoNestable.md#constructor)
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-group.component.ts:39](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/components/ko-group.component.ts#L39)
+[projects/ngx-konva/src/lib/components/ko-group.component.ts:39](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/components/ko-group.component.ts#L39)
 
 ## Properties
 
@@ -79,7 +83,7 @@
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-group.component.ts:20](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/components/ko-group.component.ts#L20)
+[projects/ngx-konva/src/lib/components/ko-group.component.ts:20](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/components/ko-group.component.ts#L20)
 
 ___
 
@@ -93,7 +97,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/ko-nestable.ts:34](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/common/ko-nestable.ts#L34)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:34](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/common/ko-nestable.ts#L34)
 
 ___
 
@@ -107,27 +111,27 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/ko-nestable.ts:35](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/common/ko-nestable.ts#L35)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:35](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/common/ko-nestable.ts#L35)
 
 ___
 
 ### afterUpdate
 
-• **afterUpdate**: `EventEmitter`<`Group`\>
+• **afterUpdate**: `EventEmitter`\<`Group`\>
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-group.component.ts:37](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/components/ko-group.component.ts#L37)
+[projects/ngx-konva/src/lib/components/ko-group.component.ts:37](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/components/ko-group.component.ts#L37)
 
 ___
 
 ### beforeUpdate
 
-• **beforeUpdate**: `EventEmitter`<`Group`\>
+• **beforeUpdate**: `EventEmitter`\<`Group`\>
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-group.component.ts:34](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/components/ko-group.component.ts#L34)
+[projects/ngx-konva/src/lib/components/ko-group.component.ts:34](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/components/ko-group.component.ts#L34)
 
 ___
 
@@ -137,7 +141,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-group.component.ts:18](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/components/ko-group.component.ts#L18)
+[projects/ngx-konva/src/lib/components/ko-group.component.ts:18](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/components/ko-group.component.ts#L18)
 
 ___
 
@@ -151,7 +155,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/ko-nestable.ts:18](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/common/ko-nestable.ts#L18)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:18](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/common/ko-nestable.ts#L18)
 
 ___
 
@@ -161,17 +165,17 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-group.component.ts:40](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/components/ko-group.component.ts#L40)
+[projects/ngx-konva/src/lib/components/ko-group.component.ts:40](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/components/ko-group.component.ts#L40)
 
 ___
 
 ### onNewItem
 
-• **onNewItem**: `EventEmitter`<`Layer` \| `Group` \| [`KoShape`](../modules.md#koshape)\>
+• **onNewItem**: `EventEmitter`\<`Layer` \| `Group` \| [`KoShape`](../modules.md#koshape)\>
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-group.component.ts:31](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/components/ko-group.component.ts#L31)
+[projects/ngx-konva/src/lib/components/ko-group.component.ts:31](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/components/ko-group.component.ts#L31)
 
 ___
 
@@ -185,7 +189,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/ko-nestable.ts:32](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/common/ko-nestable.ts#L32)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:32](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/common/ko-nestable.ts#L32)
 
 ___
 
@@ -199,13 +203,13 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/ko-nestable.ts:24](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/common/ko-nestable.ts#L24)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:24](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/common/ko-nestable.ts#L24)
 
 ___
 
 ### transitionOnFinish
 
-• **transitionOnFinish**: `EventEmitter`<[`KoNestableNode`](../modules.md#konestablenode)\>
+• **transitionOnFinish**: `EventEmitter`\<[`KoNestableNode`](../modules.md#konestablenode)\>
 
 #### Inherited from
 
@@ -213,13 +217,13 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/ko-nestable.ts:30](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/common/ko-nestable.ts#L30)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:30](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/common/ko-nestable.ts#L30)
 
 ___
 
 ### transitionOnUpdate
 
-• **transitionOnUpdate**: `EventEmitter`<[`KoNestableNode`](../modules.md#konestablenode)\>
+• **transitionOnUpdate**: `EventEmitter`\<[`KoNestableNode`](../modules.md#konestablenode)\>
 
 #### Inherited from
 
@@ -227,13 +231,13 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/ko-nestable.ts:27](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/common/ko-nestable.ts#L27)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:27](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/common/ko-nestable.ts#L27)
 
 ___
 
 ### transitionWith
 
-• `Optional` **transitionWith**: `Omit`<`TweenConfig`, ``"onFinish"`` \| ``"onUpdate"`` \| ``"node"``\>
+• `Optional` **transitionWith**: `Omit`\<`TweenConfig`, ``"onFinish"`` \| ``"onUpdate"`` \| ``"node"``\>
 
 #### Inherited from
 
@@ -241,7 +245,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/ko-nestable.ts:21](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/common/ko-nestable.ts#L21)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:21](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/common/ko-nestable.ts#L21)
 
 ___
 
@@ -276,7 +280,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/ko-nestable.ts:15](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/common/ko-nestable.ts#L15)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:15](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/common/ko-nestable.ts#L15)
 
 ## Accessors
 
@@ -296,7 +300,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-group.component.ts:24](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/components/ko-group.component.ts#L24)
+[projects/ngx-konva/src/lib/components/ko-group.component.ts:24](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/components/ko-group.component.ts#L24)
 
 ## Methods
 
@@ -316,7 +320,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-group.component.ts:64](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/components/ko-group.component.ts#L64)
+[projects/ngx-konva/src/lib/components/ko-group.component.ts:64](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/components/ko-group.component.ts#L64)
 
 ___
 
@@ -334,7 +338,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-group.component.ts:54](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/components/ko-group.component.ts#L54)
+[projects/ngx-konva/src/lib/components/ko-group.component.ts:54](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/components/ko-group.component.ts#L54)
 
 ___
 
@@ -352,7 +356,7 @@ AfterViewInit.ngAfterViewInit
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-group.component.ts:51](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/components/ko-group.component.ts#L51)
+[projects/ngx-konva/src/lib/components/ko-group.component.ts:51](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/components/ko-group.component.ts#L51)
 
 ___
 
@@ -370,7 +374,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/ko-nestable.ts:44](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/common/ko-nestable.ts#L44)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:44](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/common/ko-nestable.ts#L44)
 
 ___
 
@@ -392,7 +396,7 @@ OnInit.ngOnInit
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-group.component.ts:47](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/components/ko-group.component.ts#L47)
+[projects/ngx-konva/src/lib/components/ko-group.component.ts:47](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/components/ko-group.component.ts#L47)
 
 ___
 
@@ -416,13 +420,13 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/ko-nestable.ts:49](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/common/ko-nestable.ts#L49)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:49](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/common/ko-nestable.ts#L49)
 
 ___
 
 ### updateGroup
 
-▸ `Private` **updateGroup**(): `void`
+▸ **updateGroup**(): `void`
 
 #### Returns
 
@@ -430,4 +434,4 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-group.component.ts:58](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/components/ko-group.component.ts#L58)
+[projects/ngx-konva/src/lib/components/ko-group.component.ts:58](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/components/ko-group.component.ts#L58)

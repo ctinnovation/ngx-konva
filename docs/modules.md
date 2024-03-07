@@ -42,21 +42,21 @@
 
 ### KoImageConfig
 
-Ƭ **KoImageConfig**: `Omit`<`ImageConfig`, ``"image"``\>
+Ƭ **KoImageConfig**: `Omit`\<`ImageConfig`, ``"image"``\>
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-image.component.ts:8](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/components/ko-image.component.ts#L8)
+[projects/ngx-konva/src/lib/components/ko-image.component.ts:9](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/components/ko-image.component.ts#L9)
 
 ___
 
 ### KoNestableConfig
 
-Ƭ **KoNestableConfig**: [`KoShapeConfig`](modules.md#koshapeconfig) \| `GroupConfig` \| `LayerConfig` \| `LabelConfig` & { `_skipTransition?`: `boolean`  }
+Ƭ **KoNestableConfig**: [`KoShapeConfig`](modules.md#koshapeconfig) \| `GroupConfig` \| `LayerConfig` \| `LabelConfig` & \{ `_skipTransition?`: `boolean`  }
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/ko-nestable.ts:11](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/common/ko-nestable.ts#L11)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:11](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/common/ko-nestable.ts#L11)
 
 ___
 
@@ -66,27 +66,27 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/ko-nestable.ts:10](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/common/ko-nestable.ts#L10)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:10](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/common/ko-nestable.ts#L10)
 
 ___
 
 ### KoShape
 
-Ƭ **KoShape**: `InstanceType`<[`KoShapeType`](modules.md#koshapetype)\>
+Ƭ **KoShape**: `InstanceType`\<[`KoShapeType`](modules.md#koshapetype)\>
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/index.ts:21](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/common/index.ts#L21)
+[projects/ngx-konva/src/lib/common/index.ts:21](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/common/index.ts#L21)
 
 ___
 
 ### KoShapeConfig
 
-Ƭ **KoShapeConfig**: `RectConfig` \| `CircleConfig` \| `LineConfig` \| `TextConfig` \| `RegularPolygonConfig` \| `PathConfig` \| `ArrowConfig` \| `ArcConfig` \| `StarConfig` \| `RingConfig` \| `ShapeConfig` \| `TextPathConfig` \| `EllipseConfig` \| `WedgeConfig` & { `_skipTransition?`: `boolean`  }
+Ƭ **KoShapeConfig**: `RectConfig` \| `CircleConfig` \| `LineConfig` \| `TextConfig` \| `RegularPolygonConfig` \| `PathConfig` \| `ArrowConfig` \| `ArcConfig` \| `StarConfig` \| `RingConfig` \| `ShapeConfig` \| `TextPathConfig` \| `EllipseConfig` \| `WedgeConfig` & \{ `_skipTransition?`: `boolean`  }
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/index.ts:17](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/common/index.ts#L17)
+[projects/ngx-konva/src/lib/common/index.ts:17](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/common/index.ts#L17)
 
 ___
 
@@ -96,17 +96,17 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/index.ts:18](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/common/index.ts#L18)
+[projects/ngx-konva/src/lib/common/index.ts:18](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/common/index.ts#L18)
 
 ___
 
 ### KoShapeSelectors
 
-Ƭ **KoShapeSelectors**: \`ko-${KoShapeNames}\`
+Ƭ **KoShapeSelectors**: \`ko-$\{KoShapeNames}\`
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/index.ts:19](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/common/index.ts#L19)
+[projects/ngx-konva/src/lib/common/index.ts:19](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/common/index.ts#L19)
 
 ___
 
@@ -116,24 +116,24 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/index.ts:20](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/common/index.ts#L20)
+[projects/ngx-konva/src/lib/common/index.ts:20](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/common/index.ts#L20)
 
 ___
 
 ### StageConfigOptionalContainer
 
-Ƭ **StageConfigOptionalContainer**: `Omit`<`StageConfig`, ``"container"``\> & `Partial`<`Pick`<`StageConfig`, ``"container"``\>\>
+Ƭ **StageConfigOptionalContainer**: `Omit`\<`StageConfig`, ``"container"``\> & `Partial`\<`Pick`\<`StageConfig`, ``"container"``\>\>
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage.component.ts:6](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L6)
+[projects/ngx-konva/src/lib/components/ko-stage.component.ts:6](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L6)
 
 ## Variables
 
 ### koShapeTypesMap
 
-• `Const` **koShapeTypesMap**: { [key in KoShapeSelectors]: KoShapeType \| Shape }
+• `Const` **koShapeTypesMap**: \{ [key in KoShapeSelectors]: KoShapeType \| Shape }
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/index.ts:22](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/common/index.ts#L22)
+[projects/ngx-konva/src/lib/common/index.ts:22](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/common/index.ts#L22)

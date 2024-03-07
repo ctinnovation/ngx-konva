@@ -20,7 +20,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "docs": "typedoc --plugin typedoc-plugin-markdown --out docs projects/ngx-konva/src/public-api.ts",
+    "docs": "typedoc --plugin typedoc-plugin-markdown --exclude \"konva/*\" --out docs projects/ngx-konva/src/public-api.ts",
     "version": "git branch -D 'release_'$npm_package_version || true && git checkout -b 'release_'$npm_package_version && changescribe && git add .",
     "postversion": "git commit -mv$npm_package_version && git push --set-upstream origin 'release_'$npm_package_version"
   },
@@ -34,7 +34,7 @@
     "@angular/platform-browser": "^16.2.0",
     "@angular/platform-browser-dynamic": "^16.2.0",
     "@angular/router": "^16.2.0",
-    "konva": "^9.2.2",
+    "konva": "^9.2.3",
     "lodash": "^4.17.21",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
@@ -56,8 +56,8 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
     "ng-packagr": "^16.2.0",
-    "typedoc": "^0.25.2",
-    "typedoc-plugin-markdown": "^3.16.0",
+    "typedoc": "^0.25.11",
+    "typedoc-plugin-markdown": "^3.17.1",
     "typescript": "~5.1.3"
   }
 }

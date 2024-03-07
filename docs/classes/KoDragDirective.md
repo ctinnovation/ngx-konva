@@ -36,7 +36,7 @@
 
 ### constructor
 
-• **new KoDragDirective**(`nestable`)
+• **new KoDragDirective**(`nestable`): [`KoDragDirective`](KoDragDirective.md)
 
 #### Parameters
 
@@ -44,39 +44,43 @@
 | :------ | :------ |
 | `nestable` | [`KoNestable`](KoNestable.md) |
 
+#### Returns
+
+[`KoDragDirective`](KoDragDirective.md)
+
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:25](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L25)
+[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:25](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L25)
 
 ## Properties
 
 ### koDragEnd
 
-• **koDragEnd**: `EventEmitter`<`KonvaEventObject`<`DragEvent`\>\>
+• **koDragEnd**: `EventEmitter`\<`KonvaEventObject`\<`DragEvent`\>\>
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:17](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L17)
+[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:17](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L17)
 
 ___
 
 ### koDragMove
 
-• **koDragMove**: `EventEmitter`<`KonvaEventObject`<`DragEvent`\>\>
+• **koDragMove**: `EventEmitter`\<`KonvaEventObject`\<`DragEvent`\>\>
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:14](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L14)
+[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:14](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L14)
 
 ___
 
 ### koDragStart
 
-• **koDragStart**: `EventEmitter`<`KonvaEventObject`<`DragEvent`\>\>
+• **koDragStart**: `EventEmitter`\<`KonvaEventObject`\<`DragEvent`\>\>
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:11](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L11)
+[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:11](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L11)
 
 ___
 
@@ -86,13 +90,13 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:19](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L19)
+[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:19](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L19)
 
 ___
 
 ### onDragEndListener
 
-• **onDragEndListener**: (`event`: `KonvaEventObject`<`DragEvent`\>) => `void`
+• **onDragEndListener**: (`event`: `KonvaEventObject`\<`DragEvent`\>) => `void`
 
 #### Type declaration
 
@@ -102,7 +106,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `event` | `KonvaEventObject`<`DragEvent`\> |
+| `event` | `KonvaEventObject`\<`DragEvent`\> |
 
 ##### Returns
 
@@ -110,13 +114,13 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:22](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L22)
+[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:22](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L22)
 
 ___
 
 ### onDragMoveListener
 
-• **onDragMoveListener**: (`event`: `KonvaEventObject`<`DragEvent`\>) => `void`
+• **onDragMoveListener**: (`event`: `KonvaEventObject`\<`DragEvent`\>) => `void`
 
 #### Type declaration
 
@@ -126,7 +130,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `event` | `KonvaEventObject`<`DragEvent`\> |
+| `event` | `KonvaEventObject`\<`DragEvent`\> |
 
 ##### Returns
 
@@ -134,13 +138,13 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:23](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L23)
+[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:23](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L23)
 
 ___
 
 ### onDragStarterListener
 
-• **onDragStarterListener**: (`event`: `KonvaEventObject`<`DragEvent`\>) => `void`
+• **onDragStarterListener**: (`event`: `KonvaEventObject`\<`DragEvent`\>) => `void`
 
 #### Type declaration
 
@@ -150,7 +154,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `event` | `KonvaEventObject`<`DragEvent`\> |
+| `event` | `KonvaEventObject`\<`DragEvent`\> |
 
 ##### Returns
 
@@ -158,7 +162,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:21](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L21)
+[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:21](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L21)
 
 ## Methods
 
@@ -172,7 +176,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:46](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L46)
+[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:46](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L46)
 
 ___
 
@@ -190,7 +194,7 @@ OnDestroy.ngOnDestroy
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:39](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L39)
+[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:39](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L39)
 
 ___
 
@@ -208,7 +212,7 @@ OnInit.ngOnInit
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:36](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L36)
+[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:36](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L36)
 
 ___
 
@@ -220,7 +224,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `event` | `KonvaEventObject`<`DragEvent`\> |
+| `event` | `KonvaEventObject`\<`DragEvent`\> |
 
 #### Returns
 
@@ -228,7 +232,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:56](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L56)
+[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:56](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L56)
 
 ___
 
@@ -240,7 +244,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `event` | `KonvaEventObject`<`DragEvent`\> |
+| `event` | `KonvaEventObject`\<`DragEvent`\> |
 
 #### Returns
 
@@ -248,7 +252,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:60](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L60)
+[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:60](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L60)
 
 ___
 
@@ -260,7 +264,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `event` | `KonvaEventObject`<`DragEvent`\> |
+| `event` | `KonvaEventObject`\<`DragEvent`\> |
 
 #### Returns
 
@@ -268,4 +272,4 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:52](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L52)
+[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:52](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L52)
