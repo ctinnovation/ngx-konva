@@ -59,7 +59,7 @@
 
 ### constructor
 
-• **new KoMouseDirective**(`nestable`, `stage`)
+• **new KoMouseDirective**(`nestable`, `stage`): [`KoMouseDirective`](KoMouseDirective.md)
 
 #### Parameters
 
@@ -68,9 +68,13 @@
 | `nestable` | [`KoNestable`](KoNestable.md) |
 | `stage` | [`KoStageComponent`](KoStageComponent.md) |
 
+#### Returns
+
+[`KoMouseDirective`](KoMouseDirective.md)
+
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:58](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L58)
+[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:58](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L58)
 
 ## Properties
 
@@ -80,107 +84,107 @@
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:42](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L42)
+[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:42](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L42)
 
 ___
 
 ### koClick
 
-• **koClick**: `EventEmitter`<`KonvaEventObject`<`MouseEvent`\>\>
+• **koClick**: `EventEmitter`\<`KonvaEventObject`\<`MouseEvent`\>\>
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:36](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L36)
+[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:36](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L36)
 
 ___
 
 ### koDblclick
 
-• **koDblclick**: `EventEmitter`<`KonvaEventObject`<`MouseEvent`\>\>
+• **koDblclick**: `EventEmitter`\<`KonvaEventObject`\<`MouseEvent`\>\>
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:39](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L39)
+[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:39](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L39)
 
 ___
 
 ### koMouseDown
 
-• **koMouseDown**: `EventEmitter`<`KonvaEventObject`<`MouseEvent`\>\>
+• **koMouseDown**: `EventEmitter`\<`KonvaEventObject`\<`MouseEvent`\>\>
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:12](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L12)
+[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:12](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L12)
 
 ___
 
 ### koMouseEnter
 
-• **koMouseEnter**: `EventEmitter`<`KonvaEventObject`<`MouseEvent`\>\>
+• **koMouseEnter**: `EventEmitter`\<`KonvaEventObject`\<`MouseEvent`\>\>
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:27](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L27)
+[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:27](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L27)
 
 ___
 
 ### koMouseLeave
 
-• **koMouseLeave**: `EventEmitter`<`KonvaEventObject`<`MouseEvent`\>\>
+• **koMouseLeave**: `EventEmitter`\<`KonvaEventObject`\<`MouseEvent`\>\>
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:21](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L21)
+[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:21](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L21)
 
 ___
 
 ### koMouseMove
 
-• **koMouseMove**: `EventEmitter`<`KonvaEventObject`<`MouseEvent`\>\>
+• **koMouseMove**: `EventEmitter`\<`KonvaEventObject`\<`MouseEvent`\>\>
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:15](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L15)
+[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:15](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L15)
 
 ___
 
 ### koMouseOut
 
-• **koMouseOut**: `EventEmitter`<`KonvaEventObject`<`MouseEvent`\>\>
+• **koMouseOut**: `EventEmitter`\<`KonvaEventObject`\<`MouseEvent`\>\>
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:33](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L33)
+[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:33](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L33)
 
 ___
 
 ### koMouseOver
 
-• **koMouseOver**: `EventEmitter`<`KonvaEventObject`<`MouseEvent`\>\>
+• **koMouseOver**: `EventEmitter`\<`KonvaEventObject`\<`MouseEvent`\>\>
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:24](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L24)
+[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:24](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L24)
 
 ___
 
 ### koMouseUp
 
-• **koMouseUp**: `EventEmitter`<`KonvaEventObject`<`MouseEvent`\>\>
+• **koMouseUp**: `EventEmitter`\<`KonvaEventObject`\<`MouseEvent`\>\>
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:18](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L18)
+[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:18](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L18)
 
 ___
 
 ### koMouseWheel
 
-• **koMouseWheel**: `EventEmitter`<`KonvaEventObject`<`MouseEvent`\>\>
+• **koMouseWheel**: `EventEmitter`\<`KonvaEventObject`\<`MouseEvent`\>\>
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:30](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L30)
+[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:30](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L30)
 
 ___
 
@@ -190,13 +194,13 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:44](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L44)
+[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:44](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L44)
 
 ___
 
 ### onClickListener
 
-• **onClickListener**: (`event`: `KonvaEventObject`<`MouseEvent`\>) => `void`
+• **onClickListener**: (`event`: `KonvaEventObject`\<`MouseEvent`\>) => `void`
 
 #### Type declaration
 
@@ -206,7 +210,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `event` | `KonvaEventObject`<`MouseEvent`\> |
+| `event` | `KonvaEventObject`\<`MouseEvent`\> |
 
 ##### Returns
 
@@ -214,13 +218,13 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:54](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L54)
+[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:54](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L54)
 
 ___
 
 ### onDblclickListener
 
-• **onDblclickListener**: (`event`: `KonvaEventObject`<`MouseEvent`\>) => `void`
+• **onDblclickListener**: (`event`: `KonvaEventObject`\<`MouseEvent`\>) => `void`
 
 #### Type declaration
 
@@ -230,7 +234,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `event` | `KonvaEventObject`<`MouseEvent`\> |
+| `event` | `KonvaEventObject`\<`MouseEvent`\> |
 
 ##### Returns
 
@@ -238,13 +242,13 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:55](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L55)
+[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:55](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L55)
 
 ___
 
 ### onMouseDownListener
 
-• **onMouseDownListener**: (`event`: `KonvaEventObject`<`MouseEvent`\>) => `void`
+• **onMouseDownListener**: (`event`: `KonvaEventObject`\<`MouseEvent`\>) => `void`
 
 #### Type declaration
 
@@ -254,7 +258,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `event` | `KonvaEventObject`<`MouseEvent`\> |
+| `event` | `KonvaEventObject`\<`MouseEvent`\> |
 
 ##### Returns
 
@@ -262,13 +266,13 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:46](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L46)
+[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:46](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L46)
 
 ___
 
 ### onMouseEnterListener
 
-• **onMouseEnterListener**: (`event`: `KonvaEventObject`<`MouseEvent`\>) => `void`
+• **onMouseEnterListener**: (`event`: `KonvaEventObject`\<`MouseEvent`\>) => `void`
 
 #### Type declaration
 
@@ -278,7 +282,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `event` | `KonvaEventObject`<`MouseEvent`\> |
+| `event` | `KonvaEventObject`\<`MouseEvent`\> |
 
 ##### Returns
 
@@ -286,13 +290,13 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:51](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L51)
+[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:51](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L51)
 
 ___
 
 ### onMouseLeaveListener
 
-• **onMouseLeaveListener**: (`event`: `KonvaEventObject`<`MouseEvent`\>) => `void`
+• **onMouseLeaveListener**: (`event`: `KonvaEventObject`\<`MouseEvent`\>) => `void`
 
 #### Type declaration
 
@@ -302,7 +306,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `event` | `KonvaEventObject`<`MouseEvent`\> |
+| `event` | `KonvaEventObject`\<`MouseEvent`\> |
 
 ##### Returns
 
@@ -310,13 +314,13 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:49](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L49)
+[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:49](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L49)
 
 ___
 
 ### onMouseMoveListener
 
-• **onMouseMoveListener**: (`event`: `KonvaEventObject`<`MouseEvent`\>) => `void`
+• **onMouseMoveListener**: (`event`: `KonvaEventObject`\<`MouseEvent`\>) => `void`
 
 #### Type declaration
 
@@ -326,7 +330,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `event` | `KonvaEventObject`<`MouseEvent`\> |
+| `event` | `KonvaEventObject`\<`MouseEvent`\> |
 
 ##### Returns
 
@@ -334,13 +338,13 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:47](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L47)
+[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:47](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L47)
 
 ___
 
 ### onMouseOutListener
 
-• **onMouseOutListener**: (`event`: `KonvaEventObject`<`MouseEvent`\>) => `void`
+• **onMouseOutListener**: (`event`: `KonvaEventObject`\<`MouseEvent`\>) => `void`
 
 #### Type declaration
 
@@ -350,7 +354,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `event` | `KonvaEventObject`<`MouseEvent`\> |
+| `event` | `KonvaEventObject`\<`MouseEvent`\> |
 
 ##### Returns
 
@@ -358,13 +362,13 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:52](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L52)
+[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:52](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L52)
 
 ___
 
 ### onMouseOverListener
 
-• **onMouseOverListener**: (`event`: `KonvaEventObject`<`MouseEvent`\>) => `void`
+• **onMouseOverListener**: (`event`: `KonvaEventObject`\<`MouseEvent`\>) => `void`
 
 #### Type declaration
 
@@ -374,7 +378,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `event` | `KonvaEventObject`<`MouseEvent`\> |
+| `event` | `KonvaEventObject`\<`MouseEvent`\> |
 
 ##### Returns
 
@@ -382,13 +386,13 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:50](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L50)
+[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:50](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L50)
 
 ___
 
 ### onMouseUpListener
 
-• **onMouseUpListener**: (`event`: `KonvaEventObject`<`MouseEvent`\>) => `void`
+• **onMouseUpListener**: (`event`: `KonvaEventObject`\<`MouseEvent`\>) => `void`
 
 #### Type declaration
 
@@ -398,7 +402,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `event` | `KonvaEventObject`<`MouseEvent`\> |
+| `event` | `KonvaEventObject`\<`MouseEvent`\> |
 
 ##### Returns
 
@@ -406,13 +410,13 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:48](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L48)
+[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:48](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L48)
 
 ___
 
 ### onMouseWheelListener
 
-• **onMouseWheelListener**: (`event`: `KonvaEventObject`<`MouseEvent`\>) => `void`
+• **onMouseWheelListener**: (`event`: `KonvaEventObject`\<`MouseEvent`\>) => `void`
 
 #### Type declaration
 
@@ -422,7 +426,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `event` | `KonvaEventObject`<`MouseEvent`\> |
+| `event` | `KonvaEventObject`\<`MouseEvent`\> |
 
 ##### Returns
 
@@ -430,7 +434,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:53](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L53)
+[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:53](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L53)
 
 ___
 
@@ -440,7 +444,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:41](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L41)
+[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:41](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L41)
 
 ## Methods
 
@@ -454,7 +458,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:92](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L92)
+[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:92](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L92)
 
 ___
 
@@ -472,7 +476,7 @@ OnDestroy.ngOnDestroy
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:74](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L74)
+[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:74](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L74)
 
 ___
 
@@ -490,7 +494,7 @@ OnInit.ngOnInit
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:71](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L71)
+[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:71](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L71)
 
 ___
 
@@ -502,7 +506,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `event` | `KonvaEventObject`<`MouseEvent`\> |
+| `event` | `KonvaEventObject`\<`MouseEvent`\> |
 
 #### Returns
 
@@ -510,7 +514,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:141](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L141)
+[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:141](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L141)
 
 ___
 
@@ -522,7 +526,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `event` | `KonvaEventObject`<`MouseEvent`\> |
+| `event` | `KonvaEventObject`\<`MouseEvent`\> |
 
 #### Returns
 
@@ -530,7 +534,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:145](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L145)
+[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:145](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L145)
 
 ___
 
@@ -542,7 +546,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `event` | `KonvaEventObject`<`MouseEvent`\> |
+| `event` | `KonvaEventObject`\<`MouseEvent`\> |
 
 #### Returns
 
@@ -550,7 +554,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:113](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L113)
+[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:113](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L113)
 
 ___
 
@@ -562,7 +566,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `event` | `KonvaEventObject`<`MouseEvent`\> |
+| `event` | `KonvaEventObject`\<`MouseEvent`\> |
 
 #### Returns
 
@@ -570,7 +574,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:129](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L129)
+[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:129](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L129)
 
 ___
 
@@ -582,7 +586,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `event` | `KonvaEventObject`<`MouseEvent`\> |
+| `event` | `KonvaEventObject`\<`MouseEvent`\> |
 
 #### Returns
 
@@ -590,7 +594,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:137](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L137)
+[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:137](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L137)
 
 ___
 
@@ -602,7 +606,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `event` | `KonvaEventObject`<`MouseEvent`\> |
+| `event` | `KonvaEventObject`\<`MouseEvent`\> |
 
 #### Returns
 
@@ -610,7 +614,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:117](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L117)
+[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:117](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L117)
 
 ___
 
@@ -622,7 +626,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `event` | `KonvaEventObject`<`MouseEvent`\> |
+| `event` | `KonvaEventObject`\<`MouseEvent`\> |
 
 #### Returns
 
@@ -630,7 +634,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:133](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L133)
+[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:133](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L133)
 
 ___
 
@@ -642,7 +646,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `event` | `KonvaEventObject`<`MouseEvent`\> |
+| `event` | `KonvaEventObject`\<`MouseEvent`\> |
 
 #### Returns
 
@@ -650,7 +654,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:125](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L125)
+[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:125](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L125)
 
 ___
 
@@ -662,7 +666,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `event` | `KonvaEventObject`<`MouseEvent`\> |
+| `event` | `KonvaEventObject`\<`MouseEvent`\> |
 
 #### Returns
 
@@ -670,7 +674,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:121](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L121)
+[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:121](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L121)
 
 ___
 
@@ -682,7 +686,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `event` | `KonvaEventObject`<`MouseEvent`\> |
+| `event` | `KonvaEventObject`\<`MouseEvent`\> |
 
 #### Returns
 
@@ -690,4 +694,4 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:109](https://github.com/ctinnovation/ngx-konva/blob/bd353eb/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L109)
+[projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts:109](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-mouse.directive.ts#L109)

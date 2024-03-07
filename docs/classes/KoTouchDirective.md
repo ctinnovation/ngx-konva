@@ -44,7 +44,7 @@
 
 ### constructor
 
-• **new KoTouchDirective**(`nestable`, `stage`)
+• **new KoTouchDirective**(`nestable`, `stage`): [`KoTouchDirective`](KoTouchDirective.md)
 
 #### Parameters
 
@@ -53,9 +53,13 @@
 | `nestable` | [`KoNestable`](KoNestable.md) |
 | `stage` | [`KoStageComponent`](KoStageComponent.md) |
 
+#### Returns
+
+[`KoTouchDirective`](KoTouchDirective.md)
+
 #### Defined in
 
-projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:38
+[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:38](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L38)
 
 ## Properties
 
@@ -65,57 +69,57 @@ projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:38
 
 #### Defined in
 
-projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:27
+[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:27](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L27)
 
 ___
 
 ### koTouchDblTap
 
-• **koTouchDblTap**: `EventEmitter`<`KonvaEventObject`<`TouchEvent`\>\>
+• **koTouchDblTap**: `EventEmitter`\<`KonvaEventObject`\<`TouchEvent`\>\>
 
 #### Defined in
 
-projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:24
+[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:24](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L24)
 
 ___
 
 ### koTouchEnd
 
-• **koTouchEnd**: `EventEmitter`<`KonvaEventObject`<`TouchEvent`\>\>
+• **koTouchEnd**: `EventEmitter`\<`KonvaEventObject`\<`TouchEvent`\>\>
 
 #### Defined in
 
-projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:18
+[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:18](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L18)
 
 ___
 
 ### koTouchMove
 
-• **koTouchMove**: `EventEmitter`<`KonvaEventObject`<`TouchEvent`\>\>
+• **koTouchMove**: `EventEmitter`\<`KonvaEventObject`\<`TouchEvent`\>\>
 
 #### Defined in
 
-projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:15
+[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:15](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L15)
 
 ___
 
 ### koTouchStart
 
-• **koTouchStart**: `EventEmitter`<`KonvaEventObject`<`TouchEvent`\>\>
+• **koTouchStart**: `EventEmitter`\<`KonvaEventObject`\<`TouchEvent`\>\>
 
 #### Defined in
 
-projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:12
+[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:12](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L12)
 
 ___
 
 ### koTouchTap
 
-• **koTouchTap**: `EventEmitter`<`KonvaEventObject`<`TouchEvent`\>\>
+• **koTouchTap**: `EventEmitter`\<`KonvaEventObject`\<`TouchEvent`\>\>
 
 #### Defined in
 
-projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:21
+[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:21](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L21)
 
 ___
 
@@ -125,13 +129,13 @@ ___
 
 #### Defined in
 
-projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:29
+[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:29](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L29)
 
 ___
 
 ### onTouchDblTapListener
 
-• **onTouchDblTapListener**: (`event`: `KonvaEventObject`<`TouchEvent`\>) => `void`
+• **onTouchDblTapListener**: (`event`: `KonvaEventObject`\<`TouchEvent`\>) => `void`
 
 #### Type declaration
 
@@ -141,7 +145,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `event` | `KonvaEventObject`<`TouchEvent`\> |
+| `event` | `KonvaEventObject`\<`TouchEvent`\> |
 
 ##### Returns
 
@@ -149,13 +153,13 @@ ___
 
 #### Defined in
 
-projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:35
+[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:35](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L35)
 
 ___
 
 ### onTouchEndListener
 
-• **onTouchEndListener**: (`event`: `KonvaEventObject`<`TouchEvent`\>) => `void`
+• **onTouchEndListener**: (`event`: `KonvaEventObject`\<`TouchEvent`\>) => `void`
 
 #### Type declaration
 
@@ -165,7 +169,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `event` | `KonvaEventObject`<`TouchEvent`\> |
+| `event` | `KonvaEventObject`\<`TouchEvent`\> |
 
 ##### Returns
 
@@ -173,13 +177,13 @@ ___
 
 #### Defined in
 
-projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:33
+[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:33](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L33)
 
 ___
 
 ### onTouchMoveListener
 
-• **onTouchMoveListener**: (`event`: `KonvaEventObject`<`TouchEvent`\>) => `void`
+• **onTouchMoveListener**: (`event`: `KonvaEventObject`\<`TouchEvent`\>) => `void`
 
 #### Type declaration
 
@@ -189,7 +193,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `event` | `KonvaEventObject`<`TouchEvent`\> |
+| `event` | `KonvaEventObject`\<`TouchEvent`\> |
 
 ##### Returns
 
@@ -197,13 +201,13 @@ ___
 
 #### Defined in
 
-projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:32
+[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:32](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L32)
 
 ___
 
 ### onTouchStartListener
 
-• **onTouchStartListener**: (`event`: `KonvaEventObject`<`TouchEvent`\>) => `void`
+• **onTouchStartListener**: (`event`: `KonvaEventObject`\<`TouchEvent`\>) => `void`
 
 #### Type declaration
 
@@ -213,7 +217,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `event` | `KonvaEventObject`<`TouchEvent`\> |
+| `event` | `KonvaEventObject`\<`TouchEvent`\> |
 
 ##### Returns
 
@@ -221,13 +225,13 @@ ___
 
 #### Defined in
 
-projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:31
+[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:31](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L31)
 
 ___
 
 ### onTouchTapListener
 
-• **onTouchTapListener**: (`event`: `KonvaEventObject`<`TouchEvent`\>) => `void`
+• **onTouchTapListener**: (`event`: `KonvaEventObject`\<`TouchEvent`\>) => `void`
 
 #### Type declaration
 
@@ -237,7 +241,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `event` | `KonvaEventObject`<`TouchEvent`\> |
+| `event` | `KonvaEventObject`\<`TouchEvent`\> |
 
 ##### Returns
 
@@ -245,7 +249,7 @@ ___
 
 #### Defined in
 
-projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:34
+[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:34](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L34)
 
 ___
 
@@ -255,7 +259,7 @@ ___
 
 #### Defined in
 
-projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:26
+[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:26](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L26)
 
 ## Methods
 
@@ -269,7 +273,7 @@ projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:26
 
 #### Defined in
 
-projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:67
+[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:67](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L67)
 
 ___
 
@@ -287,7 +291,7 @@ OnDestroy.ngOnDestroy
 
 #### Defined in
 
-projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:54
+[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:54](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L54)
 
 ___
 
@@ -305,7 +309,7 @@ OnInit.ngOnInit
 
 #### Defined in
 
-projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:51
+[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:51](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L51)
 
 ___
 
@@ -317,7 +321,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `event` | `KonvaEventObject`<`TouchEvent`\> |
+| `event` | `KonvaEventObject`\<`TouchEvent`\> |
 
 #### Returns
 
@@ -325,7 +329,7 @@ ___
 
 #### Defined in
 
-projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:94
+[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:94](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L94)
 
 ___
 
@@ -337,7 +341,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `event` | `KonvaEventObject`<`TouchEvent`\> |
+| `event` | `KonvaEventObject`\<`TouchEvent`\> |
 
 #### Returns
 
@@ -345,7 +349,7 @@ ___
 
 #### Defined in
 
-projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:86
+[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:86](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L86)
 
 ___
 
@@ -357,7 +361,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `event` | `KonvaEventObject`<`TouchEvent`\> |
+| `event` | `KonvaEventObject`\<`TouchEvent`\> |
 
 #### Returns
 
@@ -365,7 +369,7 @@ ___
 
 #### Defined in
 
-projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:82
+[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:82](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L82)
 
 ___
 
@@ -377,7 +381,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `event` | `KonvaEventObject`<`TouchEvent`\> |
+| `event` | `KonvaEventObject`\<`TouchEvent`\> |
 
 #### Returns
 
@@ -385,7 +389,7 @@ ___
 
 #### Defined in
 
-projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:78
+[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:78](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L78)
 
 ___
 
@@ -397,7 +401,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `event` | `KonvaEventObject`<`TouchEvent`\> |
+| `event` | `KonvaEventObject`\<`TouchEvent`\> |
 
 #### Returns
 
@@ -405,4 +409,4 @@ ___
 
 #### Defined in
 
-projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:90
+[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:90](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L90)
