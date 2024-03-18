@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
+import 'konva/lib/Core';
 import { KoGroupComponent } from './components/ko-group.component';
 import { KoImageComponent } from './components/ko-image.component';
 import { KoLabelComponent } from './components/ko-label.component';
