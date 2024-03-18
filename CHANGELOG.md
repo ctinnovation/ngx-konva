@@ -5,9 +5,21 @@ All notable changes to this project will be documented in this file.
 [![CHANGELOG
 FORMAT](https://img.shields.io/badge/Format-keepachangelog-orange.svg)](https://keepachangelog.com/en/1.0.0/) [![VERSIONING](https://img.shields.io/badge/Versioning-semver-red.svg)](https://semver.org/spec/v2.0.0.html)
 
+- [[16.1.6] - 2024-03-18](#1616---2024-03-18)
 - [[16.1.5] - 2024-03-07](#1615---2024-03-07)
 - [[16.1.4] - 2024-03-07](#1614---2024-03-07)
 
+## [16.1.6] - 2024-03-18
+
+[![TASK](https://img.shields.io/badge/TASK-28-default.svg)](https://github.com/ctinnovation/ngx-konva/issues/28) 
+
+### Changed
+
+- Bump `konva@9.3.6` ‧ [28](https://github.com/ctinnovation/ngx-konva/issues/28)
+
+### Fixed
+
+- Fixed isDragging error by importing `konva/lib/Core` inside `NgxKonvaModule` for initialization ‧ [28](https://github.com/ctinnovation/ngx-konva/issues/28)
 ## [16.1.5] - 2024-03-07
 
 
