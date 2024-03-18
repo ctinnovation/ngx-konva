@@ -1,6 +1,6 @@
 {
   "generate": {
     "fromPackageJson": true,
-    "excludeTaskList": true
+    "taskUrlTemplate": "https://github.com/ctinnovation/ngx-konva/issues/{taskCode}"
   }
 }
