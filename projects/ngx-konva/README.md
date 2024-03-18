@@ -30,7 +30,7 @@ Supported Angular version: `16`.
 ## Installation
 
 ```bash
-npm install ngx-konva konva@9.2.3
+npm install ngx-konva konva
 ```
 
 Simply import `NgxKonvaModule` inside any module you need to use it in:
