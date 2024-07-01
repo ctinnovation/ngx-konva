@@ -1,5 +1,7 @@
-import { Component, ElementRef, EventEmitter, Input, OnInit, Optional, Output } from '@angular/core';
+import { ChangeDetectionStrategy, Component, ElementRef, EventEmitter, Host, Input, OnInit, Optional, Output } from '@angular/core';
+import { defaults } from 'lodash';
 import { KoShape, KoShapeConfig, KoShapeSelectors, koShapeTypesMap } from '../common';
+import { KoListeningDirective } from '../common/ko-listening';
 import { KoNestable } from '../common/ko-nestable';
 import { KoGroupComponent } from './ko-group.component';
 import { KoLayerComponent } from './ko-layer.component';
@@ -11,18 +13,16 @@ import { KoLayerComponent } from './ko-layer.component';
   providers: [{
     provide: KoNestable,
     useExisting: KoShapeComponent
-  }]
+  }],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class KoShapeComponent extends KoNestable implements OnInit {
   shape: KoShape;
 
-  private _config: KoShapeConfig = {
-    id: this.id
-  };
+  private _config: KoShapeConfig = this.configDefaults;
   @Input()
   set config(c: KoShapeConfig) {
-    this._config = c;
-    this._config.id = this.id;
+    this._config = defaults(c, this.configDefaults);
     this.updateShape();
   };
 
@@ -38,11 +38,12 @@ export class KoShapeComponent extends KoNestable implements OnInit {
   selector: KoShapeSelectors;
 
   constructor(
+    @Optional() @Host() override koListening: KoListeningDirective,
     private elementRef: ElementRef<HTMLElement>,
     @Optional() private layerComponent: KoLayerComponent,
     @Optional() private groupComponent: KoGroupComponent
   ) {
-    super();
+    super(koListening);
     this.selector = this.elementRef.nativeElement.localName as KoShapeSelectors;
     if (!layerComponent && !groupComponent) {
       throw new Error(`${this.selector} should be nested inside ko-layer or ko-group!`)

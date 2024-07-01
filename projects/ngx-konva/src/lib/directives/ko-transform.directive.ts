@@ -1,10 +1,15 @@
-import { Directive, EventEmitter, OnDestroy, OnInit, Optional, Output, Self } from '@angular/core';
+import { Directive, EventEmitter, OnDestroy, OnInit, Optional, Output, Self, forwardRef } from '@angular/core';
 import { KonvaEventObject } from 'konva/lib/Node';
 import { KoShape } from '../common';
+import { KoListeningDirective } from '../common/ko-listening';
 import { KoNestable, KoNestableNode } from '../common/ko-nestable';
 
 @Directive({
-  selector: '[koTransform]'
+  selector: '[koTransform]',
+  providers: [{
+    provide: KoListeningDirective,
+    useValue: forwardRef(() => KoTransformDirective)
+  }],
 })
 export class KoTransformDirective implements OnInit, OnDestroy {
   @Output()

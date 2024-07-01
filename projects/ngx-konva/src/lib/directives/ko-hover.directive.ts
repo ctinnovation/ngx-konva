@@ -1,10 +1,15 @@
-import { Directive, EventEmitter, OnDestroy, OnInit, Optional, Output, Self } from '@angular/core';
+import { Directive, EventEmitter, OnDestroy, OnInit, Optional, Output, Self, forwardRef } from '@angular/core';
 import { KoShape } from '../common';
+import { KoListeningDirective } from '../common/ko-listening';
 import { KoNestable, KoNestableNode } from '../common/ko-nestable';
 
 @Directive({
   selector: '[koHover]',
-  outputs: ['koHoverStart', 'koHoverEnd']
+  outputs: ['koHoverStart', 'koHoverEnd'],
+  providers: [{
+    provide: KoListeningDirective,
+    useValue: forwardRef(() => KoHoverDirective)
+  }],
 })
 export class KoHoverDirective implements OnInit, OnDestroy {
   @Output()

@@ -1,4 +1,4 @@
-import { AfterViewInit, Component, ElementRef, EventEmitter, Input, OnDestroy, OnInit, Optional, Output } from '@angular/core';
+import { AfterViewInit, ChangeDetectionStrategy, Component, ElementRef, EventEmitter, Input, OnDestroy, OnInit, Optional, Output } from '@angular/core';
 import { Layer } from 'konva/lib/Layer';
 import { Stage, StageConfig } from 'konva/lib/Stage';
 import { Subscription } from 'rxjs';
@@ -8,7 +8,8 @@ export type StageConfigOptionalContainer = Omit<StageConfig, 'container'> & Part
 @Component({
   selector: 'ko-stage',
   template: `<ng-content></ng-content>`,
-  styles: [``]
+  styles: [``],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class KoStageComponent implements OnInit, OnDestroy, AfterViewInit {
   container: ElementRef;
