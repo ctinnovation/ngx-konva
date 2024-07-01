@@ -1,4 +1,4 @@
-import { AfterViewInit, ChangeDetectionStrategy, Component, EventEmitter, Input, OnDestroy, OnInit, Optional, Output, Self, SkipSelf } from '@angular/core';
+import { AfterViewInit, ChangeDetectionStrategy, Component, ContentChildren, EventEmitter, Input, OnDestroy, OnInit, Optional, Output, QueryList, Self, SkipSelf } from '@angular/core';
 import { Group } from 'konva/lib/Group';
 import { Layer } from 'konva/lib/Layer';
 import { defaults, isEqual } from 'lodash';
@@ -45,6 +45,15 @@ export class KoLayerComponent extends KoNestable implements OnInit, OnDestroy, A
 
   @Output()
   afterUpdate = new EventEmitter<Layer>();
+
+  @ContentChildren(KoListeningDirective)
+  koListeningChildren!: QueryList<KoListeningDirective>;
+
+  protected override get shouldListen(): boolean {
+    return super.shouldListen ||
+      // if the layer has listening children then the layer should be listening
+      (this.koListeningChildren && this.koListeningChildren.length > 0);
+  }
 
   constructor(
     @Optional() @Self() override koListening: KoListeningDirective,

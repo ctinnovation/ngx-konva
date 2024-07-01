@@ -84,7 +84,6 @@ export class KoNestable implements OnInit, OnDestroy {
       this._tween = undefined;
     }
 
-    console.log(config.listening)
     if (
       this.transitionWith &&
       node.getLayer() &&
