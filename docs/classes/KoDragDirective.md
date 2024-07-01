@@ -50,7 +50,7 @@
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:25](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L25)
+[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:30](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L30)
 
 ## Properties
 
@@ -60,7 +60,7 @@
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:17](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L17)
+[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:22](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L22)
 
 ___
 
@@ -70,7 +70,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:14](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L14)
+[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:19](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L19)
 
 ___
 
@@ -80,7 +80,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:11](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L11)
+[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:16](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L16)
 
 ___
 
@@ -90,7 +90,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:19](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L19)
+[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:24](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L24)
 
 ___
 
@@ -114,7 +114,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:22](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L22)
+[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:27](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L27)
 
 ___
 
@@ -138,7 +138,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:23](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L23)
+[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:28](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L28)
 
 ___
 
@@ -162,7 +162,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:21](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L21)
+[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:26](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L26)
 
 ## Methods
 
@@ -176,7 +176,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:46](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L46)
+[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:51](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L51)
 
 ___
 
@@ -194,7 +194,7 @@ OnDestroy.ngOnDestroy
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:39](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L39)
+[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:44](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L44)
 
 ___
 
@@ -212,7 +212,7 @@ OnInit.ngOnInit
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:36](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L36)
+[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:41](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L41)
 
 ___
 
@@ -232,7 +232,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:56](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L56)
+[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:61](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L61)
 
 ___
 
@@ -252,7 +252,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:60](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L60)
+[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:65](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L65)
 
 ___
 
@@ -272,4 +272,4 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:52](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L52)
+[projects/ngx-konva/src/lib/directives/ko-drag.directive.ts:57](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/directives/ko-drag.directive.ts#L57)
