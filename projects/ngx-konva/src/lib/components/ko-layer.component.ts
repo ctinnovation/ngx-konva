@@ -68,7 +68,7 @@ export class KoLayerComponent extends KoNestable implements OnInit, OnDestroy, A
 
     this.sub.add(
       this.draw$
-        .pipe(debounceTime(50))
+        .pipe(debounceTime(10))
         .subscribe(this.draw.bind(this))
     );
   }
