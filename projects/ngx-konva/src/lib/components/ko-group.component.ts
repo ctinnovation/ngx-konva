@@ -1,7 +1,9 @@
-import { AfterViewInit, Component, EventEmitter, Input, OnInit, Optional, Output } from '@angular/core';
+import { AfterViewInit, ChangeDetectionStrategy, Component, EventEmitter, Input, OnInit, Optional, Output, Self } from '@angular/core';
 import { Group } from 'konva/lib/Group';
 import { Layer } from 'konva/lib/Layer';
+import { defaults } from 'lodash';
 import { KoShape } from '../common';
+import { KoListeningDirective } from '../common/ko-listening';
 import { KoNestable, KoNestableConfig, KoNestableNode } from '../common/ko-nestable';
 import { KoLayerComponent } from './ko-layer.component';
 
@@ -12,18 +14,16 @@ import { KoLayerComponent } from './ko-layer.component';
   providers: [{
     provide: KoNestable,
     useExisting: KoGroupComponent
-  }]
+  }],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class KoGroupComponent extends KoNestable implements OnInit, AfterViewInit {
   group: Group;
 
-  private _config: KoNestableConfig = {
-    id: this.id
-  };
+  private _config: KoNestableConfig = this.configDefaults;
   @Input()
   set config(c: KoNestableConfig) {
-    this._config = c;
-    this._config.id = this.id;
+    this._config = defaults(c, this.configDefaults);
     this.updateGroup();
   };
 
@@ -37,9 +37,10 @@ export class KoGroupComponent extends KoNestable implements OnInit, AfterViewIni
   afterUpdate = new EventEmitter<Group>();
 
   constructor(
+    @Optional() @Self() override koListening: KoListeningDirective,
     @Optional() private layerComponent: KoLayerComponent
   ) {
-    super();
+    super(koListening);
     this.group = new Group(this._config);
     this.layerComponent.addChild(this.group);
   }

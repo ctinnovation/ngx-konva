@@ -48,7 +48,7 @@
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-hover.directive.ts:23](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-hover.directive.ts#L23)
+[projects/ngx-konva/src/lib/directives/ko-hover.directive.ts:28](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/directives/ko-hover.directive.ts#L28)
 
 ## Properties
 
@@ -58,7 +58,7 @@
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-hover.directive.ts:16](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-hover.directive.ts#L16)
+[projects/ngx-konva/src/lib/directives/ko-hover.directive.ts:21](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/directives/ko-hover.directive.ts#L21)
 
 ___
 
@@ -68,7 +68,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-hover.directive.ts:14](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-hover.directive.ts#L14)
+[projects/ngx-konva/src/lib/directives/ko-hover.directive.ts:19](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/directives/ko-hover.directive.ts#L19)
 
 ___
 
@@ -78,7 +78,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-hover.directive.ts:11](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-hover.directive.ts#L11)
+[projects/ngx-konva/src/lib/directives/ko-hover.directive.ts:16](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/directives/ko-hover.directive.ts#L16)
 
 ___
 
@@ -88,7 +88,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-hover.directive.ts:18](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-hover.directive.ts#L18)
+[projects/ngx-konva/src/lib/directives/ko-hover.directive.ts:23](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/directives/ko-hover.directive.ts#L23)
 
 ___
 
@@ -106,7 +106,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-hover.directive.ts:20](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-hover.directive.ts#L20)
+[projects/ngx-konva/src/lib/directives/ko-hover.directive.ts:25](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/directives/ko-hover.directive.ts#L25)
 
 ___
 
@@ -124,7 +124,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-hover.directive.ts:21](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-hover.directive.ts#L21)
+[projects/ngx-konva/src/lib/directives/ko-hover.directive.ts:26](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/directives/ko-hover.directive.ts#L26)
 
 ## Methods
 
@@ -138,7 +138,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-hover.directive.ts:43](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-hover.directive.ts#L43)
+[projects/ngx-konva/src/lib/directives/ko-hover.directive.ts:48](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/directives/ko-hover.directive.ts#L48)
 
 ___
 
@@ -156,7 +156,7 @@ OnDestroy.ngOnDestroy
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-hover.directive.ts:37](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-hover.directive.ts#L37)
+[projects/ngx-konva/src/lib/directives/ko-hover.directive.ts:42](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/directives/ko-hover.directive.ts#L42)
 
 ___
 
@@ -174,7 +174,7 @@ OnInit.ngOnInit
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-hover.directive.ts:34](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-hover.directive.ts#L34)
+[projects/ngx-konva/src/lib/directives/ko-hover.directive.ts:39](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/directives/ko-hover.directive.ts#L39)
 
 ___
 
@@ -188,7 +188,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-hover.directive.ts:48](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-hover.directive.ts#L48)
+[projects/ngx-konva/src/lib/directives/ko-hover.directive.ts:53](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/directives/ko-hover.directive.ts#L53)
 
 ___
 
@@ -202,4 +202,4 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-hover.directive.ts:53](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-hover.directive.ts#L53)
+[projects/ngx-konva/src/lib/directives/ko-hover.directive.ts:58](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/directives/ko-hover.directive.ts#L58)

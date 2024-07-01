@@ -1,4 +1,4 @@
-import { AfterContentInit, ChangeDetectorRef, Component, ElementRef, EventEmitter, Input, OnDestroy, OnInit, Output, SkipSelf } from '@angular/core';
+import { AfterContentInit, ChangeDetectionStrategy, ChangeDetectorRef, Component, ElementRef, EventEmitter, Input, OnDestroy, OnInit, Output, SkipSelf } from '@angular/core';
 import { KoStageComponent } from './ko-stage.component';
 
 @Component({
@@ -8,7 +8,8 @@ import { KoStageComponent } from './ko-stage.component';
   providers: [{
     provide: KoStageComponent,
     useExisting: KoStageAutoScaleComponent
-  }]
+  }],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class KoStageAutoScaleComponent extends KoStageComponent implements OnInit, OnDestroy, AfterContentInit {
   private initialDimensions: { width: number, height: number } | null = null;

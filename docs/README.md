@@ -35,6 +35,22 @@ Supported Angular version: `16`.
 npm install ngx-konva konva
 ```
 
+Simply import `NgxKonvaModule` inside any module you need to use it in:
+
+```typescript
+import { NgxKonvaModule } from 'ngx-konva';
+
+@NgModule({
+  // ... your stuff
+  imports: [
+    // ... other modules import
+    NgxKonvaModule,
+  ],
+  // ... other module stuff
+})
+export class MyModule { }
+```
+
 ## Konva API implementation status
 
 | API                                                                          | Status | Component                                                                     |

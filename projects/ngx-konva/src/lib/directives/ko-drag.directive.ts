@@ -1,10 +1,15 @@
-import { Directive, EventEmitter, OnDestroy, OnInit, Optional, Output, Self } from '@angular/core';
+import { Directive, EventEmitter, OnDestroy, OnInit, Optional, Output, Self, forwardRef } from '@angular/core';
 import { KonvaEventObject } from 'konva/lib/Node';
 import { KoShape } from '../common';
+import { KoListeningDirective } from '../common/ko-listening';
 import { KoNestable, KoNestableNode } from '../common/ko-nestable';
 
 @Directive({
-  selector: '[koDrag]'
+  selector: '[koDrag]',
+  providers: [{
+    provide: KoListeningDirective,
+    useValue: forwardRef(() => KoDragDirective)
+  }],
 })
 export class KoDragDirective implements OnInit, OnDestroy {
   @Output()

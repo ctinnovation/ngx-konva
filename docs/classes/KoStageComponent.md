@@ -26,6 +26,7 @@
 - [afterUpdate](KoStageComponent.md#afterupdate)
 - [beforeUpdate](KoStageComponent.md#beforeupdate)
 - [container](KoStageComponent.md#container)
+- [draw$](KoStageComponent.md#draw$)
 - [onNewLayer](KoStageComponent.md#onnewlayer)
 - [stage](KoStageComponent.md#stage)
 - [sub](KoStageComponent.md#sub)
@@ -37,6 +38,7 @@
 ### Methods
 
 - [addChild](KoStageComponent.md#addchild)
+- [draw](KoStageComponent.md#draw)
 - [ngAfterViewInit](KoStageComponent.md#ngafterviewinit)
 - [ngOnDestroy](KoStageComponent.md#ngondestroy)
 - [ngOnInit](KoStageComponent.md#ngoninit)
@@ -60,7 +62,7 @@
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage.component.ts:43](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L43)
+[projects/ngx-konva/src/lib/components/ko-stage.component.ts:46](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L46)
 
 ## Properties
 
@@ -70,7 +72,7 @@
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage.component.ts:26](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L26)
+[projects/ngx-konva/src/lib/components/ko-stage.component.ts:29](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L29)
 
 ___
 
@@ -80,7 +82,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage.component.ts:21](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L21)
+[projects/ngx-konva/src/lib/components/ko-stage.component.ts:24](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L24)
 
 ___
 
@@ -90,7 +92,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage.component.ts:18](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L18)
+[projects/ngx-konva/src/lib/components/ko-stage.component.ts:21](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L21)
 
 ___
 
@@ -100,7 +102,17 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage.component.ts:14](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L14)
+[projects/ngx-konva/src/lib/components/ko-stage.component.ts:15](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L15)
+
+___
+
+### draw$
+
+• `Private` **draw$**: `Subject`\<`void`\>
+
+#### Defined in
+
+[projects/ngx-konva/src/lib/components/ko-stage.component.ts:18](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L18)
 
 ___
 
@@ -110,7 +122,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage.component.ts:24](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L24)
+[projects/ngx-konva/src/lib/components/ko-stage.component.ts:27](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L27)
 
 ___
 
@@ -120,7 +132,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage.component.ts:15](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L15)
+[projects/ngx-konva/src/lib/components/ko-stage.component.ts:16](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L16)
 
 ___
 
@@ -130,7 +142,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage.component.ts:41](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L41)
+[projects/ngx-konva/src/lib/components/ko-stage.component.ts:44](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L44)
 
 ## Accessors
 
@@ -144,7 +156,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage.component.ts:37](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L37)
+[projects/ngx-konva/src/lib/components/ko-stage.component.ts:40](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L40)
 
 • `set` **config**(`c`): `void`
 
@@ -160,7 +172,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage.component.ts:29](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L29)
+[projects/ngx-konva/src/lib/components/ko-stage.component.ts:32](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L32)
 
 ## Methods
 
@@ -180,7 +192,21 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage.component.ts:64](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L64)
+[projects/ngx-konva/src/lib/components/ko-stage.component.ts:72](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L72)
+
+___
+
+### draw
+
+▸ **draw**(): `void`
+
+#### Returns
+
+`void`
+
+#### Defined in
+
+[projects/ngx-konva/src/lib/components/ko-stage.component.ts:94](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L94)
 
 ___
 
@@ -198,7 +224,7 @@ AfterViewInit.ngAfterViewInit
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage.component.ts:56](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L56)
+[projects/ngx-konva/src/lib/components/ko-stage.component.ts:64](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L64)
 
 ___
 
@@ -216,7 +242,7 @@ OnDestroy.ngOnDestroy
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage.component.ts:59](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L59)
+[projects/ngx-konva/src/lib/components/ko-stage.component.ts:67](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L67)
 
 ___
 
@@ -234,7 +260,7 @@ OnInit.ngOnInit
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage.component.ts:54](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L54)
+[projects/ngx-konva/src/lib/components/ko-stage.component.ts:62](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L62)
 
 ___
 
@@ -248,4 +274,4 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-stage.component.ts:76](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L76)
+[projects/ngx-konva/src/lib/components/ko-stage.component.ts:84](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/components/ko-stage.component.ts#L84)

@@ -1,7 +1,10 @@
-import { AfterViewInit, Component, EventEmitter, Input, OnDestroy, OnInit, Optional, Output, SkipSelf } from '@angular/core';
+import { AfterViewInit, ChangeDetectionStrategy, Component, ContentChildren, EventEmitter, Input, OnDestroy, OnInit, Optional, Output, QueryList, Self, SkipSelf } from '@angular/core';
 import { Group } from 'konva/lib/Group';
 import { Layer } from 'konva/lib/Layer';
+import { defaults, isEqual } from 'lodash';
+import { Subject, debounceTime } from 'rxjs';
 import { KoShape } from '../common';
+import { KoListeningDirective } from '../common/ko-listening';
 import { KoNestable, KoNestableConfig, KoNestableNode } from '../common/ko-nestable';
 import { KoStageAutoScaleComponent } from './ko-stage-autoscale.component';
 import { KoStageComponent } from './ko-stage.component';
@@ -14,20 +17,23 @@ import { KoStageComponent } from './ko-stage.component';
   providers: [{
     provide: KoNestable,
     useExisting: KoLayerComponent
-  }]
+  }],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class KoLayerComponent extends KoNestable implements OnInit, OnDestroy, AfterViewInit {
   layer: Layer;
   stageComponent: KoStageComponent;
 
-  private _config: KoNestableConfig = {
-    id: this.id
-  };
+  private draw$ = new Subject<void>();
+  private _config: KoNestableConfig = this.configDefaults;
 
   @Input()
   set config(c: KoNestableConfig) {
-    this._config = c;
-    this._config.id = this.id;
+    if (isEqual(c, this._config)) {
+      return;
+    }
+
+    this._config = defaults(c, this.configDefaults);
     this.updateLayer();
   };
 
@@ -40,7 +46,17 @@ export class KoLayerComponent extends KoNestable implements OnInit, OnDestroy, A
   @Output()
   afterUpdate = new EventEmitter<Layer>();
 
+  @ContentChildren(KoListeningDirective)
+  koListeningChildren!: QueryList<KoListeningDirective>;
+
+  protected override get shouldListen(): boolean {
+    return super.shouldListen ||
+      // if the layer has listening children then the layer should be listening
+      (this.koListeningChildren && this.koListeningChildren.length > 0);
+  }
+
   constructor(
+    @Optional() @Self() override koListening: KoListeningDirective,
     @Optional() stageComponent?: KoStageComponent,
     @Optional() stageAutoComponent?: KoStageAutoScaleComponent,
     @Optional() @SkipSelf() private layerComponent?: KoLayerComponent
@@ -49,7 +65,7 @@ export class KoLayerComponent extends KoNestable implements OnInit, OnDestroy, A
       throw new Error('ko-layer should be nested inside ko-stage or ko-stage-autoscale or ko-layer!')
     }
 
-    super();
+    super(koListening);
     this.layer = new Layer(this._config);
     this.stageComponent = (stageComponent || stageAutoComponent)!;
 
@@ -58,6 +74,12 @@ export class KoLayerComponent extends KoNestable implements OnInit, OnDestroy, A
     } else {
       this.stageComponent.addChild(this.layer);
     }
+
+    this.sub.add(
+      this.draw$
+        .pipe(debounceTime(10))
+        .subscribe(this.draw.bind(this))
+    );
   }
 
   override ngOnInit(): void {
@@ -74,7 +96,7 @@ export class KoLayerComponent extends KoNestable implements OnInit, OnDestroy, A
   updateLayer() {
     this.beforeUpdate.emit(this.layer);
     this.setConfig(this._config);
-    this.layer.draw();
+    this.draw$.next();
     this.afterUpdate.emit(this.layer);
   }
 
@@ -87,7 +109,10 @@ export class KoLayerComponent extends KoNestable implements OnInit, OnDestroy, A
     this.layer.add(child);
     this.onNewItem.emit(child);
     child.fire('ko:added', this.layer);
-    this.layer.draw();
+    this.draw$.next();
   }
 
+  draw() {
+    this.layer.draw();
+  }
 }

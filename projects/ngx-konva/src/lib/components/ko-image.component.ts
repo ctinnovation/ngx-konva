@@ -1,6 +1,8 @@
-import { Component, EventEmitter, Input, OnInit, Optional, Output } from '@angular/core';
+import { ChangeDetectionStrategy, Component, EventEmitter, Input, OnInit, Optional, Output, Self } from '@angular/core';
 import { ImageConfig, Image as KonvaImage } from 'konva/lib/shapes/Image';
+import { defaults } from 'lodash';
 import { KoShape } from '../common';
+import { KoListeningDirective } from '../common/ko-listening';
 import { KoNestable, KoNestableConfig } from '../common/ko-nestable';
 import { KoGroupComponent } from './ko-group.component';
 import { KoLayerComponent } from './ko-layer.component';
@@ -14,7 +16,8 @@ export type KoImageConfig = Omit<ImageConfig, 'image'>;
   providers: [{
     provide: KoNestable,
     useExisting: KoImageComponent
-  }]
+  }],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class KoImageComponent extends KoNestable implements OnInit {
   node: KonvaImage;
@@ -32,13 +35,11 @@ export class KoImageComponent extends KoNestable implements OnInit {
     this.updateShape();
   };
 
-  private _config: KoNestableConfig = {
-    id: this.id
-  };
+  private _config: KoNestableConfig = this.configDefaults;
   @Input()
   set config(c: KoNestableConfig) {
     this._config = c;
-    this._config['id'] = this.id;
+    this._config = defaults(c, this.configDefaults);
     this.updateShape();
   };
 
@@ -54,6 +55,7 @@ export class KoImageComponent extends KoNestable implements OnInit {
   onLoadListener = this.onImageLoad.bind(this);
 
   constructor(
+    @Optional() @Self() override koListening: KoListeningDirective,
     @Optional() private layerComponent: KoLayerComponent,
     @Optional() private groupComponent: KoGroupComponent
   ) {
@@ -61,7 +63,7 @@ export class KoImageComponent extends KoNestable implements OnInit {
       throw new Error(`ko-image should be nested inside ko-layer!`)
     }
 
-    super();
+    super(koListening);
     this.node = new KonvaImage({
       ...this._config,
       image: this._image

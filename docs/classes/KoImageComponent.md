@@ -28,8 +28,10 @@
 - [afterUpdate](KoImageComponent.md#afterupdate)
 - [beforeUpdate](KoImageComponent.md#beforeupdate)
 - [centerOrigin](KoImageComponent.md#centerorigin)
+- [configDefaults](KoImageComponent.md#configdefaults)
 - [groupComponent](KoImageComponent.md#groupcomponent)
 - [id](KoImageComponent.md#id)
+- [koListening](KoImageComponent.md#kolistening)
 - [layerComponent](KoImageComponent.md#layercomponent)
 - [node](KoImageComponent.md#node)
 - [onLoadListener](KoImageComponent.md#onloadlistener)
@@ -43,6 +45,7 @@
 ### Accessors
 
 - [config](KoImageComponent.md#config)
+- [shouldListen](KoImageComponent.md#shouldlisten)
 - [src](KoImageComponent.md#src)
 
 ### Methods
@@ -60,12 +63,13 @@
 
 ### constructor
 
-• **new KoImageComponent**(`layerComponent`, `groupComponent`): [`KoImageComponent`](KoImageComponent.md)
+• **new KoImageComponent**(`koListening`, `layerComponent`, `groupComponent`): [`KoImageComponent`](KoImageComponent.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
+| `koListening` | `KoListeningDirective` |
 | `layerComponent` | [`KoLayerComponent`](KoLayerComponent.md) |
 | `groupComponent` | [`KoGroupComponent`](KoGroupComponent.md) |
 
@@ -79,7 +83,7 @@
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-image.component.ts:61](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/components/ko-image.component.ts#L61)
+[projects/ngx-konva/src/lib/components/ko-image.component.ts:57](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/components/ko-image.component.ts#L57)
 
 ## Properties
 
@@ -89,7 +93,7 @@
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-image.component.ts:36](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/components/ko-image.component.ts#L36)
+[projects/ngx-konva/src/lib/components/ko-image.component.ts:38](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/components/ko-image.component.ts#L38)
 
 ___
 
@@ -99,7 +103,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-image.component.ts:23](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/components/ko-image.component.ts#L23)
+[projects/ngx-konva/src/lib/components/ko-image.component.ts:25](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/components/ko-image.component.ts#L25)
 
 ___
 
@@ -109,7 +113,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-image.component.ts:25](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/components/ko-image.component.ts#L25)
+[projects/ngx-konva/src/lib/components/ko-image.component.ts:27](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/components/ko-image.component.ts#L27)
 
 ___
 
@@ -123,7 +127,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/ko-nestable.ts:34](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/common/ko-nestable.ts#L34)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:38](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/common/ko-nestable.ts#L38)
 
 ___
 
@@ -137,7 +141,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/ko-nestable.ts:35](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/common/ko-nestable.ts#L35)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:39](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/common/ko-nestable.ts#L39)
 
 ___
 
@@ -147,7 +151,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-image.component.ts:57](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/components/ko-image.component.ts#L57)
+[projects/ngx-konva/src/lib/components/ko-image.component.ts:53](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/components/ko-image.component.ts#L53)
 
 ___
 
@@ -157,7 +161,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-image.component.ts:54](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/components/ko-image.component.ts#L54)
+[projects/ngx-konva/src/lib/components/ko-image.component.ts:50](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/components/ko-image.component.ts#L50)
 
 ___
 
@@ -167,7 +171,21 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-image.component.ts:51](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/components/ko-image.component.ts#L51)
+[projects/ngx-konva/src/lib/components/ko-image.component.ts:47](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/components/ko-image.component.ts#L47)
+
+___
+
+### configDefaults
+
+• `Protected` **configDefaults**: [`KoShapeConfig`](../modules.md#koshapeconfig)
+
+#### Inherited from
+
+[KoNestable](KoNestable.md).[configDefaults](KoNestable.md#configdefaults)
+
+#### Defined in
+
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:46](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/common/ko-nestable.ts#L46)
 
 ___
 
@@ -177,7 +195,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-image.component.ts:63](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/components/ko-image.component.ts#L63)
+[projects/ngx-konva/src/lib/components/ko-image.component.ts:60](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/components/ko-image.component.ts#L60)
 
 ___
 
@@ -191,7 +209,21 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/ko-nestable.ts:18](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/common/ko-nestable.ts#L18)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:22](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/common/ko-nestable.ts#L22)
+
+___
+
+### koListening
+
+• **koListening**: `KoListeningDirective`
+
+#### Inherited from
+
+[KoNestable](KoNestable.md).[koListening](KoNestable.md#kolistening)
+
+#### Defined in
+
+[projects/ngx-konva/src/lib/components/ko-image.component.ts:58](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/components/ko-image.component.ts#L58)
 
 ___
 
@@ -201,7 +233,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-image.component.ts:62](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/components/ko-image.component.ts#L62)
+[projects/ngx-konva/src/lib/components/ko-image.component.ts:59](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/components/ko-image.component.ts#L59)
 
 ___
 
@@ -211,7 +243,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-image.component.ts:21](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/components/ko-image.component.ts#L21)
+[projects/ngx-konva/src/lib/components/ko-image.component.ts:23](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/components/ko-image.component.ts#L23)
 
 ___
 
@@ -229,7 +261,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-image.component.ts:59](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/components/ko-image.component.ts#L59)
+[projects/ngx-konva/src/lib/components/ko-image.component.ts:55](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/components/ko-image.component.ts#L55)
 
 ___
 
@@ -243,7 +275,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/ko-nestable.ts:32](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/common/ko-nestable.ts#L32)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:36](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/common/ko-nestable.ts#L36)
 
 ___
 
@@ -257,7 +289,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/ko-nestable.ts:24](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/common/ko-nestable.ts#L24)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:28](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/common/ko-nestable.ts#L28)
 
 ___
 
@@ -271,7 +303,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/ko-nestable.ts:30](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/common/ko-nestable.ts#L30)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:34](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/common/ko-nestable.ts#L34)
 
 ___
 
@@ -285,7 +317,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/ko-nestable.ts:27](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/common/ko-nestable.ts#L27)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:31](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/common/ko-nestable.ts#L31)
 
 ___
 
@@ -299,7 +331,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/ko-nestable.ts:21](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/common/ko-nestable.ts#L21)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:25](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/common/ko-nestable.ts#L25)
 
 ___
 
@@ -334,7 +366,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/ko-nestable.ts:15](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/common/ko-nestable.ts#L15)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:19](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/common/ko-nestable.ts#L19)
 
 ## Accessors
 
@@ -354,7 +386,25 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-image.component.ts:40](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/components/ko-image.component.ts#L40)
+[projects/ngx-konva/src/lib/components/ko-image.component.ts:40](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/components/ko-image.component.ts#L40)
+
+___
+
+### shouldListen
+
+• `get` **shouldListen**(): `boolean`
+
+#### Returns
+
+`boolean`
+
+#### Inherited from
+
+KoNestable.shouldListen
+
+#### Defined in
+
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:42](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/common/ko-nestable.ts#L42)
 
 ___
 
@@ -374,7 +424,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-image.component.ts:27](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/components/ko-image.component.ts#L27)
+[projects/ngx-konva/src/lib/components/ko-image.component.ts:29](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/components/ko-image.component.ts#L29)
 
 ## Methods
 
@@ -388,7 +438,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-image.component.ts:99](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/components/ko-image.component.ts#L99)
+[projects/ngx-konva/src/lib/components/ko-image.component.ts:96](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/components/ko-image.component.ts#L96)
 
 ___
 
@@ -402,7 +452,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-image.component.ts:95](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/components/ko-image.component.ts#L95)
+[projects/ngx-konva/src/lib/components/ko-image.component.ts:92](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/components/ko-image.component.ts#L92)
 
 ___
 
@@ -420,7 +470,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-image.component.ts:83](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/components/ko-image.component.ts#L83)
+[projects/ngx-konva/src/lib/components/ko-image.component.ts:80](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/components/ko-image.component.ts#L80)
 
 ___
 
@@ -438,7 +488,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-image.component.ts:78](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/components/ko-image.component.ts#L78)
+[projects/ngx-konva/src/lib/components/ko-image.component.ts:75](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/components/ko-image.component.ts#L75)
 
 ___
 
@@ -460,7 +510,7 @@ OnInit.ngOnInit
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/ko-nestable.ts:42](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/common/ko-nestable.ts#L42)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:62](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/common/ko-nestable.ts#L62)
 
 ___
 
@@ -474,7 +524,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-image.component.ts:108](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/components/ko-image.component.ts#L108)
+[projects/ngx-konva/src/lib/components/ko-image.component.ts:105](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/components/ko-image.component.ts#L105)
 
 ___
 
@@ -498,7 +548,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/common/ko-nestable.ts:49](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/common/ko-nestable.ts#L49)
+[projects/ngx-konva/src/lib/common/ko-nestable.ts:76](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/common/ko-nestable.ts#L76)
 
 ___
 
@@ -512,4 +562,4 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/components/ko-image.component.ts:87](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/components/ko-image.component.ts#L87)
+[projects/ngx-konva/src/lib/components/ko-image.component.ts:84](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/components/ko-image.component.ts#L84)

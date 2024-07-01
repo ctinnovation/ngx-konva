@@ -1,18 +1,21 @@
-import { AfterViewInit, Component, ElementRef, EventEmitter, Input, OnDestroy, OnInit, Optional, Output } from '@angular/core';
+import { AfterViewInit, ChangeDetectionStrategy, Component, ElementRef, EventEmitter, Input, OnDestroy, OnInit, Optional, Output } from '@angular/core';
 import { Layer } from 'konva/lib/Layer';
 import { Stage, StageConfig } from 'konva/lib/Stage';
-import { Subscription } from 'rxjs';
+import { Subject, Subscription, debounceTime } from 'rxjs';
 
 export type StageConfigOptionalContainer = Omit<StageConfig, 'container'> & Partial<Pick<StageConfig, 'container'>>;
 
 @Component({
   selector: 'ko-stage',
   template: `<ng-content></ng-content>`,
-  styles: [``]
+  styles: [``],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class KoStageComponent implements OnInit, OnDestroy, AfterViewInit {
   container: ElementRef;
   stage: Stage;
+
+  private draw$ = new Subject<void>();
 
   @Output()
   beforeUpdate = new EventEmitter<Stage>();
@@ -49,6 +52,11 @@ export class KoStageComponent implements OnInit, OnDestroy, AfterViewInit {
       ...this._config,
       container: this._config.container || this.container.nativeElement
     });
+    this.sub.add(
+      this.draw$
+        .pipe(debounceTime(20))
+        .subscribe(this.draw.bind(this))
+    )
   }
 
   ngOnInit(): void { }
@@ -70,7 +78,7 @@ export class KoStageComponent implements OnInit, OnDestroy, AfterViewInit {
     this.stage.add(layer);
     layer.fire('ko:added', this.stage);
     this.onNewLayer.emit(layer);
-    this.stage.draw();
+    this.draw$.next();
   }
 
   private updateStage() {
@@ -80,6 +88,10 @@ export class KoStageComponent implements OnInit, OnDestroy, AfterViewInit {
       container: this._config.container || this.container.nativeElement
     });
     this.afterUpdate.emit(this.stage);
+    this.draw$.next();
+  }
+
+  draw() {
     this.stage.draw();
   }
 }

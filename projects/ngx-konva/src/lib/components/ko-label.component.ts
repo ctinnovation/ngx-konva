@@ -1,7 +1,9 @@
-import { Component, EventEmitter, Input, OnInit, Optional, Output } from '@angular/core';
+import { ChangeDetectionStrategy, Component, EventEmitter, Input, OnInit, Optional, Output, Self } from '@angular/core';
 import { Label, Tag, TagConfig } from 'konva/lib/shapes/Label';
 import { Text, TextConfig } from 'konva/lib/shapes/Text';
+import { defaults } from 'lodash';
 import { v4 } from 'uuid';
+import { KoListeningDirective } from '../common/ko-listening';
 import { KoNestable, KoNestableConfig } from '../common/ko-nestable';
 import { KoGroupComponent } from './ko-group.component';
 import { KoLayerComponent } from './ko-layer.component';
@@ -13,20 +15,18 @@ import { KoLayerComponent } from './ko-layer.component';
   providers: [{
     provide: KoNestable,
     useExisting: KoLabelComponent
-  }]
+  }],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class KoLabelComponent extends KoNestable implements OnInit {
   node: Label;
   text?: Text;
   tag?: Tag;
 
-  private _config: KoNestableConfig = {
-    id: this.id
-  };
+  private _config: KoNestableConfig = this.configDefaults;
   @Input()
   set config(c: KoNestableConfig) {
-    this._config = c;
-    this._config.id = this.id;
+    this._config = defaults(c, this.configDefaults);
     this.updateLabel();
   };
 
@@ -74,6 +74,7 @@ export class KoLabelComponent extends KoNestable implements OnInit {
   afterUpdate = new EventEmitter<Label>();
 
   constructor(
+    @Optional() @Self() override koListening: KoListeningDirective,
     @Optional() private layerComponent: KoLayerComponent,
     @Optional() private groupComponent: KoGroupComponent
   ) {
@@ -81,7 +82,7 @@ export class KoLabelComponent extends KoNestable implements OnInit {
       throw new Error(`ko-label should be nested inside ko-layer!`)
     }
 
-    super();
+    super(koListening);
     this.node = new Label(this._config);
     this.text = new Text(this._textConfig);
     this.tag = new Tag(this._tagConfig);

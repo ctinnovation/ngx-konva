@@ -59,7 +59,7 @@
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:38](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L38)
+[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:43](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L43)
 
 ## Properties
 
@@ -69,7 +69,7 @@
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:27](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L27)
+[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:32](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L32)
 
 ___
 
@@ -79,7 +79,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:24](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L24)
+[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:29](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L29)
 
 ___
 
@@ -89,7 +89,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:18](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L18)
+[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:23](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L23)
 
 ___
 
@@ -99,7 +99,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:15](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L15)
+[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:20](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L20)
 
 ___
 
@@ -109,7 +109,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:12](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L12)
+[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:17](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L17)
 
 ___
 
@@ -119,7 +119,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:21](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L21)
+[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:26](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L26)
 
 ___
 
@@ -129,7 +129,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:29](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L29)
+[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:34](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L34)
 
 ___
 
@@ -153,7 +153,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:35](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L35)
+[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:40](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L40)
 
 ___
 
@@ -177,7 +177,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:33](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L33)
+[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:38](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L38)
 
 ___
 
@@ -201,7 +201,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:32](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L32)
+[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:37](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L37)
 
 ___
 
@@ -225,7 +225,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:31](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L31)
+[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:36](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L36)
 
 ___
 
@@ -249,7 +249,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:34](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L34)
+[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:39](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L39)
 
 ___
 
@@ -259,7 +259,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:26](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L26)
+[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:31](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L31)
 
 ## Methods
 
@@ -273,7 +273,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:67](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L67)
+[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:72](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L72)
 
 ___
 
@@ -291,7 +291,7 @@ OnDestroy.ngOnDestroy
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:54](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L54)
+[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:59](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L59)
 
 ___
 
@@ -309,7 +309,7 @@ OnInit.ngOnInit
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:51](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L51)
+[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:56](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L56)
 
 ___
 
@@ -329,7 +329,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:94](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L94)
+[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:99](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L99)
 
 ___
 
@@ -349,7 +349,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:86](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L86)
+[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:91](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L91)
 
 ___
 
@@ -369,7 +369,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:82](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L82)
+[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:87](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L87)
 
 ___
 
@@ -389,7 +389,7 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:78](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L78)
+[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:83](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L83)
 
 ___
 
@@ -409,4 +409,4 @@ ___
 
 #### Defined in
 
-[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:90](https://github.com/ctinnovation/ngx-konva/blob/8f9d365/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L90)
+[projects/ngx-konva/src/lib/directives/ko-touch.directive.ts:95](https://github.com/ctinnovation/ngx-konva/blob/f47deef/projects/ngx-konva/src/lib/directives/ko-touch.directive.ts#L95)

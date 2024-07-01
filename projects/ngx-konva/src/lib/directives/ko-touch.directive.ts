@@ -1,11 +1,16 @@
-import { Directive, EventEmitter, OnDestroy, OnInit, Optional, Output, Self } from '@angular/core';
+import { Directive, EventEmitter, OnDestroy, OnInit, Optional, Output, Self, forwardRef } from '@angular/core';
 import { KonvaEventObject } from 'konva/lib/Node';
 import { Subscription } from 'rxjs';
+import { KoListeningDirective } from '../common/ko-listening';
 import { KoNestable, KoNestableNode } from '../common/ko-nestable';
 import { KoStageComponent } from '../components/ko-stage.component';
 
 @Directive({
-  selector: '[koTouch]'
+  selector: '[koTouch]',
+  providers: [{
+    provide: KoListeningDirective,
+    useValue: forwardRef(() => KoTouchDirective)
+  }],
 })
 export class KoTouchDirective implements OnInit, OnDestroy {
   @Output()
